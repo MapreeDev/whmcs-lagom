@@ -1,0 +1,34 @@
+[
+  {
+    "name" : "WHMCS Page",
+    "view" : "whmcs-page"
+  },
+  {
+    "name" : "Custom Link",
+    "view" : "custom-link"
+  },
+  {
+    "name" : "Predefined List",
+    "view" : "predefined-list"
+  },
+  {
+    "name" : "Divider",
+    "view" : "divider"
+  },
+  {
+    "name" : "WHMCS Notifications",
+    "view" : "whmcs-notifications"
+  },
+  {
+    "name" : "Client Account",
+    "view" : "my-account"
+  },
+  {
+    "name" : "Language",
+    "view" : "language"
+  },
+  {
+    "name" : "Currency Switcher",
+    "view" : "currency-switcher"
+  }
+]

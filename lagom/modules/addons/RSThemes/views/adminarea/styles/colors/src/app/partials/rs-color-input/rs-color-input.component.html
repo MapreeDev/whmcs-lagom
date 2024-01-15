@@ -1,0 +1,32 @@
+<ng-container [formGroup]="form">
+  <ng-container *ngIf="editorType === 'simple'">
+    <div class="color-field">
+      <div class="rs-color-preview" [style.background]="form.get(item.variable.name).value"></div>
+      <input
+        [formControlName]="item.variable.name"
+        class="rs-color-picker-value"
+        [colorPicker]="item.variable.value"
+        cpOutputFormat="auto"
+        [cpAlphaChannel]="'enabled'"
+        cpPosition="auto"
+        [cpWidth]="'300px'"
+        (colorPickerChange)="changeColorValue($event)"
+      />
+    </div>
+  </ng-container>
+  <ng-container *ngIf="editorType === 'advanced'" [formGroupName]="item.description.section">
+    <div class="color-field">  
+      <div class="rs-color-preview" [style.background]="getAdvancedColor()"></div>
+      <input
+        [formControlName]="item.variable.name"
+        class="rs-color-picker-value"
+        [colorPicker]="colorPickerValue || item.variable.value"
+        cpOutputFormat="auto"
+        cpPosition="auto"
+        [cpAlphaChannel]="'enabled'"
+        [cpWidth]="'300px'" 
+        (colorPickerChange)="changeColorValue($event)"
+      />
+    </div>
+  </ng-container>
+</ng-container>

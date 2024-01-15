@@ -1,0 +1,45 @@
+<div class="row">
+  <div class="col-md-2">
+    <div class="app-main__sidebar app-main__sidebar--sticky">
+      <p class="p-xs">Menu</p>
+      <div class="tabs tabs--block m-w-200">
+        <div class="tabs__nav">
+          <ul class="nav nav--tabs custom-nav-styles">
+            <li class="nav__item" [ngClass]="{'is-active': currentFile == 'colors'}">
+              <a (click)="selectFile($event, 'colors')" class="nav__link">
+                <span class="nav__link-text">Colors</span>
+              </a>
+            </li>
+            <li class="nav__item" *ngFor="let file of filesList" [attr.data-name]="file.file" [ngClass]="{'is-active': currentFile == file.file}">
+              <a (click)="selectFile($event, file.file, file.name)" class="nav__link" >
+                <span class="nav__link-text">{{ file.name }}</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-10">
+      <ng-container [ngSwitch]="currentFile">
+        <ng-container *ngSwitchCase="'colors'">
+          <app-colors [colorsManagerComponent]="colorsManagerComponentInstance"></app-colors>
+        </ng-container>
+        <ng-container *ngSwitchDefault>
+          <div class="section">
+            <div class="section__header">
+              <h3 class="section__title" >
+                {{ currentFileTitle }}
+                <span class="label-docs">
+                  <a href="https://lagom.rsstudio.net/docs/style-manager.html#{{currentFile}}" class="btn--doc btn btn--link btn--xs" target="_blank" rel="noopener noreferrer">docs</a>
+                </span>
+              </h3>
+            </div>
+            <div class="section__body">
+              <app-dynamic-view [colorsManagerComponent]="colorsManagerComponentInstance"></app-dynamic-view>
+            </div>
+          </div>
+        </ng-container>
+      </ng-container>
+  </div>
+</div>

@@ -1,0 +1,90 @@
+{
+    "sidebar-settings": {
+        "name": "Support - Secondary Sidebar",
+        "translation": "whmcs",
+        "title": {
+            "whmcs": "navsupport",
+            "custom": {
+                "english": "Support"
+            }
+        },
+        "location": "Secondary",
+        "display": "Sidebar Pages",
+        "order": 1,
+        "active": true
+    },
+    "sidebar-items": [
+        {
+            "type": "WHMCS Page",
+            "name": {
+                "whmcs": "clientareanavsupporttickets",
+                "custom": {
+                    "english": "My Support Tickets"
+                }
+            },
+            "page": "supportticketlist",
+            "translation-method": "whmcs",
+            "icon": "ls ls-ticket-tag"
+        },
+        {
+            "type": "WHMCS Page",
+            "name": {
+                "whmcs": "announcementstitle",
+                "custom": {
+                    "english": "Announcements"
+                }
+            },
+            "page": "announcements",
+            "translation-method": "whmcs",
+            "icon": "ls ls-text-cloud"
+        },
+        {
+            "type": "WHMCS Page",
+            "name": {
+                "whmcs": "knowledgebasetitle",
+                "custom": {
+                    "english": "Knowledgebase"
+                }
+            },
+            "page": "knowledgebase",
+            "translation-method": "whmcs",
+            "icon": "ls ls-document-info"
+        },
+        {
+            "type": "WHMCS Page",
+            "name": {
+                "whmcs": "downloadstitle",
+                "custom": {
+                    "english": "Downloads"
+                }
+            },
+            "page": "downloads",
+            "translation-method": "whmcs",
+            "icon": "ls ls-download-square"
+        },
+        {
+            "type": "WHMCS Page",
+            "name": {
+                "whmcs": "networkstatustitle",
+                "custom": {
+                    "english": "Network Status"
+                }
+            },
+            "page": "downloads",
+            "translation-method": "whmcs",
+            "icon": "ls ls-range"
+        },
+        {
+            "type": "WHMCS Page",
+            "name": {
+                "whmcs": "navopenticket",
+                "custom": {
+                    "english": "Open Ticket"
+                }
+            },
+            "page": "supportticketsubmit-stepone",
+            "translation-method": "whmcs",
+            "icon": "ls ls-new-window"
+        }
+    ]
+}

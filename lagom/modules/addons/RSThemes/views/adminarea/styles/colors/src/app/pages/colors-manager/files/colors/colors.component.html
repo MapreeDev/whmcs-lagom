@@ -1,0 +1,46 @@
+<div class="section">
+  <div class="section__header">
+    <h3 class="section__title">
+      Color Schemes 
+      <span class="label-docs">
+          <a href="https://lagom.rsstudio.net/docs/style-manager.html#color-schemes" class="btn--doc btn btn--link btn--xs" target="_blank" rel="noopener noreferrer">docs</a>
+      </span> 
+    </h3>
+  </div>
+  <div class="section__body"> 
+      <ng-container *ngrxLet="colorsScheme$ let colorsScheme">
+        <div class="row" *ngrxLet="colorConfig$ let colorConfig">
+          <ng-container *ngFor="let scheme of colorsScheme | keyvalue" >
+                <div class="col-md-2" *ngIf="scheme.key !== 'is_active'">
+                  <a class="widget widget--checkbox widget--color-scheme" (click)="changeScheme($event, scheme.key)" [ngClass]="{'is-active': colorConfig[0].name == scheme.key}" data-toggle="radio">
+                    <input class="hidden" type="radio" name="scheme" value="{{ scheme.key }}" [(ngModel)]="colorConfig[0].name">
+                    <div class="widget__header">
+                      <div class="widget__checkbox"></div>
+                      <div class="display__colors">
+                        <span class="color" [ngStyle]="{'background-color':scheme.value.primary}"></span>
+                        <span class="color" [ngStyle]="{'background-color':scheme.value.secondary}"></span>
+                      </div>
+                    </div>
+                    <div class="widget__actions flex flex-items-xs-center">
+                        <p class="p-sm m-b-0x font-medium">{{ scheme?.key | titlecase }}</p>
+                    </div>
+                  </a>
+                </div>
+            </ng-container>
+        </div>
+      </ng-container>
+  </div>
+</div>
+
+<div class="section">
+  <div class="section__header d-flex flex-items-xs-between align-items-center">
+    <h3 class="section__title">Colors
+      <span class="label-docs">
+        <a href="https://lagom.rsstudio.net/docs/style-manager.html#color-variables" class="btn--doc btn btn--link btn--xs" target="_blank" rel="noopener noreferrer">docs</a>
+      </span> 
+    </h3>
+  </div>
+  <div class="section__body">
+    <app-advanced></app-advanced> 
+  </div>
+</div>

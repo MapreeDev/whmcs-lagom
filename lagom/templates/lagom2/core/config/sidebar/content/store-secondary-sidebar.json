@@ -1,0 +1,70 @@
+{
+    "sidebar-settings": {
+        "name": "Store - Secondary Sidebar",
+        "translation": "whmcs",
+        "title": {
+            "whmcs": "actions",
+            "custom": {
+                "english": "Actions"
+            }
+        },
+        "location": "Secondary",
+        "display": "Sidebar Pages",
+        "order": 1,
+        "active": true
+    },
+    "sidebar-items": [
+        {
+            "type": "WHMCS Page",
+            "name": {
+                "whmcs": "orderregisterdomain",
+                "custom": {
+                    "english": "Register a New Domain"
+                }
+            },
+            "page": "domainregister",
+            "translation-method": "whmcs",
+            "icon": "ls ls-dns"
+        },
+        {
+            "type": "WHMCS Page",
+            "name": {
+                "whmcs": "transferinadomain",
+                "custom": {
+                    "english": "Transfer in a Domain"
+                }
+            },
+            "page": "domaintransfer",
+            "translation-method": "whmcs",
+            "icon": "ls ls-transfer"
+        },
+        {
+            "type": "WHMCS Page",
+            "name": {
+                "whmcs": "viewcart",
+                "custom": {
+                    "english": "View Cart"
+                }
+            },
+            "page": "viewcart",
+            "translation-method": "whmcs",
+            "icon": "ls ls-basket"
+        },
+        {
+            "type": "Custom Link",
+            "name": {
+                "whmcs": "viewcart",
+                "custom": {
+                    "english": "View Cart"
+                }
+            },
+            "page": "viewcart",
+            "translation-method": "whmcs",
+            "icon": "ls ls-basket"
+        },
+        {
+            "type": "Custom HTML",
+            "html": "<div>This is custom html</div>"
+        }
+    ]
+}

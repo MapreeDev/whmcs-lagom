@@ -1,0 +1,49 @@
+<ng-container *ngrxLet="isLoading$ let isLoading">
+  <div class="preloader-container preloader--xl" *ngIf="isLoading">
+    <div class="preloader preloader"></div>
+  </div>
+  <form [formGroup]="colorForm" (keydown.enter)="$event.preventDefault()" *ngIf="!isLoading && dynamicFormFields" id="ngForm">
+    <div *ngFor="let section of dynamicFormFields | keyvalue: asIsOrder">
+      <div class="style-section" *ngIf="section.value.sectiontype !== 'hidden'">
+        <h5 class="style-section__title">{{ section.key }}</h5>
+        <div class="panel" [formGroupName]="section.key">
+          <div class="row">
+            <ng-container *ngFor="let field of section.value | keyvalue: asIsOrder;">
+              <ng-container *ngIf="field.key !== 'sectiontype'">
+                <ng-container *ngIf="field.value.description.type !== 'gradientColor'">
+                  <ng-container *ngIf="field.value.description.type !== 'hidden' && !field.value.description.gradient">  
+                    <div class=" col-md-3">
+                      <span class="color-title">{{ field.value.description.name }}</span>
+                      <app-rs-color-input [item]="field.value" [form]="colorForm"
+                        (colorChange)="detectChanges(field.value, $event)" [editorType]="editorType">
+                      </app-rs-color-input> 
+                    </div>
+                  </ng-container> 
+                </ng-container>
+              </ng-container>
+            </ng-container>
+            <ng-container>
+              <ng-container *ngFor="let field of section.value | keyvalue: asIsOrder; " >
+                <ng-container *ngIf="field.key !== 'sectiontype' && field.value.description.gradientcolor === 'start'">
+                  <div class="col-md-6">
+                      <span class="color-title">Gradient</span>
+                      <div class="gradients-input"> 
+                        <ng-container *ngFor="let gradientField of gradients[field.value.description.section] | keyvalue: asIsOrder; ">
+                          <app-rs-color-input class="gradients-input__input" [item]="gradientField.value" [form]="colorForm" (colorChange)="detectChanges(gradientField.value, $event)"
+                            [editorType]="editorType">
+                          </app-rs-color-input> 
+                          <ng-container *ngIf="gradientField.key === 'gradientStart'"><span>-</span></ng-container>
+                        </ng-container>
+                        <div class="rs-color-preview rs-color-preview--gradient" [style.background]="getGradientPreview('horizontal', field.value)"  placement="top" ngbTooltip="Gradient Horizontal"></div>
+                        <div class="rs-color-preview rs-color-preview--gradient" [style.background]="getGradientPreview('vertical', field.value)"   placement="top" ngbTooltip="Gradient Vertical"></div>
+                      </div>
+                  </div>
+                </ng-container> 
+              </ng-container>
+            </ng-container>
+          </div>
+        </div>
+      </div>
+    </div>
+  </form>
+</ng-container>

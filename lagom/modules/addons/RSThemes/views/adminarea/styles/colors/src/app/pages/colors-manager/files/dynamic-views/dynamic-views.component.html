@@ -1,0 +1,27 @@
+<ng-container *ngrxLet="isLoading$ let isLoading">
+  <div class="preloader-container preloader--xl" *ngIf="isLoading"><div class="preloader preloader"></div></div>
+  <ng-container *ngIf="dynamicForm?.form && !isLoading">
+    <form  (keydown.enter)="$event.preventDefault()" [formGroup]="dynamicForm.form" id="ngForm">
+      <div class="style-section" *ngFor="let section of dynamicForm.formFields | keyvalue: asIsOrder">
+        <div *ngIf="section.value.sectiontype !== 'hidden'">
+          <h5 class="style-section__title">{{ section.key }}</h5>
+          <div class="panel"> 
+            <div class="row" [formGroupName]="section.key">
+              <ng-container *ngFor="let field of section.value | keyvalue: asIsOrder"> 
+                <div class="col-md-3 m-b-2x" *ngIf="field.value?.description?.type !== 'hidden'  && field.key !=='sectiontype'">
+                    <p class="p-sm m-b-1x">{{ field.value.description.name }}</p>
+                    <app-rs-color-select
+                      [sectionName]="section.key"
+                      [form]="dynamicForm.form"
+                      [sectionField]="field.value"
+                    >
+                    </app-rs-color-select>
+                </div>
+              </ng-container>
+            </div>
+          </div>
+        </div>
+      </div>
+    </form>
+  </ng-container>
+</ng-container>

@@ -1,0 +1,817 @@
+{
+    "menu-settings": {
+        "name": "Client Secondary Menu",
+        "version": "1.0.0",
+        "location": "Secondary Menu",
+        "active": 1,
+        "display": "Default",
+        "rules": "Existing Client"
+    },
+    "menu-items": [
+        {
+            "name": "View Cart",
+            "location": null,
+            "active": 1,
+            "type": "WHMCS Page",
+            "settings": {
+                "page": "85",
+                "translation-method": "whmcs",
+                "icon": "lm lm-basket",
+                "predefined_icon": ""
+            },
+            "display": {
+                "theme-layout": [
+                    "All"
+                ],
+                "client-status": "All",
+                "style": {
+                    "top": {
+                        "layout": "icon-text",
+                        "button-style": "primary"
+                    },
+                    "left": {
+                        "layout": "icon-text",
+                        "button-style": "primary"
+                    }
+                },
+                "custom-data-classes": "",
+                "target": "0"
+            },
+            "translation": {
+                "whmcs": "viewcart",
+                "custom": {
+                    "arabic": "",
+                    "azerbaijani": "",
+                    "catalan": "",
+                    "chinese": "",
+                    "croatian": "",
+                    "czech": "",
+                    "danish": "",
+                    "dutch": "",
+                    "english": "",
+                    "estonian": "",
+                    "farsi": "",
+                    "french": "",
+                    "german": "",
+                    "hebrew": "",
+                    "hungarian": "",
+                    "italian": "",
+                    "macedonian": "",
+                    "norwegian": "",
+                    "portuguese-br": "",
+                    "portuguese-pt": "",
+                    "romanian": "",
+                    "russian": "",
+                    "spanish": "",
+                    "swedish": "",
+                    "turkish": "",
+                    "ukranian": ""
+                }
+            }
+        },
+        {
+            "name": "Notifications",
+            "location": null,
+            "active": 1,
+            "type": "WHMCS Notifications",
+            "settings": {
+                "translation-method": "whmcs",
+                "icon": "lm lm-bell",
+                "predefined_icon": ""
+            },
+            "display": {
+                "theme-layout": [
+                    "All"
+                ],
+                "client-status": "All",
+                "style": {
+                    "top": {
+                        "layout": "icon",
+                        "button-style": "primary"
+                    },
+                    "left": {
+                        "layout": "icon-text",
+                        "button-style": "primary"
+                    }
+                },
+                "custom-data-classes": "",
+                "target": "0"
+            },
+            "translation": {
+                "whmcs": "notifications",
+                "custom": {
+                    "arabic": "",
+                    "azerbaijani": "",
+                    "catalan": "",
+                    "chinese": "",
+                    "croatian": "",
+                    "czech": "",
+                    "danish": "",
+                    "dutch": "",
+                    "english": "",
+                    "estonian": "",
+                    "farsi": "",
+                    "french": "",
+                    "german": "",
+                    "hebrew": "",
+                    "hungarian": "",
+                    "italian": "",
+                    "macedonian": "",
+                    "norwegian": "",
+                    "portuguese-br": "",
+                    "portuguese-pt": "",
+                    "romanian": "",
+                    "russian": "",
+                    "spanish": "",
+                    "swedish": "",
+                    "turkish": "",
+                    "ukranian": ""
+                }
+            }
+        },
+        {
+            "name": "Language",
+            "location": null,
+            "active": 0,
+            "type": "Language",
+            "settings": null,
+            "display": {
+                "theme-layout": [
+                    "All"
+                ],
+                "client-status": "All",
+                "style": {
+                    "top": {
+                        "layout": "icon-text",
+                        "button-style": "primary"
+                    },
+                    "left": {
+                        "layout": "icon-text",
+                        "button-style": "primary"
+                    }
+                },
+                "custom-data-classes": "",
+                "target": "0"
+            },
+            "translation": "Language"
+        },
+        {
+            "name": "My Account",
+            "location": null,
+            "active": 1,
+            "type": "Client Account",
+            "settings": {
+                "icon": "lm lm-user",
+                "predefined_icon": ""
+            },
+            "display": {
+                "theme-layout": [
+                    "All"
+                ],
+                "client-status": "All",
+                "style": {
+                    "top": {
+                        "layout": "icon-text",
+                        "button-style": "primary"
+                    },
+                    "left": {
+                        "layout": "icon-text",
+                        "button-style": "primary"
+                    }
+                },
+                "custom-data-classes": "",
+                "target": "0"
+            },
+            "translation": "My Account",
+            "items": [
+                {
+                    "name": "Client Details",
+                    "location": null,
+                    "active": 1,
+                    "type": "Predefined List",
+                    "settings": {
+                        "list": "Client Details"
+                    },
+                    "display": {
+                        "client-status": "All",
+                        "style": {
+                            "layout": "icon-text"
+                        },
+                        "custom-data-classes": "",
+                        "target": "0"
+                    },
+                    "translation": "Client Details"
+                },
+                {
+                    "name": "-----",
+                    "location": null,
+                    "active": 1,
+                    "type": "Divider",
+                    "settings": null,
+                    "display": {
+                        "client-status": "All",
+                        "style": {
+                            "layout": "icon-text"
+                        },
+                        "custom-data-classes": "",
+                        "target": "0"
+                    },
+                    "translation": "-----"
+                },
+                {
+                    "name": "Account Details",
+                    "location": null,
+                    "active": 1,
+                    "type": "WHMCS Page",
+                    "settings": {
+                        "page": "18",
+                        "translation-method": "whmcs",
+                        "icon": "ls ls-info-circle",
+                        "predefined_icon": ""
+                    },
+                    "display": {
+                        "client-status": "All",
+                        "style": {
+                            "layout": "icon-text"
+                        },
+                        "custom-data-classes": "",
+                        "target": "0"
+                    },
+                    "translation": {
+                        "whmcs": "clientareanavdetails",
+                        "custom": {
+                            "arabic": "",
+                            "azerbaijani": "",
+                            "catalan": "",
+                            "chinese": "",
+                            "croatian": "",
+                            "czech": "",
+                            "danish": "",
+                            "dutch": "",
+                            "english": "",
+                            "estonian": "",
+                            "farsi": "",
+                            "french": "",
+                            "german": "",
+                            "hebrew": "",
+                            "hungarian": "",
+                            "italian": "",
+                            "macedonian": "",
+                            "norwegian": "",
+                            "portuguese-br": "",
+                            "portuguese-pt": "",
+                            "romanian": "",
+                            "russian": "",
+                            "spanish": "",
+                            "swedish": "",
+                            "turkish": "",
+                            "ukranian": ""
+                        }
+                    }
+                },
+                {
+                    "name": "User Management",
+                    "location": null,
+                    "active": 1,
+                    "type": "WHMCS Page",
+                    "settings": {
+                        "page": "8",
+                        "translation-method": "whmcs",
+                        "icon": "ls ls-configure",
+                        "predefined_icon": ""
+                    },
+                    "display": {
+                        "client-status": "All",
+                        "style": {
+                            "layout": "icon-text"
+                        },
+                        "custom-data-classes": "",
+                        "target": "0"
+                    },
+                    "translation": {
+                        "whmcs": "navUserManagement",
+                        "custom": {
+                            "arabic": "",
+                            "azerbaijani": "",
+                            "catalan": "",
+                            "chinese": "",
+                            "croatian": "",
+                            "czech": "",
+                            "danish": "",
+                            "dutch": "",
+                            "english": "",
+                            "estonian": "",
+                            "farsi": "",
+                            "french": "",
+                            "german": "",
+                            "hebrew": "",
+                            "hungarian": "",
+                            "italian": "",
+                            "macedonian": "",
+                            "norwegian": "",
+                            "portuguese-br": "",
+                            "portuguese-pt": "",
+                            "romanian": "",
+                            "russian": "",
+                            "spanish": "",
+                            "swedish": "",
+                            "turkish": "",
+                            "ukranian": ""
+                        }
+                    }
+                },
+                {
+                    "name": "Payment Methods",
+                    "location": null,
+                    "active": 1,
+                    "type": "WHMCS Page",
+                    "settings": {
+                        "page": "6",
+                        "translation-method": "whmcs",
+                        "icon": "ls ls-wallet",
+                        "predefined_icon": ""
+                    },
+                    "display": {
+                        "client-status": "All",
+                        "style": {
+                            "layout": "icon-text"
+                        },
+                        "custom-data-classes": "",
+                        "target": "0"
+                    },
+                    "translation": {
+                        "whmcs": "paymentMethods.title",
+                        "custom": {
+                            "arabic": "",
+                            "azerbaijani": "",
+                            "catalan": "",
+                            "chinese": "",
+                            "croatian": "",
+                            "czech": "",
+                            "danish": "",
+                            "dutch": "",
+                            "english": "",
+                            "estonian": "",
+                            "farsi": "",
+                            "french": "",
+                            "german": "",
+                            "hebrew": "",
+                            "hungarian": "",
+                            "italian": "",
+                            "macedonian": "",
+                            "norwegian": "",
+                            "portuguese-br": "",
+                            "portuguese-pt": "",
+                            "romanian": "",
+                            "russian": "",
+                            "spanish": "",
+                            "swedish": "",
+                            "turkish": "",
+                            "ukranian": ""
+                        }
+                    }
+                },
+                {
+                    "name": "Contacts",
+                    "location": null,
+                    "active": 1,
+                    "type": "WHMCS Page",
+                    "settings": {
+                        "page": "4",
+                        "translation-method": "whmcs",
+                        "icon": "ls ls-smartphone",
+                        "predefined_icon": ""
+                    },
+                    "display": {
+                        "client-status": "All",
+                        "style": {
+                            "layout": "icon-text"
+                        },
+                        "custom-data-classes": "",
+                        "target": "0"
+                    },
+                    "translation": {
+                        "whmcs": "navContacts",
+                        "custom": {
+                            "arabic": "",
+                            "azerbaijani": "",
+                            "catalan": "",
+                            "chinese": "",
+                            "croatian": "",
+                            "czech": "",
+                            "danish": "",
+                            "dutch": "",
+                            "english": "",
+                            "estonian": "",
+                            "farsi": "",
+                            "french": "",
+                            "german": "",
+                            "hebrew": "",
+                            "hungarian": "",
+                            "italian": "",
+                            "macedonian": "",
+                            "norwegian": "",
+                            "portuguese-br": "",
+                            "portuguese-pt": "",
+                            "romanian": "",
+                            "russian": "",
+                            "spanish": "",
+                            "swedish": "",
+                            "turkish": "",
+                            "ukranian": ""
+                        }
+                    }
+                },
+                {
+                    "name": "Account Security",
+                    "location": null,
+                    "active": 1,
+                    "type": "WHMCS Page",
+                    "settings": {
+                        "page": "32",
+                        "translation-method": "whmcs",
+                        "icon": "ls ls-shield",
+                        "predefined_icon": ""
+                    },
+                    "display": {
+                        "client-status": "All",
+                        "style": {
+                            "layout": "icon-text"
+                        },
+                        "custom-data-classes": "",
+                        "target": "0"
+                    },
+                    "translation": {
+                        "whmcs": "navAccountSecurity",
+                        "custom": {
+                            "arabic": "",
+                            "azerbaijani": "",
+                            "catalan": "",
+                            "chinese": "",
+                            "croatian": "",
+                            "czech": "",
+                            "danish": "",
+                            "dutch": "",
+                            "english": "",
+                            "estonian": "",
+                            "farsi": "",
+                            "french": "",
+                            "german": "",
+                            "hebrew": "",
+                            "hungarian": "",
+                            "italian": "",
+                            "macedonian": "",
+                            "norwegian": "",
+                            "portuguese-br": "",
+                            "portuguese-pt": "",
+                            "romanian": "",
+                            "russian": "",
+                            "spanish": "",
+                            "swedish": "",
+                            "turkish": "",
+                            "ukranian": ""
+                        }
+                    }
+                },
+                {
+                    "name": "Email History",
+                    "location": null,
+                    "active": 1,
+                    "type": "WHMCS Page",
+                    "settings": {
+                        "page": "27",
+                        "translation-method": "whmcs",
+                        "icon": "ls ls-envelope",
+                        "predefined_icon": ""
+                    },
+                    "display": {
+                        "client-status": "All",
+                        "style": {
+                            "layout": "icon-text"
+                        },
+                        "custom-data-classes": "",
+                        "target": "0"
+                    },
+                    "translation": {
+                        "whmcs": "navemailssent",
+                        "custom": {
+                            "arabic": "",
+                            "azerbaijani": "",
+                            "catalan": "",
+                            "chinese": "",
+                            "croatian": "",
+                            "czech": "",
+                            "danish": "",
+                            "dutch": "",
+                            "english": "",
+                            "estonian": "",
+                            "farsi": "",
+                            "french": "",
+                            "german": "",
+                            "hebrew": "",
+                            "hungarian": "",
+                            "italian": "",
+                            "macedonian": "",
+                            "norwegian": "",
+                            "portuguese-br": "",
+                            "portuguese-pt": "",
+                            "romanian": "",
+                            "russian": "",
+                            "spanish": "",
+                            "swedish": "",
+                            "turkish": "",
+                            "ukranian": ""
+                        }
+                    }
+                },
+                {
+                    "name": "-----",
+                    "location": null,
+                    "active": 1,
+                    "type": "Divider",
+                    "settings": null,
+                    "display": {
+                        "client-status": "All",
+                        "style": {
+                            "layout": "icon-text"
+                        },
+                        "custom-data-classes": "",
+                        "target": "0"
+                    },
+                    "translation": "-----"
+                },
+                {
+                    "name": "Your Profile",
+                    "location": null,
+                    "active": 1,
+                    "type": "WHMCS Page",
+                    "settings": {
+                        "page": "79",
+                        "translation-method": "whmcs",
+                        "icon": "ls ls-user",
+                        "predefined_icon": ""
+                    },
+                    "display": {
+                        "client-status": "All",
+                        "style": {
+                            "layout": "icon-text"
+                        },
+                        "custom-data-classes": "",
+                        "target": "0"
+                    },
+                    "translation": {
+                        "whmcs": "yourProfile",
+                        "custom": {
+                            "arabic": "",
+                            "azerbaijani": "",
+                            "catalan": "",
+                            "chinese": "",
+                            "croatian": "",
+                            "czech": "",
+                            "danish": "",
+                            "dutch": "",
+                            "english": "",
+                            "estonian": "",
+                            "farsi": "",
+                            "french": "",
+                            "german": "",
+                            "hebrew": "",
+                            "hungarian": "",
+                            "italian": "",
+                            "macedonian": "",
+                            "norwegian": "",
+                            "portuguese-br": "",
+                            "portuguese-pt": "",
+                            "romanian": "",
+                            "russian": "",
+                            "spanish": "",
+                            "swedish": "",
+                            "turkish": "",
+                            "ukranian": ""
+                        }
+                    }
+                },
+                {
+                    "name": "Switch Account",
+                    "location": null,
+                    "active": 1,
+                    "type": "WHMCS Page",
+                    "settings": {
+                        "page": "81",
+                        "translation-method": "whmcs",
+                        "icon": "fas fa-random",
+                        "predefined_icon": ""
+                    },
+                    "display": {
+                        "client-status": "All",
+                        "style": {
+                            "layout": "icon-text"
+                        },
+                        "custom-data-classes": "",
+                        "target": "0"
+                    },
+                    "translation": {
+                        "whmcs": "navSwitchAccount",
+                        "custom": {
+                            "arabic": "",
+                            "azerbaijani": "",
+                            "catalan": "",
+                            "chinese": "",
+                            "croatian": "",
+                            "czech": "",
+                            "danish": "",
+                            "dutch": "",
+                            "english": "",
+                            "estonian": "",
+                            "farsi": "",
+                            "french": "",
+                            "german": "",
+                            "hebrew": "",
+                            "hungarian": "",
+                            "italian": "",
+                            "macedonian": "",
+                            "norwegian": "",
+                            "portuguese-br": "",
+                            "portuguese-pt": "",
+                            "romanian": "",
+                            "russian": "",
+                            "spanish": "",
+                            "swedish": "",
+                            "turkish": "",
+                            "ukranian": ""
+                        }
+                    }
+                },
+                {
+                    "name": "Change Password",
+                    "location": null,
+                    "active": 1,
+                    "type": "WHMCS Page",
+                    "settings": {
+                        "page": "78",
+                        "translation-method": "whmcs",
+                        "icon": "ls ls-padlock",
+                        "predefined_icon": ""
+                    },
+                    "display": {
+                        "client-status": "All",
+                        "style": {
+                            "layout": "icon-text"
+                        },
+                        "custom-data-classes": "",
+                        "target": "0"
+                    },
+                    "translation": {
+                        "whmcs": "clientareanavchangepw",
+                        "custom": {
+                            "arabic": "",
+                            "azerbaijani": "",
+                            "catalan": "",
+                            "chinese": "",
+                            "croatian": "",
+                            "czech": "",
+                            "danish": "",
+                            "dutch": "",
+                            "english": "",
+                            "estonian": "",
+                            "farsi": "",
+                            "french": "",
+                            "german": "",
+                            "hebrew": "",
+                            "hungarian": "",
+                            "italian": "",
+                            "macedonian": "",
+                            "norwegian": "",
+                            "portuguese-br": "",
+                            "portuguese-pt": "",
+                            "romanian": "",
+                            "russian": "",
+                            "spanish": "",
+                            "swedish": "",
+                            "turkish": "",
+                            "ukranian": ""
+                        }
+                    }
+                },
+                {
+                    "name": "Security Settings",
+                    "location": null,
+                    "active": 1,
+                    "type": "WHMCS Page",
+                    "settings": {
+                        "page": "80",
+                        "translation-method": "whmcs",
+                        "icon": "ls ls-security-code",
+                        "predefined_icon": ""
+                    },
+                    "display": {
+                        "client-status": "All",
+                        "style": {
+                            "layout": "icon-text"
+                        },
+                        "custom-data-classes": "",
+                        "target": "0"
+                    },
+                    "translation": {
+                        "whmcs": "clientareanavsecurity",
+                        "custom": {
+                            "arabic": "",
+                            "azerbaijani": "",
+                            "catalan": "",
+                            "chinese": "",
+                            "croatian": "",
+                            "czech": "",
+                            "danish": "",
+                            "dutch": "",
+                            "english": "",
+                            "estonian": "",
+                            "farsi": "",
+                            "french": "",
+                            "german": "",
+                            "hebrew": "",
+                            "hungarian": "",
+                            "italian": "",
+                            "macedonian": "",
+                            "norwegian": "",
+                            "portuguese-br": "",
+                            "portuguese-pt": "",
+                            "romanian": "",
+                            "russian": "",
+                            "spanish": "",
+                            "swedish": "",
+                            "turkish": "",
+                            "ukranian": ""
+                        }
+                    }
+                },
+                {
+                    "name": "-----",
+                    "location": null,
+                    "active": 1,
+                    "type": "Divider",
+                    "settings": null,
+                    "display": {
+                        "client-status": "All",
+                        "style": {
+                            "layout": "icon-text"
+                        },
+                        "custom-data-classes": "",
+                        "target": "0"
+                    },
+                    "translation": "-----"
+                },
+                {
+                    "name": "Logout",
+                    "location": null,
+                    "active": 1,
+                    "type": "Custom Link",
+                    "settings": {
+                        "link": "logout.php",
+                        "translation-method": "whmcs",
+                        "icon": "ls ls-arrow-left-wall",
+                        "predefined_icon": ""
+                    },
+                    "display": {
+                        "client-status": "All",
+                        "style": {
+                            "layout": "icon-text"
+                        },
+                        "custom-data-classes": "",
+                        "target": "0"
+                    },
+                    "translation": {
+                        "whmcs": "clientareanavlogout",
+                        "custom": {
+                            "arabic": "",
+                            "azerbaijani": "",
+                            "catalan": "",
+                            "chinese": "",
+                            "croatian": "",
+                            "czech": "",
+                            "danish": "",
+                            "dutch": "",
+                            "english": "",
+                            "estonian": "",
+                            "farsi": "",
+                            "french": "",
+                            "german": "",
+                            "hebrew": "",
+                            "hungarian": "",
+                            "italian": "",
+                            "macedonian": "",
+                            "norwegian": "",
+                            "portuguese-br": "",
+                            "portuguese-pt": "",
+                            "romanian": "",
+                            "russian": "",
+                            "spanish": "",
+                            "swedish": "",
+                            "turkish": "",
+                            "ukranian": ""
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

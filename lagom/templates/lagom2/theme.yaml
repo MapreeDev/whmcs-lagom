@@ -1,0 +1,11 @@
+# Lagom Configuration File
+
+name: "Lagom 2"
+description: "Simple, intuitive and fully responsive WHMCS theme"
+author: "RSStudio"
+properties:
+  serverSidePagination: false # Defines client side will handle pagination
+provides:
+  bootstrap: 4.5.3
+  jquery: 1.12.4
+  fontawesome: 5.10.1

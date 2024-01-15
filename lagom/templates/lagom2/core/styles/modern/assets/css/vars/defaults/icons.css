@@ -1,0 +1,334 @@
+/*!
+ * Theme Name: Lagom WHMCS Client Theme
+ * Theme URL: https://lagom.rsstudio.net/
+ *
+ * Terms of Service: https://lagom.rsstudio.net/docs/legal/terms-of-service.html
+ * 
+ * Copyright (c) 2021 RS Studio
+ */
+
+:root {
+
+    /* General */
+    
+    --svg-icon-stroke-width:    2px;
+    --svg-illustration-shadow-color: #000;
+    --svg-illustration-shadow-opacity-start: 0.15;
+
+    --svg-icon-color-base:                          var(--brand-primary);
+    --svg-icon-color-lighter:                       var(--brand-primary-lighter);
+    --svg-icon-color-secondary:                     var(--gray-darker);
+    --svg-icon-color-icon:                          #ffffff;
+    
+    --svg-icon-on-dark-color-secondary:             #ffffff;
+    --svg-icon-on-primary-color-base:               #ffffff;
+    --svg-icon-on-primary-color-lighter:            #DEE0E3;
+    --svg-icon-on-primary-color-secondary:          #ffffff;
+    --svg-icon-on-primary-color-icon:               var(--brand-primary);
+
+    /* Shared Elements */
+
+    --svg-screen-top-bg: var(--svg-illustration-primary-1);
+    --svg-screen-top-front: var(--svg-illustration-gray-2);
+    --svg-screen-top-back: var(--svg-illustration-gray-1);
+    --svg-screen-top-logo: var(--svg-illustration-gray-w);
+    --svg-screen-top-logo-el: var(--svg-illustration-primary-1);
+    --svg-screen-bottom-button: var(--svg-illustration-gray-3);
+    --svg-screen-bottom-front: var(--svg-illustration-gray-7);
+    --svg-screen-bottom-back: var(--svg-illustration-gray-3);
+    --svg-screen-leg-front: var(--svg-illustration-gray-7);
+    --svg-screen-leg-back: var(--svg-illustration-gray-3);    
+
+    --svg-smartphone-border: var(--svg-illustration-gray-3);
+    --svg-smartphone-front: var(--svg-illustration-gray-6);
+    --svg-smartphone-screen: var(--svg-illustration-gray-1);
+    --svg-smartphone-icon: var(--svg-illustration-gray-1);
+    --svg-smartphone-icon-bg: var(--svg-illustration-gray-w);  
+
+    --svg-tablet-back: var(--svg-illustration-gray-3);
+    --svg-tablet-front: var(--svg-illustration-gray-8);
+    --svg-tablet-screen: var(--svg-illustration-gray-w);
+
+    /* Browser */
+    
+    --svg-browser-body: var(--svg-illustration-gray-8);
+    --svg-browser-top: var(--svg-illustration-gray-3);
+    --svg-browser-top-1: var(--svg-illustration-gray-w);
+    --svg-browser-text: var(--svg-illustration-gray-3);
+    --svg-browser-banner: var(--svg-illustration-gray-w);
+
+    /* Laptop */ 
+
+    --svg-laptop-bottom-back: var(--svg-illustration-gray-3);
+    --svg-laptop-bottom-top: var(--svg-illustration-gray-7);
+    --svg-laptop-touchpad-inside: var(--svg-illustration-gray-3);
+    --svg-laptop-touchpad-outside: rgba(0,0,0,0.4);
+    --svg-laptop-screen: var(--svg-illustration-primary-1);
+    --svg-laptop-screen-logo: var(--svg-illustration-gray-w);
+    --svg-laptop-screen-back: var(--svg-illustration-gray-1);
+    --svg-laptop-screen-front: var(--svg-illustration-gray-2);
+
+    --svg-keyboard-keys-bottom: var(--svg-illustration-gray-3);
+    --svg-keyboard-keys-top: var(--svg-illustration-gray-w);  
+    --svg-keyboard-body-top: var(--svg-illustration-gray-3);
+    --svg-keyboard-body-bottom: var(--svg-illustration-gray-7);
+
+   /* Flower Cup */
+
+    --svg-cup-body: var(--svg-illustration-gray-3);
+    --svg-cup-top: var(--svg-illustration-gray-8);
+    --svg-cup-inside: var(--svg-illustration-green-1);
+    --svg-flower-leaf: var(--svg-illustration-green-3);
+    --svg-flower-leaf-1: var(--svg-illustration-green-2);
+    --svg-flower-leaf-2: var(--svg-illustration-green-4);
+    
+    /* Envelopes */
+
+    --svg-envelope-top: var(--svg-illustration-gray-6);
+    --svg-envelope-split: var(--svg-illustration-gray-3);
+    --svg-envelope-right-side: var(--svg-illustration-gray-5);
+    --svg-envelope-left-side: var(--svg-illustration-gray-5);    
+    --svg-envelope-top-open: var(--svg-illustration-yellow-1);
+    --svg-envelope-right-side-open: var(--svg-illustration-yellow-3);
+    --svg-envelope-left-side-open: var(--svg-illustration-yellow-3);
+    --svg-envelope-split-open: var(--svg-illustration-yellow-2);
+    --svg-envelope-inside: var(--svg-illustration-gray-w);
+
+    /* Weebly */
+
+    --svg-weebly-cup-body: var(--svg-illustration-gray-3);
+    --svg-weebly-cup-top: var(--svg-illustration-gray-8);
+    --svg-weebly-cup-inside: var(--svg-illustration-gray-3);
+
+    --svg-weebly-left-elements: var(--svg-illustration-gray-3);
+    --svg-weebly-left-elements-bottom: var(--svg-illustration-gray-8);
+    --svg-weebly-left-body: var(--svg-illustration-gray-8);
+
+    --svg-weebly-colors-bottom: var(--svg-illustration-yellow-1);
+    --svg-weebly-colors-top: var(--svg-illustration-yellow-2);
+    --svg-weebly-colors-top-1: var(--svg-illustration-gray-w);
+    --svg-weebly-colors-top-2: var(--svg-illustration-yellow-3);
+    --svg-weebly-colors-top-3: var(--svg-illustration-yellow-4);
+
+    /* Spam Experts (E-Mail Services) */
+
+    --svg-spamexperts-browser-text-left: var(--svg-illustration-gray-5);
+    --svg-spamexperts-browser-text-right: var(--svg-illustration-gray-5);
+    --svg-spamexperts-browser-user: var(--svg-illustration-gray-w);
+    --svg-spamexperts-browser-user-bg: var(--svg-illustration-green-3);
+    --svg-spamexperts-browser-banner: var(--svg-illustration-gray-w);
+
+    /* Symantec (Website Security) */
+
+    --svg-symantec-left-body: var(--svg-illustration-gray-8);
+    --svg-symantec-left-elements: var(--svg-illustration-gray-3);
+
+    --svg-symantec-medal-ribbon: var(--svg-illustration-green-2);
+    --svg-symantec-medal-inside: var(--svg-illustration-green-3);
+    --svg-symantec-medal-inside-element: var(--svg-illustration-gray-w);
+    --svg-symantec-medal-round-back: var(--svg-illustration-green-1);
+    --svg-symantec-medal-round-front: var(--svg-illustration-green-4);
+
+    --svg-symantec-padlock-right-side: var(--svg-illustration-primary-2);
+    --svg-symantec-padlock-right-side-element: var(--svg-illustration-primary-3);
+    --svg-symantec-padlock-top: var(--svg-illustration-primary-3);
+    --svg-symantec-padlock-top-round-element: var(--svg-illustration-primary-1);
+    --svg-symantec-padlock-top-element: var(--svg-illustration-gray-6);
+    --svg-symantec-padlock-top-element-1: var(--svg-illustration-gray-6);
+    --svg-symantec-padlock-front: var(--svg-illustration-primary-1);
+    --svg-symantec-padlock-lock: var(--svg-illustration-gray-w);
+    --svg-symantec-padlock-lock-inside: var(--svg-illustration-primary-1);
+
+    --svg-symantec-key-bottom: var(--svg-illustration-yellow-1);
+    --svg-symantec-key-top: var(--svg-illustration-yellow-3);
+    --svg-symantec-key-top-1: var(--svg-illustration-yellow-2);
+
+    /* Codeguard (Website Backups) */
+
+    --svg-codeguard-browser-body: var(--svg-illustration-gray-8);
+
+    --svg-codeguard-photo-frame: var(--svg-illustration-gray-7);
+    --svg-codeguard-photo-bg: var(--svg-illustration-primary-1);
+    --svg-codeguard-photo-logo: var(--svg-illustration-gray-w);
+    --svg-codeguard-photo-front-corners: var(--svg-illustration-primary-1);
+    --svg-codeguard-photo-back: var(--svg-illustration-gray-3);
+
+    --svg-codeguard-photo-browser-body: var(--svg-illustration-gray-w);
+    --svg-codeguard-photo-browser-top: var(--svg-illustration-primary-1);
+    --svg-codeguard-photo-browser-top-1: var(--svg-illustration-gray-w);
+    --svg-codeguard-photo-browser-text: var(--svg-illustration-gray-5);
+
+    --svg-codeguard-list-bg: var(--svg-illustration-gray-8);
+    --svg-codeguard-list-item: var(--svg-illustration-gray-3);
+    --svg-codeguard-list-item-bottom: var(--svg-illustration-gray-w);
+
+    --svg-codeguard-folder-malware-bg: var(--svg-illustration-yellow-1);
+    --svg-codeguard-folder-logo: var(--svg-illustration-gray-w);
+
+    --svg-codeguard-folder-backup-top: var(--svg-illustration-green-2);
+    --svg-codeguard-folder-backup-top-border: var(--svg-illustration-green-1);
+    --svg-codeguard-folder-backup-bg: var(--svg-illustration-green-3);
+    --svg-codeguard-folder-backup-logo: var(--svg-illustration-gray-w);
+
+    /* Marketgoo (SEO Tools) */
+    
+    --svg-marketgoo-phone-border: var(--svg-illustration-gray-3);
+    --svg-marketgoo-phone-bg: var(--svg-illustration-gray-8);
+    --svg-marketgoo-phone-button: var(--svg-illustration-gray-2);
+    --svg-marketgoo-phone-elements: var(--svg-illustration-gray-w);
+    --svg-marketgoo-graphs-bg: var(--svg-illustration-gray-8);
+    --svg-marketgoo-graphs-text: var(--svg-illustration-gray-3);
+    --svg-marketgoo-graphs-text-bg: var(--svg-illustration-gray-8);
+    --svg-marketgoo-graphs-elements: var(--svg-illustration-gray-w);
+    --svg-marketgoo-graphs-elements-1: var(--svg-illustration-gray-3);
+    --svg-marketgoo-graphs-elements-2: var(--svg-illustration-gray-8);
+    --svg-marketgoo-bar-top: var(--svg-illustration-primary-3);
+    --svg-marketgoo-bar-front: var(--svg-illustration-primary-1);
+    --svg-marketgoo-bar-side: var(--svg-illustration-primary-2);
+    --svg-marketgoo-search-borders: var(--svg-illustration-yellow-1);
+    --svg-marketgoo-search-top: var(--svg-illustration-yellow-3);
+    --svg-marketgoo-search-bg: var(--svg-illustration-yellow-2);
+    --svg-marketgoo-search-text: var(--svg-illustration-gray-w);
+    --svg-marketgoo-browser-search-bg: var(--svg-illustration-gray-w);
+    --svg-marketgoo-browser-search-icon: var(--svg-illustration-gray-w);
+    --svg-marketgoo-browser-search-icon-bg: var(--svg-illustration-gray-3);
+    --svg-marketgoo-content-bottom-right: var(--svg-illustration-gray-5);
+    --svg-marketgoo-content-bottom-circle: var(--svg-illustration-gray-5);
+    --svg-marketgoo-content-bottom-num: var(--svg-illustration-gray-5);
+    --svg-marketgoo-content-top-right: var(--svg-illustration-gray-3);
+    --svg-marketgoo-content-top-circle: var(--svg-illustration-gray-3);
+    --svg-marketgoo-content-top-num: var(--svg-illustration-gray-w);
+
+    /* Sitelock VPN */    
+
+    --svg-sitelockvpn-left-elements: var(--svg-illustration-gray-3);
+    --svg-sitelockvpn-left-elements-body: var(--svg-illustration-gray-8);
+    --svg-sitelockvpn-left-elements-body-1: var(--svg-illustration-gray-8);
+    --svg-sitelockvpn-left-elements-bg: var(--svg-illustration-gray-w);
+    --svg-sitelockvpn-left-elements-text: var(--svg-illustration-gray-3);
+    --svg-sitelockvpn-left-time: var(--svg-illustration-gray-3);
+    --svg-sitelockvpn-left-circle: var(--svg-illustration-gray-w);
+    --svg-sitelockvpn-left-circle-icon: var(--svg-illustration-gray-3);
+    --svg-sitelockvpn-circle-bottom: var(--svg-illustration-yellow-4);
+    --svg-sitelockvpn-circle-front: var(--svg-illustration-yellow-4);
+    --svg-sitelockvpn-circle-top: var(--svg-illustration-yellow-3);
+    --svg-sitelockvpn-circle-top-border: var(--svg-illustration-yellow-1);
+    --svg-sitelockvpn-circle-top-text: var(--svg-illustration-gray-w);
+    --svg-sitelockvpn-browser-map: var(--svg-illustration-gray-w);
+    --svg-sitelockvpn-browser-map-marker: var(--svg-illustration-green-3);
+    --svg-sitelockvpn-browser-map-marker-bg: var(--svg-illustration-green-3);
+    --svg-sitelockvpn-browser-marker: var(--svg-illustration-gray-w);
+
+    /* Sitelock (SSL Certificates) */
+
+    --svg-sitelock-left-elements: var(--svg-illustration-gray-5);
+    --svg-sitelock-left-elements-1: var(--svg-illustration-gray-3);
+    --svg-sitelock-left-elements-body: var(--svg-illustration-gray-8);
+
+    --svg-sitelock-code-bg: var(--svg-illustration-primary-1);
+    --svg-sitelock-code-text: var(--svg-illustration-gray-w);
+
+    --svg-sitelock-shield-back: var(--svg-illustration-primary-4);
+    --svg-sitelock-shield-back-1: var(--svg-illustration-primary-4);
+    --svg-sitelock-shield-right-side: var(--svg-illustration-primary-2);
+    --svg-sitelock-shield-top: var(--svg-illustration-primary-3);
+    --svg-sitelock-shield-front: var(--svg-illustration-primary-1);
+    --svg-sitelock-shield-logo: var(--svg-illustration-gray-w); 
+
+    --svg-sitelock-search-bottom-element: var(--svg-illustration-yellow-4);
+    --svg-sitelock-search-bottom-element-1: var(--svg-illustration-yellow-4);
+    --svg-sitelock-search-borders: var(--svg-illustration-yellow-1);
+    --svg-sitelock-search-borders-inside: #000; 
+    --svg-sitelock-search-icon: var(--svg-illustration-gray-w);
+    --svg-sitelock-search-bg: var(--svg-illustration-yellow-1);
+    --svg-sitelock-search-top: var(--svg-illustration-yellow-3);
+    --svg-sitelock-browser-elements: var(--svg-illustration-gray-3);
+    --svg-sitelock-browser-avatar: var(--svg-illustration-gray-w);
+    --svg-sitelock-browser-avatar-bg: var(--svg-illustration-green-3);
+
+    /* OX */
+
+    --svg-ox-browser-text-right: var(--svg-illustration-gray-5);
+    --svg-ox-browser-text-left: var(--svg-illustration-gray-5);
+    --svg-ox-browser-banner-right: var(--svg-illustration-gray-5);
+    --svg-ox-browser-banner-left: var(--svg-illustration-gray-5);
+    --svg-ox-browser-user: var(--svg-illustration-gray-7);
+    --svg-ox-browser-user-bg: var(--svg-illustration-gray-5);
+
+    /* Site Builder */
+
+    --svg-sitebuilder-banner-body: var(--svg-illustration-gray-w);
+    --svg-sitebuilder-banner-bordered-element: var(--svg-illustration-gray-5);
+    --svg-sitebuilder-banner-body-element: var(--svg-illustration-gray-5);
+    --svg-sitebuilder-banner-body-element-1: var(--svg-illustration-gray-5);
+    --svg-sitebuilder-phone-bordered-element: var(--svg-illustration-yellow-3);
+    --svg-sitebuilder-phone-element: var(--svg-illustration-yellow-3);
+    --svg-sitebuilder-tablet-element: var(--svg-illustration-gray-7);
+    --svg-sitebuilder-tablet-element-1: var(--svg-illustration-yellow-1);
+    --svg-sitebuilder-tablet-element-2: var(--svg-illustration-gray-4);
+    --svg-sitebuilder-notepad-back: var(--svg-illustration-gray-3);
+    --svg-sitebuilder-notepad-border: var(--svg-illustration-gray-7);
+    --svg-sitebuilder-notepad-front: var(--svg-illustration-gray-w);
+    --svg-sitebuilder-notepad-text: var(--svg-illustration-gray-3);
+    --svg-sitebuilder-hole: var(--svg-illustration-gray-6);
+    --svg-sitebuilder-screen-element: var(--svg-illustration-gray-w);
+    --svg-sitebuilder-pen-element: var(--svg-illustration-green-3);
+    --svg-sitebuilder-pen-element-dark: var(--svg-illustration-green-1);
+    --svg-sitebuilder-pen-element-1: var(--svg-illustration-green-1);
+    --svg-sitebuilder-pencil-element-dark: var(--svg-illustration-gray-2);
+    --svg-sitebuilder-pencil-element: var(--svg-illustration-yellow-3);
+    --svg-sitebuilder-pencil-element-1: var(--svg-illustration-yellow-1);
+    --svg-sitebuilder-right-body: var(--svg-illustration-gray-8);
+    --svg-sitebuilder-right-elements: var(--svg-illustration-gray-3);
+    --svg-sitebuilder-right-elements-1: var(--svg-illustration-green-3);
+
+    /* SVG Cookie Icon */
+    --svg-cookie-icon-bottom: var(--svg-illustration-primary-1);
+    --svg-cookie-icon-top: var(--brand-primary-lighter);
+    --svg-cookie-icon-white: #fff;
+
+    /* SVG Border */
+
+    --svg-border-inner-front: var(--svg-illustration-gray-3);
+    --svg-border-inner-back: var(--svg-illustration-gray-3);
+    --svg-border-top-front: var(--svg-illustration-gray-8);
+    --svg-border-top-back: var(--svg-illustration-gray-8);
+    --svg-border-bottom: var(--svg-illustration-gray-3);
+
+    /* SVG Konfetti */
+
+    --svg-konfetti-small: var(--svg-illustration-yellow-1);
+    --svg-konfetti-normal: var(--svg-illustration-yellow-2);
+
+    /* SVG cPanelSEO Box */
+    
+    --svg-cpanelseo-box-front: var(--svg-illustration-primary-1);
+    --svg-cpanelseo-box-top: var(--svg-illustration-primary-3);
+    --svg-cpanelseo-box-right: var(--svg-illustration-primary-2);
+    --svg-cpanelseo-box-one: var(--svg-illustration-gray-7);
+
+
+    /* SVG Graphics */
+
+    --svg-graphic-shadow:                   var(--box-shadow-lg);
+
+    --svg-graphic-bg-primary:               var(--brand-primary);
+    --svg-graphic-bg-secondary:             var(--svg-illustration-gray-2);
+    --svg-graphic-bg-body:                  #fff;
+    --svg-graphic-bg-browser-top:           var(--svg-illustration-gray-8);
+    --svg-graphic-bg-browser-actions:       var(--svg-illustration-gray-3);
+    --svg-graphic-bg-browser-search:        #fff;
+    --svg-graphic-bg-banner:                var(--svg-illustration-gray-8);
+    --svg-graphic-bg-faded:                 var(--svg-illustration-gray-8);
+    --svg-graphic-bg-faded-2:               var(--svg-illustration-gray-6);
+    --svg-graphic-bg-faded-3:               var(--svg-illustration-gray-3);
+    --svg-graphic-bg-white:                 #fff;
+    --svg-graphic-bg-green:                 var(--brand-success);
+    --svg-graphic-bg-red:                   var(--brand-danger);
+    --svg-graphic-bg-red-darker:            var(--brand-danger-darker);
+    
+    --svg-graphic-stroke-primary:           var(--brand-primary);
+    --svg-graphic-stroke-white:             #fff;
+    --svg-graphic-stroke-faded:             var(--svg-illustration-gray-3);
+    --svg-graphic-stroke-faded-2:           var(--svg-illustration-gray-3);
+}

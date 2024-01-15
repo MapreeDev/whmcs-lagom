@@ -1,0 +1,35 @@
+.color-field {
+  display: flex;
+  margin-bottom: 16px;
+  border: 1px solid #DCDEE2;
+  align-items: center;
+  cursor: pointer;
+  position: relative;
+  border-radius: 3px;
+  .rs-color-picker {
+    width: 24px;
+    height: 24px;
+    border: 1px solid #DCDEE2;
+    border-radius: 4px;
+    margin: 6px 8px 6px 6px;
+    &-value {
+      cursor: pointer;
+      position: absolute;
+      left: 0;
+      right: 0;
+      min-width: 100%;
+      padding-left: 38px;
+      height: 36px;
+      width: 100%;
+      border-radius: 4px;
+      color: #505459;
+      font-size: 13px;
+      border: none;
+      background-color: transparent;
+      &:focus-visible{
+        outline: none;
+        border: none;
+      }
+    }
+  }
+}

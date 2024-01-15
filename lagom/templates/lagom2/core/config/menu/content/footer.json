@@ -1,0 +1,639 @@
+{
+    "menu-settings": {
+        "name": "Footer",
+        "version": "1.0.0",
+        "location": "Footer",
+        "active": 1,
+        "display": "Default",
+        "rules": "Existing Client, Guest Client"
+    },
+    "menu-items": [
+        {
+            "name": "Products",
+            "location": null,
+            "active": 1,
+            "type": "Custom Link",
+            "settings": {
+                "link": "#",
+                "translation-method": "whmcs",
+                "icon": "",
+                "predefined_icon": ""
+            },
+            "display": {
+                "client-status": "All",
+                "style": {
+                    "layout": "text"
+                },
+                "footer-position": "Primary",
+                "custom-data-classes": "",
+                "target": "0"
+            },
+            "translation": {
+                "whmcs": "footer_extended.products",
+                "custom": {
+                    "arabic": "",
+                    "azerbaijani": "",
+                    "catalan": "",
+                    "chinese": "",
+                    "croatian": "",
+                    "czech": "",
+                    "danish": "",
+                    "dutch": "",
+                    "english": "",
+                    "estonian": "",
+                    "farsi": "",
+                    "french": "",
+                    "german": "",
+                    "hebrew": "",
+                    "hungarian": "",
+                    "italian": "",
+                    "macedonian": "",
+                    "norwegian": "",
+                    "portuguese-br": "",
+                    "portuguese-pt": "",
+                    "romanian": "",
+                    "russian": "",
+                    "spanish": "",
+                    "swedish": "",
+                    "turkish": "",
+                    "ukranian": ""
+                }
+            },
+            "items": [
+                {
+                    "name": "Product Groups",
+                    "location": null,
+                    "active": 1,
+                    "type": "Predefined List",
+                    "settings": {
+                        "list": "Product Groups"
+                    },
+                    "display": {
+                        "client-status": "All",
+                        "style": {
+                            "layout": "text"
+                        },
+                        "custom-data-classes": "",
+                        "target": "0"
+                    },
+                    "translation": "Product Groups"
+                }
+            ]
+        },
+        {
+            "name": "Services",
+            "location": null,
+            "active": 1,
+            "type": "Custom Link",
+            "settings": {
+                "link": "#",
+                "translation-method": "whmcs",
+                "icon": "",
+                "predefined_icon": ""
+            },
+            "display": {
+                "client-status": "All",
+                "style": {
+                    "layout": "text"
+                },
+                "footer-position": "Primary",
+                "custom-data-classes": "",
+                "target": "0"
+            },
+            "translation": {
+                "whmcs": "navservices",
+                "custom": {
+                    "arabic": "",
+                    "azerbaijani": "",
+                    "catalan": "",
+                    "chinese": "",
+                    "croatian": "",
+                    "czech": "",
+                    "danish": "",
+                    "dutch": "",
+                    "english": "",
+                    "estonian": "",
+                    "farsi": "",
+                    "french": "",
+                    "german": "",
+                    "hebrew": "",
+                    "hungarian": "",
+                    "italian": "",
+                    "macedonian": "",
+                    "norwegian": "",
+                    "portuguese-br": "",
+                    "portuguese-pt": "",
+                    "romanian": "",
+                    "russian": "",
+                    "spanish": "",
+                    "swedish": "",
+                    "turkish": "",
+                    "ukranian": ""
+                }
+            },
+            "items": [
+                {
+                    "name": "MarketConnect Products",
+                    "location": null,
+                    "active": 1,
+                    "type": "Predefined List",
+                    "settings": {
+                        "list": "MarketConnect Products"
+                    },
+                    "display": {
+                        "client-status": "All",
+                        "style": {
+                            "layout": "text"
+                        },
+                        "custom-data-classes": "",
+                        "target": "0"
+                    },
+                    "translation": "MarketConnect Products"
+                }
+            ]
+        },
+        {
+            "name": "Support",
+            "location": null,
+            "active": 1,
+            "type": "Custom Link",
+            "settings": {
+                "link": "#",
+                "translation-method": "whmcs",
+                "icon": "",
+                "predefined_icon": ""
+            },
+            "display": {
+                "client-status": "All",
+                "style": {
+                    "layout": "text"
+                },
+                "footer-position": "Primary",
+                "custom-data-classes": "",
+                "target": "0"
+            },
+            "translation": {
+                "whmcs": "navsupport",
+                "custom": {
+                    "arabic": "",
+                    "azerbaijani": "",
+                    "catalan": "",
+                    "chinese": "",
+                    "croatian": "",
+                    "czech": "",
+                    "danish": "",
+                    "dutch": "",
+                    "english": "",
+                    "estonian": "",
+                    "farsi": "",
+                    "french": "",
+                    "german": "",
+                    "hebrew": "",
+                    "hungarian": "",
+                    "italian": "",
+                    "macedonian": "",
+                    "norwegian": "",
+                    "portuguese-br": "",
+                    "portuguese-pt": "",
+                    "romanian": "",
+                    "russian": "",
+                    "spanish": "",
+                    "swedish": "",
+                    "turkish": "",
+                    "ukranian": ""
+                }
+            },
+            "items": [
+                {
+                    "name": "Contact Us",
+                    "location": null,
+                    "active": 1,
+                    "type": "WHMCS Page",
+                    "settings": {
+                        "page": "41",
+                        "translation-method": "whmcs",
+                        "icon": "",
+                        "predefined_icon": ""
+                    },
+                    "display": {
+                        "client-status": "All",
+                        "style": {
+                            "layout": "text"
+                        },
+                        "custom-data-classes": "",
+                        "target": "0"
+                    },
+                    "translation": {
+                        "whmcs": "contactUs",
+                        "custom": {
+                            "arabic": "",
+                            "azerbaijani": "",
+                            "catalan": "",
+                            "chinese": "",
+                            "croatian": "",
+                            "czech": "",
+                            "danish": "",
+                            "dutch": "",
+                            "english": "",
+                            "estonian": "",
+                            "farsi": "",
+                            "french": "",
+                            "german": "",
+                            "hebrew": "",
+                            "hungarian": "",
+                            "italian": "",
+                            "macedonian": "",
+                            "norwegian": "",
+                            "portuguese-br": "",
+                            "portuguese-pt": "",
+                            "romanian": "",
+                            "russian": "",
+                            "spanish": "",
+                            "swedish": "",
+                            "turkish": "",
+                            "ukranian": ""
+                        }
+                    }
+                },
+                {
+                    "name": "News",
+                    "location": null,
+                    "active": 1,
+                    "type": "WHMCS Page",
+                    "settings": {
+                        "page": "13",
+                        "translation-method": "whmcs",
+                        "icon": "",
+                        "predefined_icon": ""
+                    },
+                    "display": {
+                        "client-status": "All",
+                        "style": {
+                            "layout": "text"
+                        },
+                        "custom-data-classes": "",
+                        "target": "0"
+                    },
+                    "translation": {
+                        "whmcs": "news",
+                        "custom": {
+                            "arabic": "",
+                            "azerbaijani": "",
+                            "catalan": "",
+                            "chinese": "",
+                            "croatian": "",
+                            "czech": "",
+                            "danish": "",
+                            "dutch": "",
+                            "english": "",
+                            "estonian": "",
+                            "farsi": "",
+                            "french": "",
+                            "german": "",
+                            "hebrew": "",
+                            "hungarian": "",
+                            "italian": "",
+                            "macedonian": "",
+                            "norwegian": "",
+                            "portuguese-br": "",
+                            "portuguese-pt": "",
+                            "romanian": "",
+                            "russian": "",
+                            "spanish": "",
+                            "swedish": "",
+                            "turkish": "",
+                            "ukranian": ""
+                        }
+                    }
+                },
+                {
+                    "name": "Knowledgebase",
+                    "location": null,
+                    "active": 1,
+                    "type": "WHMCS Page",
+                    "settings": {
+                        "page": "55",
+                        "translation-method": "whmcs",
+                        "icon": "",
+                        "predefined_icon": ""
+                    },
+                    "display": {
+                        "client-status": "All",
+                        "style": {
+                            "layout": "text"
+                        },
+                        "custom-data-classes": "",
+                        "target": "0"
+                    },
+                    "translation": {
+                        "whmcs": "knowledgebasetitle",
+                        "custom": {
+                            "arabic": "",
+                            "azerbaijani": "",
+                            "catalan": "",
+                            "chinese": "",
+                            "croatian": "",
+                            "czech": "",
+                            "danish": "",
+                            "dutch": "",
+                            "english": "",
+                            "estonian": "",
+                            "farsi": "",
+                            "french": "",
+                            "german": "",
+                            "hebrew": "",
+                            "hungarian": "",
+                            "italian": "",
+                            "macedonian": "",
+                            "norwegian": "",
+                            "portuguese-br": "",
+                            "portuguese-pt": "",
+                            "romanian": "",
+                            "russian": "",
+                            "spanish": "",
+                            "swedish": "",
+                            "turkish": "",
+                            "ukranian": ""
+                        }
+                    }
+                },
+                {
+                    "name": "Affiliates",
+                    "location": null,
+                    "active": 1,
+                    "type": "WHMCS Page",
+                    "settings": {
+                        "page": "11",
+                        "translation-method": "whmcs",
+                        "icon": "",
+                        "predefined_icon": ""
+                    },
+                    "display": {
+                        "client-status": "All",
+                        "style": {
+                            "layout": "text"
+                        },
+                        "custom-data-classes": "",
+                        "target": "0"
+                    },
+                    "translation": {
+                        "whmcs": "affiliatestitle",
+                        "custom": {
+                            "arabic": "",
+                            "azerbaijani": "",
+                            "catalan": "",
+                            "chinese": "",
+                            "croatian": "",
+                            "czech": "",
+                            "danish": "",
+                            "dutch": "",
+                            "english": "",
+                            "estonian": "",
+                            "farsi": "",
+                            "french": "",
+                            "german": "",
+                            "hebrew": "",
+                            "hungarian": "",
+                            "italian": "",
+                            "macedonian": "",
+                            "norwegian": "",
+                            "portuguese-br": "",
+                            "portuguese-pt": "",
+                            "romanian": "",
+                            "russian": "",
+                            "spanish": "",
+                            "swedish": "",
+                            "turkish": "",
+                            "ukranian": ""
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Language",
+            "location": null,
+            "active": 1,
+            "type": "Language",
+            "settings": null,
+            "display": {
+                "client-status": "All",
+                "style": {
+                    "layout": "icon-text"
+                },
+                "footer-position": "Secondary",
+                "custom-data-classes": "",
+                "target": "0"
+            },
+            "translation": "Language"
+        },
+        {
+            "name": "Back to top",
+            "location": null,
+            "active": 1,
+            "type": "Custom Link",
+            "settings": {
+                "link": "#",
+                "translation-method": "whmcs",
+                "icon": "lm lm-go-top",
+                "predefined_icon": ""
+            },
+            "display": {
+                "client-status": "All",
+                "style": {
+                    "layout": "icon"
+                },
+                "footer-position": "Secondary",
+                "custom-data-classes": "",
+                "target": "0"
+            },
+            "translation": {
+                "whmcs": "footer_extended.back_to_top",
+                "custom": {
+                    "arabic": "",
+                    "azerbaijani": "",
+                    "catalan": "",
+                    "chinese": "",
+                    "croatian": "",
+                    "czech": "",
+                    "danish": "",
+                    "dutch": "",
+                    "english": "",
+                    "estonian": "",
+                    "farsi": "",
+                    "french": "",
+                    "german": "",
+                    "hebrew": "",
+                    "hungarian": "",
+                    "italian": "",
+                    "macedonian": "",
+                    "norwegian": "",
+                    "portuguese-br": "",
+                    "portuguese-pt": "",
+                    "romanian": "",
+                    "russian": "",
+                    "spanish": "",
+                    "swedish": "",
+                    "turkish": "",
+                    "ukranian": ""
+                }
+            }
+        },
+        {
+            "name": "Facebook",
+            "location": null,
+            "active": 1,
+            "type": "Custom Link",
+            "settings": {
+                "link": "#",
+                "translation-method": "whmcs",
+                "icon": "",
+                "predefined_icon": "social\/facebook.tpl"
+            },
+            "display": {
+                "client-status": "All",
+                "style": {
+                    "layout": "icon"
+                },
+                "footer-position": "Social",
+                "custom-data-classes": "social-fb",
+                "target": "1"
+            },
+            "translation": {
+                "whmcs": "social.facebook",
+                "custom": {
+                    "arabic": "",
+                    "azerbaijani": "",
+                    "catalan": "",
+                    "chinese": "",
+                    "croatian": "",
+                    "czech": "",
+                    "danish": "",
+                    "dutch": "",
+                    "english": "",
+                    "estonian": "",
+                    "farsi": "",
+                    "french": "",
+                    "german": "",
+                    "hebrew": "",
+                    "hungarian": "",
+                    "italian": "",
+                    "macedonian": "",
+                    "norwegian": "",
+                    "portuguese-br": "",
+                    "portuguese-pt": "",
+                    "romanian": "",
+                    "russian": "",
+                    "spanish": "",
+                    "swedish": "",
+                    "turkish": "",
+                    "ukranian": ""
+                }
+            }
+        },
+        {
+            "name": "Twitter",
+            "location": null,
+            "active": 1,
+            "type": "Custom Link",
+            "settings": {
+                "link": "#",
+                "translation-method": "whmcs",
+                "icon": "",
+                "predefined_icon": "social\/twitter.tpl"
+            },
+            "display": {
+                "client-status": "All",
+                "style": {
+                    "layout": "icon"
+                },
+                "footer-position": "Social",
+                "custom-data-classes": "social-tw",
+                "target": "1"
+            },
+            "translation": {
+                "whmcs": "social.twitter",
+                "custom": {
+                    "arabic": "",
+                    "azerbaijani": "",
+                    "catalan": "",
+                    "chinese": "",
+                    "croatian": "",
+                    "czech": "",
+                    "danish": "",
+                    "dutch": "",
+                    "english": "",
+                    "estonian": "",
+                    "farsi": "",
+                    "french": "",
+                    "german": "",
+                    "hebrew": "",
+                    "hungarian": "",
+                    "italian": "",
+                    "macedonian": "",
+                    "norwegian": "",
+                    "portuguese-br": "",
+                    "portuguese-pt": "",
+                    "romanian": "",
+                    "russian": "",
+                    "spanish": "",
+                    "swedish": "",
+                    "turkish": "",
+                    "ukranian": ""
+                }
+            }
+        },
+        {
+            "name": "LinkedIn",
+            "location": null,
+            "active": 1,
+            "type": "Custom Link",
+            "settings": {
+                "link": "#",
+                "translation-method": "whmcs",
+                "icon": "",
+                "predefined_icon": "social\/linkedin.tpl"
+            },
+            "display": {
+                "client-status": "All",
+                "style": {
+                    "layout": "icon"
+                },
+                "footer-position": "Social",
+                "custom-data-classes": "social-in",
+                "target": "1"
+            },
+            "translation": {
+                "whmcs": "social.linkedin",
+                "custom": {
+                    "arabic": "",
+                    "azerbaijani": "",
+                    "catalan": "",
+                    "chinese": "",
+                    "croatian": "",
+                    "czech": "",
+                    "danish": "",
+                    "dutch": "",
+                    "english": "",
+                    "estonian": "",
+                    "farsi": "",
+                    "french": "",
+                    "german": "",
+                    "hebrew": "",
+                    "hungarian": "",
+                    "italian": "",
+                    "macedonian": "",
+                    "norwegian": "",
+                    "portuguese-br": "",
+                    "portuguese-pt": "",
+                    "romanian": "",
+                    "russian": "",
+                    "spanish": "",
+                    "swedish": "",
+                    "turkish": "",
+                    "ukranian": ""
+                }
+            }
+        }
+    ]
+}
