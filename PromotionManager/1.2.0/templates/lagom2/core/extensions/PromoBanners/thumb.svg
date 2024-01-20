@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="icon-promotion-manager" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+	 x="0px" y="0px" viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
+<style type="text/css">
+	.st0{opacity:0.5;fill:none;stroke:#FFFFFF;stroke-dasharray:4,2;enable-background:new    ;}
+	.st1{fill:url(#Prostokąt_zaokrąglony_2009_1_);}
+	.st2{fill:none;stroke:#BB6E48;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;}
+	.st3{fill:none;stroke:#FFFFFF;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;}
+	.st4{fill:none;stroke:#FFFFFF;stroke-linecap:round;stroke-linejoin:round;}
+</style>
+<path id="Prostokąt_zaokrąglony_2008" class="st0" d="M2.7,3.5h23.6c1.2,0,2.2,1,2.2,2.2v23.6c0,1.2-1,2.2-2.2,2.2H2.7
+	c-1.2,0-2.2-1-2.2-2.2V5.7C0.5,4.5,1.5,3.5,2.7,3.5z"/>
+<linearGradient id="Prostokąt_zaokrąglony_2009_1_" gradientUnits="userSpaceOnUse" x1="18" y1="145" x2="18" y2="117" gradientTransform="matrix(1 0 0 -1 0 145)">
+	<stop  offset="0" style="stop-color:#FBDC8F"/>
+	<stop  offset="1" style="stop-color:#FFBC79"/>
+</linearGradient>
+<path id="Prostokąt_zaokrąglony_2009" class="st1" d="M5.8,0h24.5c1,0,1.8,0.8,1.8,1.8v24.5c0,1-0.8,1.8-1.8,1.8H5.8
+	c-1,0-1.8-0.8-1.8-1.8V1.8C4,0.8,4.8,0,5.8,0z"/>
+<path id="Kształt_2043_kopia_2" class="st2" d="M10,13h16"/>
+<path id="Kształt_2043_kopia" class="st2" d="M13,9h10"/>
+<path id="Kształt_2043_kopia_3" class="st3" d="M15,19h7"/>
+<path id="Kształt_2044" class="st4" d="M27.6,2.6l1.8,1.8"/>
+<path id="Kształt_2044_kopia" class="st4" d="M29.3,2.6l-1.8,1.8"/>
+</svg>

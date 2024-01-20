@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Warstwa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 64 64" style="enable-background:new 0 0 64 64;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#393D45;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;}
+	.st1{fill:none;stroke:#393D45;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:4,8;}
+	.st2{fill:#009AFF;stroke:#009AFF;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;}
+	.st3{fill:#1062FE;stroke:#1062FE;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;}
+	.st4{fill:none;stroke:#FFFFFF;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;}
+</style>
+<title>blogging</title>
+<g id="Warstwa_2_1_">
+	<g id="Warstwa_1-2">
+		<line class="st0" x1="12.4" y1="56.2" x2="11.6" y2="48.5"/>
+		<line class="st0" x1="12.4" y1="56.2" x2="5" y2="55.3"/>
+		<path class="st1" d="M45.4,3.9C55.5,9,63,19.6,63,31.8C63,48.9,48.5,63,31.6,63c-1.3,0-2.6-0.1-3.8-0.2"/>
+		<path class="st0" d="M11.5,55.2C4.9,49.3,1,40.8,1,31.9C1.1,14.8,14.9,1,32,1c4.6-0.1,9.2,0.9,13.4,2.9"/>
+		<polygon class="st2" points="17.2,54.4 19.8,56.1 48.4,36.3 51.2,2.8 48.4,1.3 17.2,19.4 		"/>
+		<polygon class="st3" points="20.2,56.1 51.2,37.8 51.2,2.8 20.2,21.1 		"/>
+		<line class="st4" x1="46.8" y1="15.7" x2="24.3" y2="28.6"/>
+		<line class="st4" x1="46.8" y1="22.5" x2="24.3" y2="35.5"/>
+		<line class="st4" x1="35.4" y1="35.5" x2="24.3" y2="41.8"/>
+	</g>
+</g>
+</svg>

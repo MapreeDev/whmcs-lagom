@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Warstwa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="64px" height="64px" viewBox="0 0 64 64" style="enable-background:new 0 0 64 64;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#393D45;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;}
+	.st1{fill:#1062FE;stroke:#1062FE;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;}
+	.st2{fill:#009AFF;stroke:#009AFF;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;}
+</style>
+<line class="st0" x1="32" y1="1.5" x2="32" y2="8.4"/>
+<polygon class="st1" points="17,23 32,31.7 47,23 47,16.9 17,16.9 "/>
+<polygon class="st2" points="32,25.2 17,16.6 32,7.9 47,16.6 "/>
+<line class="st0" x1="32" y1="32.7" x2="32" y2="62.5"/>
+<polyline class="st0" points="58.5,16.9 32,32.2 5.5,16.9 "/>
+<polygon class="st0" points="32,63 5,47.4 5,16.6 32,1 59,16.6 59,47.4 "/>
+</svg>
