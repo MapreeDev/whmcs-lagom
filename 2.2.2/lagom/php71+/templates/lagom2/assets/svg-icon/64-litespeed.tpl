@@ -1,0 +1,8 @@
+<svg class="svg-icon {if $onDark} svg-icon-on-dark {/if}" xmlns="http://www.w3.org/2000/svg" width="65" height="64" fill="none" viewBox="0 0 65 64">
+    <path stroke="var(--svg-icon-color-3)" stroke-dasharray="3.07 3.07" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.66968 19.9775C16.4697 14.9775 28.7697 12.7775 40.4697 14.6775C56.9697 17.4775 66.5697 27.4775 61.7697 37.2775C60.8697 38.8775 59.6697 40.3775 58.2697 41.6775" />
+    <path stroke="var(--svg-icon-color-3)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.6696 20.3776L7.36963 20.4776L8.46963 15.6775" />
+    <path fill="var(--svg-icon-color-2)" fill-rule="evenodd" stroke="var(--svg-icon-color-2)" stroke-linejoin="round" stroke-width="2" d="M30.3875 1.974L54.8875 16.224L30.5 58.7778L6 44.5278L30.3875 1.974Z" clip-rule="evenodd" />
+    <path fill="var(--svg-icon-color-1)" fill-rule="evenodd" stroke="var(--svg-icon-color-1)" stroke-linejoin="round" stroke-width="2" d="M35.5 4.77783L60 19.0278L35.5 61.7778L11 47.5278L35.5 4.77783Z" clip-rule="evenodd" />
+    <path fill="var(--svg-icon-color-4)" fill-rule="evenodd" stroke="var(--svg-icon-color-4)" stroke-linejoin="round" stroke-width="2" d="M39.8304 15.7778L27 34.5102L35.981 36.4821L30.5283 50.7778L44 31.7168L35.019 28.7591L39.8304 15.7778Z" clip-rule="evenodd" />
+    <path stroke="var(--svg-icon-color-3)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M54.8697 43.8775C47.0697 48.8775 34.9697 51.1775 23.2697 49.2775C6.66973 46.5775 -2.53027 36.4775 2.26973 26.6775C3.06973 24.9775 4.06973 23.4775 5.36973 22.1775M54.2698 48.2775L56.0698 43.5775L47.6697 43.2775" />
+</svg>

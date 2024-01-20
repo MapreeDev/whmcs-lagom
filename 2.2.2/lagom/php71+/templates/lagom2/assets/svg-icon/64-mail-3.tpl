@@ -1,0 +1,6 @@
+<svg class="svg-icon {if $onDark} svg-icon-on-dark {/if}" xmlns="http://www.w3.org/2000/svg" width="64" height="65" fill="none" viewBox="0 0 64 65">
+    <path stroke="var(--svg-icon-color-3)" stroke-dasharray="8 8" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M32.0216 51.6341L52.9203 39.8196L61.998 45.3288L32.0018 63.0201L2.00195 45.5201L11.158 39.7148L32.0216 51.6341Z" />
+    <path fill="var(--svg-icon-color-2)" stroke="var(--svg-icon-color-2)" stroke-linejoin="round" stroke-width="2" d="M31.9958 44.3534L61.996 31.1416L61.9961 38.0204L32.0002 55.0204L2.00014 38.0203L2 31.3289L31.9958 44.3534Z" />
+    <path fill="var(--svg-icon-color-1)" stroke="var(--svg-icon-color-1)" stroke-linejoin="round" stroke-width="2" d="M31.9999 41.3515L56.1452 27.4888L61.996 30.9466L31.9999 48.638L2 31.1379L7.9901 27.6878L31.9999 41.3515Z" />
+    <path stroke="var(--svg-icon-color-3)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M31.9999 41.1491L61.9965 24.1906L61.9966 17.9961M31.9999 41.1491L1.99984 24V18.0085M31.9999 41.1491V34.9876M61.9966 17.9961L31.9999 34.9876M61.9966 17.9961L31.9999 1L1.99984 18.0085M31.9999 34.9876L1.99984 18.0085M37.9999 4.39959V20H5.51855M37.9999 13H53.1789M25.9998 20V31.6202" />
+</svg>

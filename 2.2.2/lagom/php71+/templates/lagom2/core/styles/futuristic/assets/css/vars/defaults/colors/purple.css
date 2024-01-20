@@ -1,0 +1,133 @@
+/*!
+ * Theme Name: Lagom WHMCS Client Theme
+ * Theme URL: https://lagom.rsstudio.net/
+ *
+ * Terms of Service: https://lagom.rsstudio.net/docs/legal/terms-of-service.html
+ * 
+ * Copyright (c) 2021 RS Studio
+ */
+
+ :root {
+    /* START PARSE */
+
+    /* Section: Gray; Index: 0; */
+    --color-empty:                                  unset; /* name: Empty; type: hidden */
+
+    --gray-base:                                    hsla(220, 100%, 96%, 92%); /* name: Main; */
+    --gray-lighter:                                 hsla(220, 100%, 94%, 80%); /* name: Lighter;*/
+    --gray-lighter-2:                               hsla(220, 100%, 94%, 56%); /* name: Lighter 2; */
+    --gray-lighter-3:                               hsla(220, 100%, 94%, 24%); /* name: Lighter 3; */
+    --gray-lighter-4:                               hsla(220, 100%, 94%, 16%); /* name: Lighter 4; */
+    --gray-faded:                                   hsla(220, 100%, 94%, 8%); /* name: Lighter 5;*/
+    --gray-darker:                                  #fff; /* name: Darker; */
+    --gray-icons:                                   hsla(220, 100%, 94%, 64%); /* name: Icons; */
+    --gray-icons-hover:                             hsla(220, 100%, 94%, 40%); /* name: Icons; */
+    --gray-gradient-start:                          rgba(75, 120, 210, 0.08); /* name: Gradient Start; type: gradientColor; gradientColor: start; */
+    --gray-gradient-end:                            rgba(75, 120, 210, 0.32); /* name: Gradient End; type: gradientColor; gradientColor: end; */
+    --gray-gradient-h:                              linear-gradient( 270deg, var(--gray-gradient-start) 0%, var(--gray-gradient-end) 100%); /* name: Gradient Horizontal; type:hidden; gradient:true; gradientType: horizontal; */
+    --gray-gradient-v:                              linear-gradient( 0deg, var(--gray-gradient-end) 0%, var(--gray-gradient-start) 100%); /* name: Gradient Vertical; type:hidden; gradient:true; gradientType: vertical; */
+ 
+    /* Section: Primary */
+
+    --brand-primary:                                #8552d7; /* name: Main; color_preview: primary;*/
+    --brand-primary-lighter:                        #b381e3; /* name: Lighter; */
+    --brand-primary-lighter-2:                      #D6C7F0; /* name: Lighter 2; */
+    --brand-primary-lighter-3:                      #E2D7F4; /* name: Lighter 3; */
+    --brand-primary-lighter-4:                      #F0EBFA; /* name: Lighter 4; */
+    --brand-primary-darker:                         #542B97; /* name: Darker; */
+    --brand-primary-gradient-start:                 #542B97; /* name: Gradient Start; type: gradientColor; gradientColor: start; */ 
+    --brand-primary-gradient-end:                   #8552d7; /* name: Gradient End; type: gradientColor; gradientColor: end; */ 
+    --brand-primary-gradient-h:                     linear-gradient( 90deg, var(--brand-primary-gradient-start) 0%, var(--brand-primary-gradient-end) 100%); /* name: Gradient Horizontal; type:hidden; gradient:true; gradientType: horizontal; */
+    --brand-primary-gradient-v:                     linear-gradient( 0deg, var(--brand-primary-gradient-end) 0%, var(--brand-primary-gradient-start) 100%); /* name: Gradient Horizontal; type:hidden; gradient:true; gradientType: vertical; */
+
+    /* Section: Secondary */
+
+    --brand-secondary:                              #683caf; /* name: Main; color_preview: secondary; */
+    --brand-secondary-lighter:                      #A13DFF; /* name: Lighter; */
+    --brand-secondary-darker:                       #30165c; /* name: Darker; */
+    --brand-secondary-gradient-start:               #30165c; /* name: Gradient Start; type: gradientColor; gradientColor: start; */ 
+    --brand-secondary-gradient-end:                 #683caf; /* name: Gradient End; type: gradientColor; gradientColor: end; */ 
+    --brand-secondary-gradient-h:                   linear-gradient( 90deg, var(--brand-secondary-gradient-start) 0%, var(--brand-secondary-gradient-end) 100%); /* name: Gradient Horizontal; type:hidden; gradient:true; gradientType: horizontal; */
+    --brand-secondary-gradient-v:                   linear-gradient( 0deg, var(--brand-secondary-gradient-end) 0%, var(--brand-secondary-gradient-start) 100%); /* name: Gradient Horizontal; type:hidden; gradient:true; gradientType: vertical; */
+
+    /* Section: Info */
+    
+    --brand-info:                                   #2872fc; /* name: Main; */
+    --brand-info-lighter:                           #6298fe; /* name: Lighter; */
+    --brand-info-lighter-2:                         #B3CCFF; /* name: Lighter 2; */
+    --brand-info-lighter-3:                         #D6E4FF; /* name: Lighter 3; */
+    --brand-info-darker:                            #015abe; /* name: Darker; */
+    --brand-info-gradient-start:                    #015abe; /* name: Gradient Start; type: gradientColor; gradientColor: start; */ 
+    --brand-info-gradient-end:                      #2872fc; /* name: Gradient End; type: gradientColor; gradientColor: end; */ 
+    --brand-info-gradient-h:                        linear-gradient( 90deg, var(--brand-info-gradient-start) 0%, var(--brand-info-gradient-end) 100%); /* name: Gradient Horizontal; type:hidden; gradient:true; gradientType: horizontal; */
+    --brand-info-gradient-v:                        linear-gradient( 0deg, var(--brand-info-gradient-end) 0%, var(--brand-info-gradient-start) 100%); /* name: Gradient Horizontal; type:hidden; gradient:true; gradientType: vertical; */
+    
+    /* Section: Success */
+
+    --brand-success:                                #36C055; /* name: Main; */
+    --brand-success-lighter:                        #70d786; /* name: Lighter; */
+    --brand-success-lighter-2:                      #cff2d7; /* name: Lighter 2; */
+    --brand-success-lighter-3:                      #dbf5e1; /* name: Lighter 3; */
+    --brand-success-lighter-4:                      #e7f8eb; /* name: Lighter 4; */
+    --brand-success-darker:                         #2d9f46; /* name: Darker; */
+    --brand-success-gradient-start:                 #2d9f46; /* name: Gradient Start; type: gradientColor; gradientColor: start; */ 
+    --brand-success-gradient-end:                   #36C055; /* name: Gradient End; type: gradientColor; gradientColor: end; */ 
+    --brand-success-gradient-h:                     linear-gradient( 90deg, var(--brand-success-gradient-start) 0%, var(--brand-success-gradient-end) 100%); /* name: Gradient Horizontal; type:hidden; gradient:true; gradientType: horizontal; */
+    --brand-success-gradient-v:                     linear-gradient( 0deg, var(--brand-success-gradient-end) 0%, var(--brand-success-gradient-end) 100%); /* name: Gradient Horizontal; type:hidden; gradient:true; gradientType: vertical; */
+    
+    /* Section: Warning */
+    
+    --brand-warning:                                #ffaa00; /* name: Main; */
+    --brand-warning-lighter:                        #ffc552; /* name: Lighter; */
+    --brand-warning-lighter-2:                      #ffeecc; /* name: Lighter 2; */
+    --brand-warning-lighter-3:                      #fff3db; /* name: Lighter 3; */
+    --brand-warning-lighter-4:                      #fff8eb; /* name: Lighter 4; */
+    --brand-warning-darker:                         #d68f00; /* name: Darker; */
+    --brand-warning-gradient-start:                 #d68f00; /* name: Gradient Start; type: gradientColor; gradientColor: start; */ 
+    --brand-warning-gradient-end:                   #ffaa00; /* name: Gradient End; type: gradientColor; gradientColor: end; */ 
+    --brand-warning-gradient-h:                     linear-gradient( 90deg, var(--brand-warning-gradient-start) 0%, var(--brand-warning-gradient-end) 100%); /* name: Gradient Horizontal; type:hidden; gradient:true; gradientType: horizontal; */
+    --brand-warning-gradient-v:                     linear-gradient( 0deg, var(--brand-warning-gradient-end) 0%, var(--brand-warning-gradient-start) 100%);/* name: Gradient Horizontal; type:hidden; gradient:true; gradientType: vertical; */
+
+    /* Section: Danger */
+
+    --brand-danger:                                 #d92632; /* name: Main; */
+    --brand-danger-lighter:                         #e56c74; /* name: Lighter; */
+    --brand-danger-lighter-2:                       #f7d4d6; /* name: Lighter 2; */
+    --brand-danger-lighter-3:                       #fae1e2; /* name: Lighter 3; */
+    --brand-danger-lighter-4:                       #fceeef; /* name: Lighter 4; */
+    --brand-danger-darker:                          #b6202a; /* name: Darker; */
+    --brand-danger-gradient-start:                  #b6202a; /* name: Gradient Start; type: gradientColor; gradientColor: start; */ 
+    --brand-danger-gradient-end:                    #d92632; /* name: Gradient End; type: gradientColor; gradientColor: end; */ 
+    --brand-danger-gradient-h:                      linear-gradient( 90deg, var(--brand-danger-gradient-start) 0%, var(--brand-danger-gradient-end) 100%); /* name: Gradient Horizontal; type:hidden; gradient:true; gradientType: horizontal; */
+    --brand-danger-gradient-v:                      linear-gradient( 0deg, var(--brand-danger-gradient-end) 0%, var(--brand-danger-gradient-start) 100%);/* name: Gradient Horizontal; type:hidden; gradient:true; gradientType: vertical; */
+
+    /* Section: SVG Icons */
+
+    --svg-illustration-color-0:                     #6A17D9; /* name: Darker ; type: hiddenlist;*/
+    --svg-illustration-color-1:                     #8031e9; /* name: Base ; type: hiddenlist;*/
+    --svg-illustration-color-2:                     #A96EF7; /* name: Lighter; type: hiddenlist; */
+    --svg-illustration-color-3:                     #B481F8; /* name: Lighter 2; type: hiddenlist; */
+    --svg-illustration-color-4:                     #CBA8FA; /* name: Lighter 3; type: hiddenlist; */
+    --svg-illustration-color-5:                     #DCC5FC; /* name: Lighter 4; type: hiddenlist; */
+    --svg-illustration-color-6:                     #E8D8FD; /* name: Lighter 5; type: hiddenlist; */
+    --svg-illustration-color-7:                     #ffffff; /* name: Secondary; type: hiddenlist; */
+    --svg-illustration-shadow:                      #000000;
+
+    /* Section: Background */
+
+    --body-bg:                                      #2c374c; /* name: Body; type: hiddenlist; */
+
+    /* Advanced Colors */
+
+    --ui-block-bg:                                  linear-gradient(180deg, rgba(151, 164, 190, 0.16) 0%, rgba(93, 105, 128, 0.16) 24%, rgba(93, 105, 128, 0.16) 100%);
+    --ui-block-overlay-bg:                          linear-gradient(180deg, rgba(91, 100, 121, 0.64) 0%, rgba(58, 69, 87, 0.72) 24%, rgba(58, 69, 87, 0.72) 100%);
+    --ui-block-overlay-bg-2:                        linear-gradient(180deg, rgba(76, 85, 107, 0.8) 0%, rgba(58, 69, 87, 0.88) 24%, rgba(45, 55, 71, 0.88) 100%);
+
+    /* END PARSE */
+}
+
+@-moz-document url-prefix() {
+    :root{
+        --ui-block-overlay-bg:                      linear-gradient(180deg, rgba(91, 100, 121, 0.87) 0%, rgba(58, 69, 87, 0.94) 24%, rgba(58, 69, 87, 0.94) 100%);
+    }
+}

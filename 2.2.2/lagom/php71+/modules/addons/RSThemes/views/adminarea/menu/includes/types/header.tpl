@@ -1,0 +1,1 @@
+{include file="adminarea/menu/includes/components/name.tpl" type="Header"}

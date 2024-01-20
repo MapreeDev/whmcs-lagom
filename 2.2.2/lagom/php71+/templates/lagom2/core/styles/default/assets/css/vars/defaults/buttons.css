@@ -1,0 +1,203 @@
+/*!
+ * Theme Name: Lagom WHMCS Client Theme
+ * Theme URL: https://lagom.rsstudio.net/
+ *
+ * Terms of Service: https://lagom.rsstudio.net/docs/legal/terms-of-service.html
+ * 
+ * Copyright (c) 2021 RS Studio
+ */
+
+:root { /* Name: Buttons; Index: 5 */
+    
+    /* General */
+    
+    --btn-white-space:                              nowrap;
+    --btn-transition:                               var(--transition-base);
+    --btn-font-family:                              var(--font-family-base);
+    --btn-border-width:                             1px;
+    --btn-block-spacing-y:                          var(--spacing-1x);
+    --btn-box-shadow:                               none;
+    --btn-focus-box-shadow:                         0 0 0 .var(--spacing-2x) rgba(var(--brand-primary) .25);
+    --btn-active-box-shadow:                        inset 0 3px 5px rgba(0, 0, 0, .125);
+    --btn-spacing-between:                          var(--spacing-2x);
+    --btn-spacing-between-sm:                       var(--spacing-1x);
+    --btn-link-font-weight:                         var(--font-weight-base);
+
+    /* Section: Extra Small */
+
+    --btn-xs-font-size:                             var(--font-size-xs); /* name: Font Size; var_group: Font Size; */
+    --btn-xs-font-weight:                           var(--font-weight-base); /* name: Font Weight; var_group: Font Weight; */
+    --btn-xs-line-height:                           var(--line-height-xs);  /* name: Line Height; var_group: Line Height; */
+    --btn-xs-border-radius:                         var(--border-radius-xs); /* name: Border Radius; var_group: Border Radius; */
+    --btn-xs-icon-spacing:                          6px;
+
+    /* Section: Small */
+
+    --btn-sm-font-size:                             var(--font-size-sm); /* name: Font Size; var_group: Font Size; */
+    --btn-sm-font-weight:                           var(--font-weight-medium); /* name: Font Weight; var_group: Font Weight; */
+    --btn-sm-line-height:                           var(--line-height-sm);  /* name: Line Height; var_group: Line Height; */
+    --btn-sm-border-radius:                         var(--border-radius-xs); /* name: Border Radius; var_group: Border Radius; */
+    --btn-sm-icon-spacing:                          8px;
+
+    /* Section: Base */
+
+    --btn-base-font-size:                           var(--font-size-base); /* name: Font Size; var_group: Font Size; */
+    --btn-base-font-weight:                         var(--font-weight-medium); /* name: Font Weight; var_group: Font Weight; */
+    --btn-base-line-height:                         var(--line-height-base);  /* name: Line Height; var_group: Line Height; */
+    --btn-base-border-radius:                       var(--border-radius-xs); /* name: Border Radius; var_group: Border Radius; */
+    --btn-base-icon-spacing:                        12px;
+
+    /* Section: Large */
+
+    --btn-lg-font-size:                             var(--font-size-lg); /* name: Font Size; var_group: Font Size; */
+    --btn-lg-font-weight:                           var(--font-weight-medium); /* name: Font Weight; var_group: Font Weight; */
+    --btn-lg-line-height:                           var(--line-height-lg);  /* name: Line Height; var_group: Line Height; */
+    --btn-lg-border-radius:                         var(--border-radius-sm); /* name: Border Radius; var_group: Border Radius; */
+    --btn-lg-icon-spacing:                          16px;
+
+    /* Section: Extra Large */
+
+    --btn-xlg-font-size:                            var(--font-size-xlg); /* name: Font Size; var_group: Font Size; */
+    --btn-xlg-font-weight:                          var(--font-weight-medium); /* name: Font Weight; var_group: Font Weight; */
+    --btn-xlg-line-height:                          var(--line-height-xlg);  /* name: Line Height; var_group: Line Height; */
+    --btn-xlg-border-radius:                        var(--border-radius-base); /* name: Border Radius; var_group: Border Radius; */
+    --btn-xlg-icon-spacing:                         20px;
+
+
+    /* Section: Default */
+
+    --btn-default-bg:                               transparent; /* name: Background; type: select-colors;*/
+    --btn-default-border:                           var(--gray-lighter-3); /* name: Border Color; type: select-colors;*/
+    --btn-default-color:                            var(--gray-darker); /* name: Font Color; type: select-colors;*/
+    --btn-default-hover-bg:                         var(--gray-faded); /* name: Hover - Background; type: select-colors;*/
+    --btn-default-hover-border:                     var(--gray-lighter-2); /* name: Hover - Border Color; type: select-colors;*/
+    --btn-default-hover-color:                      var(--gray-darker); /* name: Hover - Font Color; type: select-colors;*/
+    --btn-default-active-bg:                        var(--gray-lighter-3); /* name: Active - Background; type: select-colors;*/
+    --btn-default-active-border:                    transparent; /* name: Active - Border Color; type: select-colors;*/
+
+    /* Section: Primary */
+
+    --btn-primary-bg:                               var(--brand-primary); /* name: Background; type: select-colors;*/
+    --btn-primary-border:                           var(--brand-primary); /* name: Border Color; type: select-colors;*/
+    --btn-primary-color:                            #fff; /* name: Font Color; type: select-colors;*/
+    --btn-primary-hover-bg:                         var(--brand-primary-lighter); /* name: Hover - Background; type: select-colors;*/
+    --btn-primary-hover-border:                     var(--brand-primary-lighter); /* name: Hover - Border Color; type: select-colors;*/
+    --btn-primary-hover-color:                      #fff; /* name: Hover - Font Color; type: select-colors;*/
+    --btn-primary-active-bg:                        var(--brand-primary-darker); /* name: Active - Background; type: select-colors;*/
+    --btn-primary-active-border:                    var(--brand-primary-darker); /* name: Active - Border Color; type: select-colors;*/
+
+    /* Section: Primary Faded */
+
+    --btn-primary-faded-bg:                         var(--brand-primary-lighter-3); /* name: Background; type: select-colors;*/
+    --btn-primary-faded-border:                     var(--brand-primary-lighter-3); /* name: Border Color; type: select-colors;*/
+    --btn-primary-faded-color:                      var(--brand-primary); /* name: Font Color; type: select-colors;*/
+    --btn-primary-faded-hover-bg:                   var(--brand-primary-lighter-2); /* name: Hover - Background; type: select-colors;*/
+    --btn-primary-faded-hover-border:               var(--brand-primary-lighter-2); /* name: Hover - Border Color; type: select-colors;*/
+    --btn-primary-faded-hover-color:                var(--brand-primary); /* name: Hover - Font Color; type: select-colors;*/
+    --btn-primary-faded-active-bg:                  var(--brand-primary-lighter-2); /* name: Active - Background; type: select-colors;*/
+    --btn-primary-faded-active-border:              var(--brand-primary-lighter-2); /* name: Active - Border Color; type: select-colors;*/
+
+    /* Section: Secondary */
+
+    --btn-secondary-bg:                               var(--brand-secondary); /* name: Background; type: select-colors;*/
+    --btn-secondary-border:                           var(--brand-secondary); /* name: Border Color; type: select-colors;*/
+    --btn-secondary-color:                            #fff; /* name: Font Color; type: select-colors;*/
+    --btn-secondary-hover-bg:                         var(--brand-secondary-lighter); /* name: Hover - Background; type: select-colors;*/
+    --btn-secondary-hover-border:                     var(--brand-secondary-lighter); /* name: Hover - Border Color; type: select-colors;*/
+    --btn-secondary-hover-color:                      #fff; /* name: Hover - Font Color; type: select-colors;*/
+    --btn-secondary-active-bg:                        var(--brand-secondary-darker); /* name: Active - Background; type: select-colors;*/
+    --btn-secondary-active-border:                    var(--brand-secondary-darker); /* name: Active - Border Color; type: select-colors;*/
+
+    /* Section: Success */
+
+    --btn-success-bg:                               var(--brand-success-lighter-3); /* name: Background; type: select-colors;*/
+    --btn-success-border:                           var(--brand-success-lighter-3); /* name: Border Color; type: select-colors;*/
+    --btn-success-color:                            var(--brand-success-darker); /* name: Font Color; type: select-colors;*/
+    --btn-success-hover-bg:                         var(--brand-success-lighter-2); /* name: Hover - Background; type: select-colors;*/
+    --btn-success-hover-border:                     var(--brand-success-lighter-2); /* name: Hover - Border Color; type: select-colors;*/
+    --btn-success-hover-color:                      var(--brand-success-darker); /* name: Hover - Font Color; type: select-colors;*/
+    --btn-success-active-bg:                        var(--brand-success-lighter-2); /* name: Active - Background; type: select-colors;*/
+    --btn-success-active-border:                    var(--brand-success-lighter-2); /* name: Active - Border Color; type: select-colors;*/
+
+    /* Section: Info */
+
+    --btn-info-bg:                                  var(--brand-info-lighter-3); /* name: Background; type: select-colors;*/
+    --btn-info-border:                              var(--brand-info-lighter-3); /* name: Border Color; type: select-colors;*/
+    --btn-info-color:                               var(--brand-info); /* name: Font Color; type: select-colors;*/
+    --btn-info-hover-bg:                            var(--brand-info-lighter-2); /* name: Hover - Background; type: select-colors;*/
+    --btn-info-hover-border:                        var(--brand-info-lighter-2); /* name: Hover - Border Color; type: select-colors;*/
+    --btn-info-hover-color:                         var(--brand-info); /* name: Hover - Font Color; type: select-colors;*/
+    --btn-info-active-bg:                           var(--brand-info-lighter-2); /* name: Active - Background; type: select-colors;*/
+    --btn-info-active-border:                       var(--brand-info-lighter-2); /* name: Active - Border Color; type: select-colors;*/
+
+    /* Section: Warning */
+    
+    --btn-warning-bg:                               var(--brand-warning-lighter-3); /* name: Background; type: select-colors;*/
+    --btn-warning-border:                           var(--brand-warning-lighter-3); /* name: Border Color; type: select-colors;*/
+    --btn-warning-color:                            var(--brand-warning-darker); /* name: Font Color; type: select-colors;*/
+    --btn-warning-hover-bg:                         var(--brand-warning-lighter-2); /* name: Hover - Background; type: select-colors;*/
+    --btn-warning-hover-border:                     var(--brand-warning-lighter-2); /* name: Hover - Border Color; type: select-colors;*/
+    --btn-warning-hover-color:                      var(--brand-warning-darker); /* name: Hover - Font Color; type: select-colors;*/
+    --btn-warning-active-bg:                        var(--brand-warning-lighter-2); /* name: Active - Background; type: select-colors;*/
+    --btn-warning-active-border:                    var(--brand-warning-lighter-2); /* name: Active - Border Color; type: select-colors;*/
+
+    /* Section: Danger */
+    
+    --btn-danger-bg:                                var(--brand-danger-lighter-3); /* name: Background; type: select-colors;*/
+    --btn-danger-border:                            var(--brand-danger-lighter-3); /* name: Border Color; type: select-colors;*/
+    --btn-danger-color:                             var(--brand-danger); /* name: Font Color; type: select-colors;*/
+    --btn-danger-hover-bg:                          var(--brand-danger-lighter-2); /* name: Hover - Background; type: select-colors;*/
+    --btn-danger-hover-border:                      var(--brand-danger-lighter-2); /* name: Hover - Border Color; type: select-colors;*/
+    --btn-danger-hover-color:                       var(--brand-danger); /* name: Hover - Font Color; type: select-colors;*/
+    --btn-danger-active-bg:                         var(--brand-danger-lighter-2); /* name: Active - Background; type: select-colors;*/
+    --btn-danger-active-border:                     var(--brand-danger-lighter-2); /* name: Active - Border Color; type: select-colors;*/
+
+    /* Section: Light */
+    
+    --btn-light-bg:                                rgba(255, 255, 255, 0.08); /* name: Background; type: select-colors;*/
+    --btn-light-border:                            rgba(255, 255, 255, 0.16); /* name: Border Color; type: select-colors;*/
+    --btn-light-color:                             #fff; /* name: Font Color; type: select-colors;*/
+    --btn-light-hover-bg:                          rgba(255, 255, 255, 0.16); /* name: Hover - Background; type: select-colors;*/
+    --btn-light-hover-border:                      rgba(255, 255, 255, 0.24); /* name: Hover - Border Color; type: select-colors;*/
+    --btn-light-hover-color:                       #fff; /* name: Hover - Font Color; type: select-colors;*/
+    --btn-light-active-bg:                         rgba(255, 255, 255, 0.24); /* name: Active - Background; type: select-colors;*/
+    --btn-light-active-border:                     rgba(255, 255, 255, 0.32); /* name: Active - Border Color; type: select-colors;*/
+
+    /* Disabled */
+
+    --btn-disabled-color:                           var(--gray-lighter);
+    --btn-disabled-bg:                              var(--gray-faded);
+    --btn-disabled-border:                          transparent;
+    --btn-link-disabled-color:                      var(--gray-lighter-4);
+    --btn-disabled-opacity:                         .65;
+
+    /* Social */
+
+    --btn-social-height:                            40px;
+    --btn-social-font-size:                         var(--font-size-sm);
+    --btn-social-padding-h:                         var(--spacing-2x);
+    --btn-social-border-radius:                     var(--border-radius-xs);
+
+    --btn-social-facebook-bg:                       #4267b2;
+    --btn-social-facebook-hover-bg:                 #30487b;
+    --btn-social-facebook-border-color:             var(--btn-social-facebook-bg);
+    --btn-social-facebook-hover-border:             var(--btn-social-facebook-bg);
+    --btn-social-facebook-color:                    #fff;
+    --btn-social-facebook-hover-color:              var(--btn-social-facebook-color);
+
+    --btn-social-google-bg:                         #fff;
+    --btn-social-google-hover-bg:                   #fff;
+    --btn-social-google-border-color:               #e6e8ec;
+    --btn-social-google-border-hover-color:         #BEC0C4;
+    --btn-social-google-color:                      #2A2E36;
+
+    --btn-social-twitter-bg:                        #1DA1F2;
+    --btn-social-twitter-hover-bg:                  #0597F2;
+    --btn-social-twitter-border-color:              var(--btn-social-twitter-bg);
+    --btn-social-twitter-border-hover-color:        var(--btn-social-twitter-bg);
+    --btn-social-twitter-color:                     #fff;
+    --btn-social-twitter-hover-color:               var(--btn-social-twitter-color);
+
+    --btn-social-linkedin-bg:                       #0077b5;
+    
+}

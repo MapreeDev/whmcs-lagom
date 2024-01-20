@@ -1,0 +1,162 @@
+/*!
+ * Theme Name: Lagom WHMCS Client Theme
+ * Theme URL: https://lagom.rsstudio.net/
+ *
+ * Terms of Service: https://lagom.rsstudio.net/docs/legal/terms-of-service.html
+ * 
+ * Copyright (c) 2021 RS Studio
+ */
+
+:root { /* Name: Typography; Index: 1 */
+
+    /* Section: Font Family */
+    
+    --font-family-base:                             Roboto; /* name: Use Google Font Face; type: font; */
+    --font-family-custom:                           unset; /*name: Use Custom Font Face; type: custom-font; overwrite: --font-family-base;*/
+    --font-family-monospace:                        SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    
+    --font-family-icons-medium:                     'lagom-medium-icons';
+    --font-family-icons-small:                      'lagom-small-icons';
+
+    /* Section: Font Color */
+
+    --text-body-color:                              var(--gray-base); /* name: Base; group: Font Color; type: select-colors; */
+    --text-lighter-color:                           var(--gray-lighter); /* name: Lighter; group: Font Color; type: select-colors; */
+    --text-faded-color:                             var(--gray-lighter-2); /* name: Faded; group: Font Color; type: select-colors; */
+    --text-heading-color:                           var(--gray-darker); /* name: Heading; group: Font Color; type: select-colors; */
+    --text-primary-color:                           var(--brand-primary); /* name: Primary; group: Font Color; type: select-colors; */
+    --text-success-color:                           var(--brand-success); /* name: Success; group: Font Color; type: select-colors; */
+    --text-warning-color:                           var(--brand-warning); /* name: Warning; group: Font Color; type: select-colors; */
+    --text-danger-color:                            var(--brand-danger); /* name: Danger; group: Font Color; type: select-colors; */
+    
+    /* Section: Secondary Font Color - on secondary and primary color */
+
+    --text-secondary-body-color:                    hsla(0, 0%, 100%, 92%); /* name: Secondary - Base; group: Font Color; type: select-colors; */
+    --text-secondary-lighter-color:                 hsla(0, 0%, 100%, 80%); /* name: Secondary - Lighter; group: Font Color; type: select-colors; */
+    --text-secondary-faded-color:                   hsla(0, 0%, 100%, 56%); /* name: Secondary - Faded; group: Font Color; type: select-colors; */
+    --text-secondary-heading-color:                 #fff; /* name: Secondary - Heading; group: Font Color; type: select-colors; */
+    --text-secondary-primary-color:                 var(--brand-primary-lighter); /* name: Secondary - Primary; group: Font Color; type: select-colors; */
+    --text-secondary-success-color:                 var(--brand-success-lighter); /* name: Secondary - Success; group: Font Color; type: select-colors; */
+    --text-secondary-warning-color:                 var(--brand-warning-lighter); /* name: Secondary - Warning; group: Font Color; type: select-colors; */
+    --text-secondary-danger-color:                  var(--brand-danger-lighter); /* name: Secondary - Danger; group: Font Color; type: select-colors; */
+    
+    /* Section: Link Colors */
+
+    --link-color:                                   var(--brand-primary); /* name: Link; group: Font Color; type: select-colors; */
+    --link-hover-color:                             var(--brand-primary); /* name: Link Hover; group: Font Color; type: select-colors; */
+    --ui-nav-link-color:                            var(--gray-darker); /* name: Nav Link; group: Font Color; type: select-colors; */
+    --ui-nav-link-hover-color:                      var(--brand-primary); /* name: Nav Link - Hover; group: Font Color; type: select-colors; */
+    --ui-nav-link-active-color:                     var(--brand-primary); /* name: Nav Link - Active; group: Font Color; type: select-colors; */
+    --ui-nav-link-icon-color:                       var(--gray-icons); /* name: Nav Link Icon; group: Font Color; type: select-colors; */
+    --ui-nav-link-icon-hover-color:                 var(--gray-icons-hover); /* name: Nav Link Icon - Hover; group: Font Color; type: select-colors; */
+    --ui-nav-link-icon-active-color:                var(--gray-icons-hover); /* name: Nav Link Icon - Active; group: Font Color; type: select-colors; */
+
+    --ui-nav-secondary-link-color:                  var(--gray-base); /* name: Sub Nav Link; group: Font Color; type: select-colors; */
+    --ui-nav-secondary-link-hover-color:            var(--brand-primary);  /* name: Sub Nav Link - Hover; group: Font Color; type: select-colors; */
+    --ui-nav-secondary-link-active-color:           var(--brand-primary);  /* name: Sub Nav Link - Active; group: Font Color; type: select-colors; */
+    --ui-nav-secondary-link-icon-color:             var(--gray-icons);  /* name: Sub Nav Link Icon; group: Font Color; type: select-colors; */
+    --ui-nav-secondary-link-icon-hover-color:       var(--gray-icons-hover);  /* name: Sub Nav Link Icon - Hover; group: Font Color; type: select-colors; */
+    --ui-nav-secondary-link-icon-active-color:      var(--gray-icons-hover);  /* name: Sub Nav Link Icon - Active; group: Font Color; type: select-colors; */
+    
+    /* Section: Font Size */
+    
+    --font-size-xs:                                 12px; /* name: Extra Small; group: Font Size; type: size; append: px;*/
+    --font-size-sm:                                 13px; /* name: Small; group: Font Size; type: size; append: px;*/
+    --font-size-base:                               14px; /* name: Base; group: Font Size; type: size; append: px;*/
+    --font-size-md:                                 15px; /* name: Medium; group: Font Size; type: size; append: px;*/
+    --font-size-lg:                                 17px; /* name: Large; group: Font Size; type: size; append: px;*/
+    --font-size-xlg:                                20px; /* name: Extra Large; group: Font Size; type: size; append: px;*/
+    --font-size-xxlg:                               24px; /* name: Super Large; group: Font Size; type: size; append: px;*/                  
+    --font-size-h6:                                 18px; /* name: Heading "h6"; group_name: H6; group: Font Size; type: size; append: px;*/
+    --font-size-h5:                                 20px; /* name: Heading "h5"; group_name: H5; group: Font Size; type: size; append: px;*/
+    --font-size-h4:                                 26px; /* name: Heading "h4"; group_name: H4; group: Font Size; type: size; append: px;*/
+    --font-size-h3:                                 36px; /* name: Heading "h3"; group_name: H3; group: Font Size; type: size; append: px;*/
+    --font-size-h2:                                 40px; /* name: Heading "h2"; group_name: H2; group: Font Size; type: size; append: px;*/
+    --font-size-h1:                                 48px; /* name: Heading "h1"; group_name: H1; group: Font Size; type: size; append: px;*/
+    
+    /* Section: Font Line Height */
+    
+    --line-height-xs:                               18px; /* name: Extra Small; group: Line Height; type: size; append: px;*/
+    --line-height-sm:                               20px; /* name: Small; group: Line Height; type: size; append: px;*/
+    --line-height-base:                             24px; /* name: Base; group: Line Height; type: size; append: px;*/
+    --line-height-md:                               24px; /* name: Medium; group: Line Height; type: size; append: px;*/
+    --line-height-lg:                               28px; /* name: Large; group: Line Height; type: size; append: px;*/
+    --line-height-xlg:                              32px; /* name: Extra Large; group: Line Height; type: size; append: px;*/
+    --line-height-xxlg:                             40px; /* name: Super Large; group: Line Height; type: size; append: px;*/
+    --line-height-h6:                               24px; /* name: Heading "h6"; group_name: H6; group: Line Height; type: size; append: px;*/
+    --line-height-h5:                               28px; /* name: Heading "h5"; group_name: H5; group: Line Height; type: size; append: px;*/
+    --line-height-h4:                               34px; /* name: Heading "h4"; group_name: H4; group: Line Height; type: size; append: px;*/
+    --line-height-h3:                               46px; /* name: Heading "h3"; group_name: H3; group: Line Height; type: size; append: px;*/
+    --line-height-h2:                               52px; /* name: Heading "h2"; group_name: H2; group: Line Height; type: size; append: px;*/
+    --line-height-h1:                               56px; /* name: Heading "h1"; group_name: H1; group: Line Height; type: size; append: px;*/
+    
+    /* Section: Font Weight */
+    
+    --font-weight-light:                            300; /* name: Light; group: Font Weight;*/
+    --font-weight-base:                             400; /* name: Base; group: Font Weight;*/
+    --font-weight-medium:                           500; /* name: Medium; group: Font Weight;*/
+    --font-weight-bold:                             700; /* name: Bold; group: Font Weight;*/
+    --font-weight-black:                            900; /* name: Black; group: Font Weight;*/
+    --font-weight-bolder:                           bolder;
+    --font-weight-h6:                               var(--font-weight-medium); /* name: Heading "h6";  var_group: Font Weight; group: Font Weight;*/
+    --font-weight-h5:                               var(--font-weight-base); /* name: Heading "h5";  var_group: Font Weight; group: Font Weight;*/
+    --font-weight-h4:                               var(--font-weight-light); /* name: Heading "h4";  var_group: Font Weight; group: Font Weight;*/
+    --font-weight-h3:                               var(--font-weight-bold); /* name: Heading "h3";  var_group: Font Weight; group: Font Weight;*/
+    --font-weight-h2:                               var(--font-weight-light); /* name: Heading "h2";  var_group: Font Weight; group: Font Weight;*/
+    --font-weight-h1:                               var(--font-weight-black); /* name: Heading "h1";  var_group: Font Weight; group: Font Weight;*/
+
+    --paragraph-margin-bottom:                      var(--spacing-2x);
+    --headings-margin-bottom:                       var(--spacing-2x);
+    --link-decoration:                              none;
+
+    --article-font-color:                           var(--text-body-color);
+    --article-font-size-base:                       var(--font-size-lg);
+    --article-font-weight-base:                     var(--font-weight-base);
+    --article-line-height-base:                     var(--line-height-lg);
+    --article-h1-margin-top:                        var(--spacing-8x);
+    --article-h1-margin-bottom:                     var(--spacing-6x);
+    --article-h2-margin-top:                        var(--spacing-6x);
+    --article-h2-margin-bottom:                     var(--spacing-4x);
+    --article-h3-margin-top:                        var(--spacing-5x);
+    --article-h3-margin-bottom:                     var(--spacing-4x);
+    --article-h4-margin-top:                        var(--spacing-5x);
+    --article-h4-margin-bottom:                     var(--spacing-4x);
+    --article-h5-margin-top:                        var(--spacing-4x);
+    --article-h5-margin-bottom:                     var(--spacing-2x);
+    --article-h6-margin-top:                        var(--spacing-3x);
+    --article-h6-margin-bottom:                     var(--spacing-2x);
+}
+
+
+@media (max-width: 767px) {
+    :root {
+
+        --font-size-xs:                             12px; 
+        --font-size-sm:                             13px; 
+        --font-size-base:                           14px; 
+        --font-size-md:                             15px; 
+        --font-size-lg:                             16px; 
+        --font-size-xlg:                            18px; 
+        --font-size-xxlg:                           21px; 
+        --font-size-h6:                             16px; 
+        --font-size-h5:                             18px; 
+        --font-size-h4:                             21px; 
+        --font-size-h3:                             26px; 
+        --font-size-h2:                             32px; 
+        --font-size-h1:                             40px;
+
+        --line-height-xs:                           18px; 
+        --line-height-sm:                           20px; 
+        --line-height-base:                         24px; 
+        --line-height-md:                           24px; 
+        --line-height-lg:                           28px; 
+        --line-height-xlg:                          32px; 
+        --line-height-xxlg:                         40px; 
+        --line-height-h6:                           22px; 
+        --line-height-h5:                           28px;
+        --line-height-h4:                           30px;
+        --line-height-h3:                           34px;
+        --line-height-h2:                           40px;
+        --line-height-h1:                           48px;
+    }
+}

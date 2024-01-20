@@ -1,0 +1,17 @@
+{
+    "type": "lagom-predefined-illustrations",
+    "icons": [
+        {
+            "name" : "codeguard",
+            "tags" : [
+                "browser", "compatibility", "testowy tag"
+            ]
+        },
+        {
+            "name" : "cpanelseo",
+            "tags" : [
+                "https", "lock", "security", "testowy tag 123"
+            ]
+        }
+    ]
+}

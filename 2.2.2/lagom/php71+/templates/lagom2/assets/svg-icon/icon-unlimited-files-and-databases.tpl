@@ -1,0 +1,7 @@
+<svg class="svg-icon {if $onDark} svg-icon-on-dark {/if}" xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="none" viewBox="0 0 64 64">
+    <path stroke="var(--svg-icon-color-3)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M23.55 62.72s-3.449-1.879-4.28-2.444c-.779-.53-1.27-1.558-1.27-2.96v-17.6c.2-3.2 1.9-6.2 4.6-8l13.8-7.6c.7-.5 1.3-1.1 1.7-1.9l1.4-4c.6-1.3 1.6-2.3 2.8-3.1l9-5.2c1.28-.748 2.532-.726 3.422-.103.642.45 3.778 2.137 3.778 2.137" />
+    <path fill="var(--svg-icon-color-2)" stroke="var(--svg-icon-color-2)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m38 2 3 1.7-34 50L4 52V21.6L38 2Z" />
+    <path fill="var(--svg-icon-color-1)" stroke="var(--svg-icon-color-1)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M41 3.7v21.8s-15.5 8.2-17.5 11C21.555 39.222 22 45 22 45L7 53.7V23.4L41 3.7Z" />
+    <path stroke="var(--svg-icon-color-4)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12.125 40.169 35.5 26.625m-23.375 7.544L35.5 20.625m-23.375 7.544L35.5 14.625" />
+    <path stroke="var(--svg-icon-color-3)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m26.5 62.4 29.7-16.956c2.5-1.4 3.8-4.7 3.8-7.6V15c0-2.9-2.3-4.2-4.7-2.8l-9 5.2c-1.2.8-2.2 1.8-2.8 3.1l-1.4 4c-.4.8-1 1.4-1.7 1.9L26.6 34c-2.7 1.8-4.4 4.8-4.6 8v17.6c0 2.9 2.1 4.2 4.5 2.8Z" />
+</svg>

@@ -1,0 +1,4 @@
+<svg class="svg-icon {if $onDark} svg-icon-on-dark {/if}" xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="none" viewBox="0 0 64 64">
+    <path fill="var(--svg-icon-color-2)" stroke="var(--svg-icon-color-2)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M26.4 37.8C25.5 39 25 40.4 25 42c0 3.9 3.1 7 7 7s7-3.1 7-7c0-1.6-.5-3-1.4-4.2-1.8-.2-3.7-.3-5.6-.3-1.9 0-3.8.1-5.6.3Z" />
+    <path stroke="var(--svg-icon-color-3)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M38.9 6.7C38.3 3.5 35.4 1 32 1c-3.4 0-6.3 2.5-6.9 5.7M57 45.1c-3.2-3.8-5-7.9-5-12.3V26c0-11-9-20-20-20s-20 9-20 20v6.8c0 4.4-1.8 8.5-5 12.3m0 0c-1.3 1.5-2 3.2-2 4.9 0 3.6 3 6.8 7.9 9.2C17.8 61.5 24.5 63 32 63c7.5 0 14.2-1.5 19.1-3.8C56 56.8 59 53.6 59 50c0-3.6-3-6.8-7.9-9.2C46.2 38.5 39.5 37 32 37c-7.5 0-14.2 1.5-19.1 3.8-2.5 1.2-4.5 2.7-5.9 4.3Z" />
+</svg>

@@ -1,0 +1,145 @@
+/*!
+ * Theme Name: Lagom WHMCS Client Theme
+ * Theme URL: https://lagom.rsstudio.net/
+ *
+ * Terms of Service: https://lagom.rsstudio.net/docs/legal/terms-of-service.html
+ * 
+ * Copyright (c) 2021 RS Studio
+ */
+
+:root { /* Name: Navigation; Index: 3 */
+
+    /* Section: Navigation Logo */
+
+    --app-nav-logo-height:                          42px; /* name: Height; type: size; append: px;*/
+    --app-nav-logo-width:                           100%;                                           
+    --app-nav-header-height:                        calc(var(--app-nav-logo-height) + var(--spacing-4x));
+
+    /* Section: Top Layout Navigation*/
+
+    --app-nav-top-bg:                               transparent; /* name: Background; type: select-colors; */
+    --app-nav-navbar-bg:                            var(--app-nav-top-bg);
+    --app-nav-top-box-shadow:                       var(--box-shadow-none); /* name: Shadow; var_group: Box Shadow; */
+    --app-nav-top-border-bottom:                    var(--ui-block-divider-border);
+    --app-nav-top-menu-link-color:                  var(--ui-nav-link-color); /* name: Menu Link - Color; var_group: Font Color; type: select-colors;*/
+    --app-nav-top-menu-link-hover-color:            var(--ui-nav-link-hover-color); /* name: Menu Link - Hover Color; var_group: Font Color;type: select-colors; */
+    --app-nav-top-menu-link-font-size:              var(--font-size-lg); /* name: Menu Link - Font Size; var_group: Font Size; */
+    --app-nav-top-menu-link-font-weight:            var(--font-weight-base);  /* name: Menu Link - Font Weight; var_group: Font Weight; */
+    --app-nav-top-menu-link-line-height:            var(--line-height-base);  /* name: Menu Link - Line Height; var_group: Line Height; */
+    --app-nav-top-menu-icon-size:                   18px; /* name: Menu Link - Icon Size; type: size; append: px;*/
+    --app-nav-top-menu-svg-icon-size:               32px; /* name: Menu Link - SVG Icon Size; type: size; append: px;*/
+    --app-nav-top-menu-icon-color:                  var(--ui-nav-link-icon-color);  /* name: Menu Link - Icon Color; var_group: Font Color; type: select-colors;*/
+    --app-nav-top-menu-icon-hover-color:            var(--ui-nav-link-icon-hover-color); /* name: Menu Link - Icon Hover Color; var_group: Font Color; type: select-colors;*/
+    --app-nav-top-menu-link-padding-h:              var(--spacing-3x);
+    --app-nav-top-menu-link-padding-v:              var(--spacing-2x);
+
+    --app-nav-top-menu-dropdown-width:              240px;
+    --app-nav-top-menu-dropdown-icon-size:           40px;
+
+    /* Secondary Navigation*/
+
+    --top-nav-link-padding-h:                       8px;
+    --top-nav-link-padding-v:                       6px;
+    --top-nav-link-spacing:                         8px;
+    --top-nav-link-color:                           var(--ui-nav-secondary-link-color); 
+    --top-nav-link-hover-color:                     var(--ui-nav-secondary-link-hover-color);
+    --top-nav-link-active-color:                    var(--ui-nav-secondary-link-active-color); 
+    --top-nav-link-icon-color:                      var(--ui-nav-secondary-link-icon-color);
+    --top-nav-link-icon-hover-color:                var(--ui-nav-secondary-link-icon-hover-color);
+    --top-nav-link-icon-active-color:               var(--ui-nav-secondary-link-icon-active-color);
+
+    /* Top Condensed Layout Navigation */
+    
+    --app-nav-top-condensed-header-height:          36px;
+    --app-nav-top-condensed-header-border-bottom:   1px solid var(--ui-block-divider-color);
+    --app-nav-top-condensed-menu-link-padding-h:    var(--spacing-2x);
+    --app-nav-top-condensed-menu-link-padding-v:    var(--app-nav-top-menu-link-padding-v);
+    --app-nav-top-condensed-logo-spacing:           var(--spacing-4x);
+
+    /* Section: Left Layout Navigation  */
+
+    --app-nav-left-width:                           140px; /* name: Width; type: size; append: px;*/
+    --app-nav-left-bg:                              var(--ui-block-bg);
+    --app-nav-left-box-shadow:                      var(--box-shadow-lg); /* name: Shadow; var_group: Box Shadow; */
+    
+    --app-nav-left-link-hover-bg:                   transparent;
+    --app-nav-left-link-active-bg:                  transparent;
+    --app-nav-left-link-color:                      var(--text-heading-color); /* name: Menu Link - Color; var_group: Font Color; type: select-colors; */
+    --app-nav-left-link-hover-color:                var(--ui-nav-link-hover-color); /* name: Menu Link - Hover Color; var_group: Font Color; type: select-colors; */
+    --app-nav-left-link-active-color:               var(--ui-nav-link-active-color); /* name: Menu Link - Active Color; var_group: Font Color; type: select-colors; */
+    --app-nav-left-link-font-size:                  var(--font-size-lg); /* name: Menu Link - Font Size; var_group: Font Size */
+    --app-nav-left-link-font-weight:                var(--font-weight-base); /* name: Menu Link - Font Weight; var_group: Font Weight */
+    --app-nav-left-link-padding-h:                  var(--spacing-2x);
+    --app-nav-left-link-padding-v:                  var(--spacing-2x);
+    
+    --app-nav-left-icon-size:                       18px; /* name: Menu Link - Icon Size; type: size; append: px;*/
+    --app-nav-left-svg-icon-size:                   40px; /* name: Menu Link - SVG Icon Size; type: size; append: px;*/
+    --app-nav-left-icon-color:                      var(--ui-nav-link-icon-color); /* name: Menu Link - Icon Color; var_group: Font Color; type: select-colors;*/
+    --app-nav-left-icon-hover-color:                var(--ui-nav-link-icon-hover-color); /* name: Menu Link - Icon Hover Color; var_group: Font Color; type: select-colors;*/
+    --app-nav-left-icon-active-color:               var(--ui-nav-link-icon-active-color); /* name: Menu Link - Icon Active Color; var_group: Font Color; type: select-colors;*/
+   
+    --app-nav-left-dropdown-icon-size:              12px;
+    --app-nav-left-dropdown-width:                  240px;
+
+    /* Section: Left Wide Layout Navigation */
+
+    --app-nav-left-wide-width:                      280px; /* name: Width; type: size; append: px; */     
+    --app-nav-left-wide-link-padding-h:             var(--spacing-3x);
+    --app-nav-left-wide-link-padding-v:             var(--spacing-2x);
+    --app-nav-left-wide-link-color:                 var(--ui-nav-link-color);   
+    --app-nav-left-wide-link-hover-color:           var(--ui-nav-link-hover-color);
+    --app-nav-left-wide-link-hover-bg:              transparent;
+    --app-nav-left-wide-link-hover-padding-h:       var(--ui-nav-v-link-hover-padding-h);
+    --app-nav-left-wide-link-active-padding-h:      var(--ui-nav-v-link-active-padding-h);
+    --app-nav-left-wide-link-active-color:          var(--ui-nav-link-active-color);
+    --app-nav-left-wide-link-active-bg:             var(--ui-nav-link-active-bg);
+    --app-nav-left-wide-icon-color:                 var(--ui-nav-link-icon-color);
+    --app-nav-left-wide-icon-hover-color:           var(--ui-nav-link-icon-hover-color);
+    --app-nav-left-wide-icon-active-color:          var(--ui-nav-link-icon-active-color);    
+    --app-nav-left-wide-svg-icon-size:              32px; /* name: Menu Link - SVG Icon Size; type: size; append: px;*/
+    
+    --app-nav-left-wide-dropdown-border-left:           1px solid rgba(255,255,255, 0.16);  
+    --app-nav-left-wide-dropdown-padding-h:             var(--app-nav-left-wide-link-padding-h);
+    --app-nav-left-wide-dropdown-padding-v:             16px;    
+    --app-nav-left-wide-dropdown-link-color:            var(--ui-nav-link-color);  
+    --app-nav-left-wide-dropdown-link-hover-bg:         var(--ui-nav-link-hover-bg);
+    --app-nav-left-wide-dropdown-link-hover-color:      var(--ui-nav-link-hover-color);
+    --app-nav-left-wide-dropdown-link-hover-padding-h:  var(--ui-nav-v-link-hover-padding-h);    
+    --app-nav-left-wide-dropdown-link-active-padding-h: 0;
+    --app-nav-left-wide-dropdown-link-active-color:     var(--ui-nav-link-active-color);
+    --app-nav-left-wide-dropdown-link-active-bg:        var(--ui-nav-link-active-bg);
+    --app-nav-left-wide-dropdown-icon-color:            var(--app-nav-left-icon-color);
+    --app-nav-left-wide-dropdown-icon-hover-color:      var(--app-nav-left-icon-hover-color);
+    --app-nav-left-wide-dropdown-icon-active-color:     var(--app-nav-left-icon-active-color);
+    
+    --app-nav-left-wide-dropdown-open-bg:               transparent;
+    --app-nav-left-wide-dropdown-open-bg-on-primary:    rgba(0,0,0, 0.08);
+    --app-nav-left-wide-dropdown-open-bg-on-secondary:  rgba(0,0,0, 0.08);
+    
+    /* Section: Extended Navigation */
+    --extended-nav-dropdown-width:                        364px;
+
+    /* Section: Top New Layout Navigation */
+    --app-nav-top-new-spacing-h:                        var(--spacing-3x);
+    --app-nav-top-new-spacing-v:                        var(--spacing-3x);
+    
+    /*  Navigation - Mobile */
+
+    --mob-app-nav-bg:                               transparent;
+    --mob-app-nav-width:                            270px;
+    --mob-app-nav-logo-height:                      40px;
+    --mob-app-nav-menu-padding-h:                   var(--spacing-2x);
+
+    /* Header - Mobile */
+
+    --mob-app-nav-header-bg:                        var(--ui-block-overlay-bg);
+    --mob-app-nav-header-border-bottom:             var(--ui-block-border);
+    --mob-app-nav-header-box-shadow:                var(--box-shadow-lg);
+    --mob-app-nav-header-height:                    74px;
+    
+}
+@media (min-width: 992px) and (max-width: 1320px) {
+    :root {        
+        --app-nav-top-menu-link-padding-h:           var(--spacing-2x);
+    }
+}

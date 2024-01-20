@@ -1,0 +1,2335 @@
+{
+    "type": "lagom-predefined-icons",
+    "icons": [
+        {
+            "name" : "99.9-browser-compatibility",
+            "tags" : [
+                "browser", "compatibility", "checkbox"
+            ]
+        },
+        {
+            "name" : "lock-arrows",
+            "tags" : [
+                "lock", "arrow", "ssl", "activate", "https"
+            ]
+        },        
+        {
+            "name" : "OWASP-protection",
+            "tags" : [
+                "protection", "credit card", "shield", "payment", "OWASP"
+            ]
+        },
+        {
+            "name" : "addon-email-forwarding",
+            "tags" : [
+                "email", "arrow", "package", "envelope", "forwarding"
+            ]
+        },
+        {
+            "name" : "addon-id-protection",
+            "tags" : [
+                "shield", "id", "addon", "security", "protection"
+            ]
+        },
+        {
+            "name" : "addon",
+            "tags" : [
+                "box", "element", "addon", "inside box", "cube"
+            ]
+        },
+        {
+            "name" : "article",
+            "tags" : [
+                "article", "document", "text", "write", "news", "newspaper"
+            ]
+        },
+        {
+            "name" : "automatic-malware-removal",
+            "tags" : [
+                "virus", "malvare", "removal", "automatic"
+            ]
+        },
+        {
+            "name" : "basket",
+            "tags" : [
+                "basket", "square", "empty"
+            ]
+        },
+        {
+            "name" : "blogging",
+            "tags" : [
+                "blog", "circle", "write", "document"
+            ]
+        },
+        {
+            "name" : "clock-time-box",
+            "tags" : [
+                "clock", "time", "box"
+            ]
+        },
+        {
+            "name" : "cloud-hosting",
+            "tags" : [
+                "cloud", "hosting", "box", "square"
+            ]
+        },
+        {
+            "name" : "codeguard",
+            "tags" : [
+                "website", "backup", "circles", "arrows", "codeguard"
+            ]
+        },
+        {
+            "name" : "comissions",
+            "tags" : [
+                "comissions", "cash", "money", "banknotes"
+            ]
+        },
+        {
+            "name" : "comments",
+            "tags" : [
+                "chat", "comments", "conversation", "talk"
+            ]
+        },
+        {
+            "name" : "company",
+            "tags" : [
+                "company", "office", "building", "enterprise"
+            ]
+        },
+        {
+            "name" : "content-delivery-network",
+            "tags" : [
+                "globe", "world", "dot", "dns", "network"
+            ]
+        },
+        {
+            "name" : "cookie-bites",
+            "tags" : [
+                "cookie", "bites", "dots", "circle"
+            ]
+        },
+        {
+            "name" : "coupon-discount",
+            "tags" : [
+                "coupon", "discount", "voucher"
+            ]
+        },
+        {
+            "name" : "cpanelseo",
+            "tags" : [
+                "seo", "cpanel", "metrics"
+            ]
+        },
+        {
+            "name" : "feature-boxes",
+            "tags" : [
+                "feature", "box", "cube" 
+            ]
+        },
+        {
+            "name" : "firewall",
+            "tags" : [
+                "firewall", "shield", "flame","fire"
+            ]
+        },
+        {
+            "name" : "forms",
+            "tags" : [
+                "forms", "text", "list","page","document","file"
+            ]
+        },
+        {
+            "name" : "credit-card",
+            "tags" : [
+                "credit", "card","payment"
+            ]
+        },
+        {
+            "name" : "daily-malware-scanning",
+            "tags" : [
+                "daily", "malware", "scanning","virus"
+            ]
+        },
+        {
+            "name" : "dedicated-servers",
+            "tags" : [
+                "dedicated", "servers", "user","drive"
+            ]
+        },
+        {
+            "name" : "globe-world-dot-dns-2",
+            "tags" : [
+                "globe", "world", "dot","domain","name","system"
+            ]
+        },
+        {
+            "name" : "downloads-nr",
+            "tags" : [
+                "downloads", "arrow", "box","cube"
+            ]
+        },
+        {
+            "name" : "drag-drop-builder",
+            "tags" : [
+                "drag", "drop", "builder","pointer","rectangles"
+            ]
+        },
+        {
+            "name" : "ecommerce",
+            "tags" : [
+                "ecommerce", "box", "package"
+            ]
+        },
+        {
+            "name" : "email-archiving",
+            "tags" : [
+                "email", "archiving", "letter"
+            ]
+        },
+        {
+            "name" : "encryp-sensitive-data",
+            "tags" : [
+                "encryp", "sensitive", "data","drive"
+            ]
+        },
+        {
+            "name" : "extended-validation",
+            "tags" : [
+                "extended", "validation", "shield","padlock"
+            ]
+        },
+        {
+            "name" : "free-reissues",
+            "tags" : [
+                "free", "reissues", "domain","arrows"
+            ]
+        },
+        {
+            "name" : "game-server",
+            "tags" : [
+                "game", "server", "pad","console"
+            ]
+        },
+        {
+            "name" : "icon-automatic-daily-backup",
+            "tags" : [
+                "automatic", "daily", "backup","cube","arrows"
+            ]
+        },
+        {
+            "name" : "icon-automatic-wordpress-update",
+            "tags" : [
+                "automatic", "wordpress", "update","system","domain"
+            ]
+        },
+        {
+            "name" : "icon-daily-automatic-website-backups",
+            "tags" : [
+                "daily", "automatic", "website","backups","squares","arrows"
+            ]
+        },
+        {
+            "name" : "icon-email-backup",
+            "tags" : [
+                "email", "backup", "letter","box","arrows"
+            ]
+        },
+        {
+            "name" : "icon-file-change-alert-monitoring",
+            "tags" : [
+                "file", "change", "alert","monitoring","forms","text"
+            ]
+        },
+        {
+            "name" : "icon-file-change-monitoring",
+            "tags" : [
+                "file", "change","monitoring","form","text","arrow"
+            ]
+        },
+        {
+            "name" : "icon-full-automation",
+            "tags" : [
+                "full", "automation","bell","arrows"
+            ]
+        },
+        {
+            "name" : "icon-malware-detection-and-restore",
+            "tags" : [
+                "malware", "detection","restore","shield","exclamation","arrow"
+            ]
+        },
+        {
+            "name" : "icon-malware-monitoring",
+            "tags" : [
+                "malware", "monitoring","virus","circles"
+            ]
+        },
+        {
+            "name" : "icon-one-click-restore",
+            "tags" : [
+                "one", "click","restore","button"
+            ]
+        },
+        {
+            "name" : "icon-staging-of-restores",
+            "tags" : [
+                "staging", "restores","squares","arrow"
+            ]
+        },
+        {
+            "name" : "icon-unlimited-files-and-databases",
+            "tags" : [
+                "unlimited", "files","databases","folder","page","text"
+            ]
+        },
+        {
+            "name" : "icon-website-time-maschine",
+            "tags" : [
+                "website", "time","maschine","hourglass","squares"
+            ]
+        },
+        {
+            "name" : "icon-wordpress-plugin-updates",
+            "tags" : [
+                "wordpress", "plugin","updates","cube","lego"
+            ]
+        },
+        {
+            "name" : "incoming-email-filtering",
+            "tags" : [
+                "incoming", "email","filtering","letter","arrow","squares"
+            ]
+        },
+        {
+            "name" : "outgoing-email-filtering",
+            "tags" : [
+                "outgoing", "email","filtering","letter","arrow","squares"
+            ]
+        },
+        {
+            "name" : "increase-SEO-rank",
+            "tags" : [
+                "increase", "SEO","rank","chart","squares"
+            ]
+        },
+        {
+            "name" : "instant-issuance",
+            "tags" : [
+                "instant", "issuance","box","package","cube","content"
+            ]
+        },
+        {
+            "name" : "invoice",
+            "tags" : [
+                "invoice", "payment","pages","folder"
+            ]
+        },
+        {
+            "name" : "issued-in-1-2-days",
+            "tags" : [
+                "issued", "days","number","squares","arrow"
+            ]
+        },
+        {
+            "name" : "malware-scan",
+            "tags" : [
+                "malware", "scan","virus","crosshair"
+            ]
+        },
+        {
+            "name" : "marketgoo",
+            "tags" : [
+                "marketgoo", "logo","seo","chart","box"
+            ]
+        },
+        {
+            "name" : "mobile-friendly",
+            "tags" : [
+                "mobile", "friendly","responsive","mark","rectangles"
+            ]
+        },
+        {
+            "name" : "no-control-panel",
+            "tags" : [
+                "no" , "control", "panel", "webpage", "windows", "rectangles"
+            ]
+        },
+        {
+            "name" : "nordvpn",
+            "tags" : [
+                "nordvpn" , "vpn", "network", "shield", "arrow"
+            ]
+        },
+        {
+            "name" : "notification",
+            "tags" : [
+                "notification" , "information", "bell"
+            ]
+        },
+        {
+            "name" : "organization-validation",
+            "tags" : [
+                "organization" , "validation", "shield", "mark","arrow"
+            ]
+        },
+        {
+            "name" : "our-team",
+            "tags" : [
+                "team" , "group", "people", "users"
+            ]
+        },
+        {
+            "name" : "ticket",
+            "tags" : [
+                "ticket" , "letter", "squares"
+            ]
+        },
+        {
+            "name" : "photos",
+            "tags" : [
+                "photos" , "pictures", "images"
+            ]
+        },
+        {
+            "name" : "protect-user-privacy",
+            "tags" : [
+                "protect" , "user", "privacy", "shield", "circle"
+            ]
+        },
+        {
+            "name" : "quick-checkout",
+            "tags" : [
+                "quick" , "checkout", "lightning", "basket", "arrows"
+            ]
+        },
+        {
+            "name" : "service",
+            "tags" : [
+                "service" , "help", "cube"
+            ]
+        },
+        {
+            "name" : "shared-hosting",
+            "tags" : [
+                "shared" , "hosting", "web", "globe"
+            ]
+        },
+        {
+            "name" : "site-lock-trust-seal",
+            "tags" : [
+                "sitelock", "trust", "seal", "shield", "padlock", "arrow"
+            ]
+        },
+        {
+            "name" : "prove-legitimacy",
+            "tags" : [
+                "prove", "legitimacy", "webside","windows","user"
+            ]
+        },
+        {
+            "name" : "sitebuilder",
+            "tags" : [
+                "sitebuilder", "website", "elements","rectangles","arrow"
+            ]
+        },
+        {
+            "name" : "sitelock",
+            "tags" : [
+                "sitelock", "website", "shield","mark","arrows"
+            ]
+        },
+        {
+            "name" : "sitelockvpn",
+            "tags" : [
+                "sitelock", "vpn", "network", "monitor", "arrows", "mark"
+            ]
+        },
+        {
+            "name" : "social-sharing",
+            "tags" : [
+                "social", "sharing", "arrow", "circle"
+            ]
+        },
+        {
+            "name" : "spamexperts",
+            "tags" : [
+                "spamexperts", "spam", "email", "letters","box"
+            ]
+        },
+        {
+            "name" : "symantec",
+            "tags" : [
+                "symantec", "software", "antivirus", "padlock","mark"
+            ]
+        },
+        {
+            "name" : "threesixtymonitoring",
+            "tags" : [
+                "monitoring", "shield", "arrow"
+            ]
+        },
+        {
+            "name" : "track",
+            "tags" : [
+                "track", "sign", "squares"
+            ]
+        },
+        {
+            "name" : "transfer-domain",
+            "tags" : [
+                "transfer", "domain", "arrows"
+            ]
+        },
+        {
+            "name" : "trusted-by-over-40",
+            "tags" : [
+                "trusted", "safety","shield","mark"
+            ]
+        },
+        {
+            "name" : "unlimited-pages",
+            "tags" : [
+                "unlimited", "pages","website","dots","rectangles","arrows"
+            ]
+        },
+        {
+            "name" : "vat-taxes",
+            "tags" : [
+                "vat", "taxes","bill","invoices","percent","text"
+            ]
+        },
+        {
+            "name" : "video",
+            "tags" : [
+                "video", "record","play","button","square","mark"
+            ]
+        },
+        {
+            "name" : "vps-hosting",
+            "tags" : [
+                "vps", "hosting","servers","cubes"
+            ]
+        },
+        {
+            "name" : "vulnerability-scan",
+            "tags" : [
+                "vulnerability", "scan","crosshair","website","pages"
+            ]
+        },
+        {
+            "name" : "vulnerability-scan_2",
+            "tags" : [
+                "vulnerability", "scan","website","pages"
+            ]
+        },
+        {
+            "name" : "web-hosting",
+            "tags" : [
+                "web", "hosting","servers"
+            ]
+        },
+        {
+            "name" : "weebly",
+            "tags" : [
+                "weebly", "web", "hosting","service","box"
+            ]
+        },
+        {
+            "name" : "xovinow",
+            "tags" : [
+                "xovinow", "logo", "website","service","chart","elipse"
+            ]
+        },
+        {
+            "name" : "domain-validation",
+            "tags" : [
+                "domain", "validation", "website","globe","mark"
+            ]
+        },
+        {
+            "name" : "protect-your-reputation",
+            "tags" : [
+                "protect", "reputation", "user","shield","arrow"
+            ]
+        },
+        {
+            "name" : "seo",
+            "tags" : [
+                "seo", "chart", "shield"
+            ]
+        },
+        {
+            "name" : "secure-online-transactions",
+            "tags" : [
+                "secure", "online", "transactions","dollars","cash","shield"
+            ]
+        },
+        {
+            "name" : "strongest-fastest-SSL",
+            "tags" : [
+                "strongest", "fastest", "SSL","padlock","check","arrows"
+            ]
+        },
+        {
+            "name" : "templates",
+            "tags" : [
+                "templates","pages","browser","dots"
+            ]
+        },
+        {
+            "name" : "builder",
+            "tags" : [
+                "builder","domain","browser","website","pointer","windows","dots"
+            ]
+        },
+        {
+            "name" : "64-web-hosting-2",
+            "tags" : [
+                "web", "hosting", "servers"
+            ]
+        },
+        {
+            "name" : "64-storage-1",
+            "tags" : [
+                "storage", "drives", "servers","squares","box"
+            ]
+        },
+        {
+            "name" : "64-storage-2",
+            "tags" : [
+                "storage", "drives", "servers","rectangles","box"
+            ]
+        },
+        {
+            "name" : "64-cpu",
+            "tags" : [
+                "cpu", "processor","box"
+            ]
+        },
+        {
+            "name" : "64-ram",
+            "tags" : [
+                "ram", "memory","box"
+            ]
+        },
+        {
+            "name" : "64-backup",
+            "tags" : [
+                "backup","roller","arrows"
+            ]
+        },
+        {
+            "name" : "64-domain-2",
+            "tags" : [
+                "domain","website","globe","dot"
+            ]
+        },
+        {
+            "name" : "64-empty",
+            "tags" : [
+                "empty","frame","square"
+            ]
+        },
+        {
+            "name" : "64-box-2",
+            "tags" : [
+                "box","package","delivery","cube"
+            ]
+        },
+        {
+            "name" : "64-box-3",
+            "tags" : [
+                "box","package","content","cube","close"
+            ]
+        },
+        {
+            "name" : "64-box-4",
+            "tags" : [
+                "box","package","content","cube","open"
+            ]
+        },
+        {
+            "name" : "64-rocket-dashed-box",
+            "tags" : [
+                "rocket","dashed","box","dots"
+            ]
+        },
+        {
+            "name" : "64-rocket-shield-dashed-box",
+            "tags" : [
+                "rocket","shield","dashed","box","dots"
+            ]
+        },
+        {
+            "name" : "64-rocket-box",
+            "tags" : [
+                "rocket","box","cube","open","dot"
+            ]
+        },
+        {
+            "name" : "64-rocket-shield-box",
+            "tags" : [
+                "rocket","shield","box","cube","open"
+            ]
+        },
+        {
+            "name" : "64-error-circle",
+            "tags" : [
+                "error","circle","mark"
+            ]
+        },
+        {
+            "name" : "64-check-circle",
+            "tags" : [
+                "check","circle","mark"
+            ]
+        },
+        {
+            "name" : "64-360-monitoring-1",
+            "tags" : [
+                "monitoring","magnifier","shield","circle","arrow"
+            ]
+        },
+        {
+            "name" : "64-360-monitoring-2",
+            "tags" : [
+                "monitoring","magnifier","shield","circle","arrow","horizontal"
+            ]
+        },
+        {
+            "name" : "64-360-magnifying-1",
+            "tags" : [
+                "magnifying","magnifier","circle","arrow"
+            ]
+        },
+        {
+            "name" : "64-ddos",
+            "tags" : [
+                "ddos","attack","bomb","shield","mark"
+            ]
+        },
+        {
+            "name" : "64-lock-arrows-check",
+            "tags" : [
+                "lock","arrows","check","padlock","mark"
+            ]
+        },
+        {
+            "name" : "64-lock-arrows-2",
+            "tags" : [
+                "lock","arrows","padlock","keyhole"
+            ]
+        },
+        {
+            "name" : "64-support-24-time-tooltip-1",
+            "tags" : [
+                "support","time","tooltip","clock","circles"
+            ]
+        },
+        {
+            "name" : "64-support-24-time-tooltip-2",
+            "tags" : [
+                "support","time","tooltip","clock","circles","arrows"
+            ]
+        },
+        {
+            "name" : "64-support-24-time-tooltip-3",
+            "tags" : [
+                "support","time","tooltip","dashed","clock","circles"
+            ]
+        },
+        {
+            "name" : "64-support-24-headset",
+            "tags" : [
+                "support","time","headset","help","circle"
+            ]
+        },
+        {
+            "name" : "64-support-headset-box",
+            "tags" : [
+                "support","headset","help","box"
+            ]
+        },
+        {
+            "name" : "64-support-headset-shield",
+            "tags" : [
+                "support","headset","help","shield"
+            ]
+        },
+        {
+            "name" : "64-support-headset-arrows-circle",
+            "tags" : [
+                "support","headset","help","arrows","circle"
+            ]
+        },
+        {
+            "name" : "64-support-headset-target",
+            "tags" : [
+                "support","headset","help","target","crosshair"
+            ]
+        },
+        {
+            "name" : "64-server-clock-time-1",
+            "tags" : [
+                "server","clock","vertical","time"
+            ]
+        },
+        {
+            "name" : "64-server-clock-time-2",
+            "tags" : [
+                "server","clock","horizontal","time"
+            ]
+        },
+        {
+            "name" : "64-server-clock-time-3",
+            "tags" : [
+                "server","clock","horizontal","time","box"
+            ]
+        },
+        {
+            "name" : "64-server-clock-time-4",
+            "tags" : [
+                "server","clock","horizontal","time","circle","box"
+            ]
+        },
+        {
+            "name" : "64-rocket-server-fast",
+            "tags" : [
+                "rocket","server","fast","speed","arrows"
+            ]
+        },
+        {
+            "name" : "64-rocket-shield-server",
+            "tags" : [
+                "rocket","server","shield","security","speed"
+            ]
+        },
+        {
+            "name" : "64-pages",
+            "tags" : [
+                "pages","paper","documents","folder"
+            ]
+        },
+        {
+            "name" : "64-invoice-2",
+            "tags" : [
+                "invoice","pages","documents","bill"
+            ]
+        },
+        {
+            "name" : "64-email-2",
+            "tags" : [
+                "email","message","letter","box","arrow"
+            ]
+        },
+        {
+            "name" : "64-arrows-up-clock-time-1",
+            "tags" : [
+                "arrows","up","clock","vertical","time","circle"
+            ]
+        },
+        {
+            "name" : "64-arrows-up-clock-time-2",
+            "tags" : [
+                "arrows","up","clock","horizontal","time","circle"
+            ]
+        },
+        {
+            "name" : "64-arrows-up-clock-time-3",
+            "tags" : [
+                "arrows","up","clock","vertical","time","circle"
+            ]
+        },
+        {
+            "name" : "64-arrows-up-clock-time-4",
+            "tags" : [
+                "arrows","up","clock","horizontal","time"
+            ]
+        },
+        {
+            "name" : "64-dashboard-check",
+            "tags" : [
+                "dashboard","check","windows","box"
+            ]
+        },
+        {
+            "name" : "64-dashboard-shield-check",
+            "tags" : [
+                "dashboard","shield","check","windows"
+            ]
+        },
+        {
+            "name" : "64-dashboard-time-clock",
+            "tags" : [
+                "dashboard","time","clock","windows"
+            ]
+        },
+        {
+            "name" : "64-browser-code",
+            "tags" : [
+                "browser","code","website","windows"
+            ]
+        },
+        {
+            "name" : "64-360-monitoring-browser",
+            "tags" : [
+                "monitoring","browser","magnifier","website"
+            ]
+        },
+        {
+            "name" : "64-ipv4",
+            "tags" : [
+                "ipv4","ip","computer","monitor"
+            ]
+        },
+        {
+            "name" : "64-360-magnifying-2",
+            "tags" : [
+                "magnifying","magnifier","arrow"  
+            ]
+        },
+        {
+            "name" : "64-360-monitoring-3",
+            "tags" : [
+                "monitoring","magnifier","shield","arrows"  
+            ]
+        },
+        {
+            "name" : "64-360-monitoring-4",
+            "tags" : [
+                "monitoring","magnifier","eye","arrows"  
+            ]
+        },
+        {
+            "name" : "64-wordpress-hosting-1",
+            "tags" : [
+                "wordpress","hosting","server","elipse"  
+            ]
+        },
+        {
+            "name" : "64-wordpress-hosting-2",
+            "tags" : [
+                "wordpress","hosting","server","paper","elipse"  
+            ]
+        },
+        {
+            "name" : "64-wordpress-hosting-3",
+            "tags" : [
+                "wordpress","hosting","server","paper","write","pen","elipse"
+            ]
+        },
+        {
+            "name" : "64-wordpress-hosting-4",
+            "tags" : [
+                "wordpress","hosting","server","write","pen","elipse"
+            ]
+        },
+        {
+            "name" : "64-wordpress-hosting-5",
+            "tags" : [
+                "wordpress","hosting","server","write","pen"
+            ]
+        },
+        {
+            "name" : "64-wordpress-hosting-6",
+            "tags" : [
+                "wordpress","hosting","write","pen","circles"
+            ]
+        },
+        {
+            "name" : "64-wordpress-hosting-7",
+            "tags" : [
+                "wordpress","hosting","text","cloud","circles"
+            ]
+        },
+        {
+            "name" : "64-wordpress-hosting-8",
+            "tags" : [
+                "wordpress","hosting","text","cloud","elipse"
+            ]
+        },
+        {
+            "name" : "64-wordpress-hosting-9",
+            "tags" : [
+                "wordpress","hosting","text","page","documents","elipse"
+            ]
+        },
+        {
+            "name" : "64-wordpress-hosting-10",
+            "tags" : [
+                "wordpress","hosting","text","page","documents","elipse","dashed"
+            ]
+        },
+        {
+            "name" : "64-wordpress-hosting-11",
+            "tags" : [
+                "wordpress","hosting","text","page","paper","documents","elipse"
+            ]
+        },
+        {
+            "name" : "64-wordpress-hosting-12",
+            "tags" : [
+                "wordpress","hosting","text","page","paper","documents","elipse"
+            ]
+        },
+        {
+            "name" : "64-game-servers-1",
+            "tags" : [
+                "game","servers","pad","console","buttons","box"
+            ]
+        },
+        {
+            "name" : "64-game-servers-2",
+            "tags" : [
+                "game","servers","pad","console","buttons","box"
+            ]
+        },
+        {
+            "name" : "64-game-servers-3",
+            "tags" : [
+                "game","servers","pad","console","buttons","askew","box"
+            ]
+        },
+        {
+            "name" : "64-game-servers-4",
+            "tags" : [
+                "game","servers","pad","console","buttons"
+            ]
+        },
+        {
+            "name" : "64-game-servers-5",
+            "tags" : [
+                "game","servers","pad","console","buttons","askew" 
+            ]
+        },
+        {
+            "name" : "64-cloud-servers-1",
+            "tags" : [
+                "cloud","servers","network","lines","square","twoclouds" 
+            ]
+        },
+        {
+            "name" : "64-cloud-servers-2",
+            "tags" : [
+                "cloud","servers","network","lines","dots","square","twoclouds"
+            ]
+        },
+        {
+            "name" : "64-cloud-servers-3",
+            "tags" : [
+                "cloud","servers","network","lines","dots","twoclouds"
+            ]
+        },
+        {
+            "name" : "64-cloud-servers-4",
+            "tags" : [
+                "cloud","servers","network","lines","dots","vertical","twoclouds"
+            ]
+        },
+        {
+            "name" : "64-cloud-servers-5",
+            "tags" : [
+                "cloud","servers","network","lines","dots","vertical","twoclouds"
+            ]
+        },
+        {
+            "name" : "64-cloud-servers-6",
+            "tags" : [
+                "cloud","servers","network","lines","dots","box"
+            ]
+        },
+        {
+            "name" : "64-cloud-servers-7",
+            "tags" : [
+                "cloud","servers","network","lines","dots","twoclouds"
+            ]
+        },
+        {
+            "name" : "64-cloud-servers-8",
+            "tags" : [
+                "cloud","servers","network","lines","dots"
+            ]
+        },
+        {
+            "name" : "64-dedicated-servers-1",
+            "tags" : [
+                "dedicated","servers","cpu","box"
+            ]
+        },
+        {
+            "name" : "64-dedicated-servers-2",
+            "tags" : [
+                "dedicated","servers","cpu","processor","box"
+            ]
+        },
+        {
+            "name" : "64-dedicated-servers-3",
+            "tags" : [
+                "dedicated","servers","cpu","processor","box","squares"
+            ]
+        },
+        {
+            "name" : "64-vps-hosting-1",
+            "tags" : [
+                "vps","hosting","cubes","server","box"
+            ]
+        },
+        {
+            "name" : "64-vps-hosting-2",
+            "tags" : [
+                "vps","hosting","cubes","server","box"
+            ]
+        },
+        {
+            "name" : "64-resellers-hosting",
+            "tags" : [
+                "resellers","hosting","bag","money","dollar","server","box"
+            ]
+        },
+        {
+            "name" : "64-shared-hosting",
+            "tags" : [
+                "shared","hosting","globe","www","website","square"
+            ]
+        },
+        {
+            "name" : "64-domain-search",
+            "tags" : [
+                "domain","search","globe","www","website","square"
+            ]
+        },
+        {
+            "name" : "64-vps-hosting-3",
+            "tags" : [
+                "vps","hosting","cloud","lines","dots","server","box"
+            ]
+        },
+        {
+            "name" : "64-vps-hosting-4",
+            "tags" : [
+                "vps","hosting","twocloud","lines","dots","server","box"
+            ]
+        },
+        {
+            "name" : "64-shared-hosting-1",
+            "tags" : [
+                "shared","hosting","server","website","domain","dots"
+            ]
+        },
+        {
+            "name" : "64-shared-hosting-2",
+            "tags" : [
+                "shared","hosting","server","website","domain","dots","text"
+            ]
+        },
+        {
+            "name" : "64-shared-hosting-3",
+            "tags" : [
+                "shared","hosting","server","website","domain","dots","lines"
+            ]
+        },
+        {
+            "name" : "64-shared-hosting-4",
+            "tags" : [
+                "shared","hosting","server","website","domain","dots","text","windows"
+            ]
+        },
+        {
+            "name" : "64-shared-hosting-5",
+            "tags" : [
+                "shared","hosting","server","website","domain","dots","lines","windows"
+            ]
+        },
+        {
+            "name" : "64-litespeed",
+            "tags" : [
+                "litespeed","fast","lightning","square","arrows"
+            ]
+        },
+        {
+            "name" : "64-FAQ",
+            "tags" : [
+                "FAQ","ask","questions","answers","squares","text"
+            ]
+        },
+        {
+            "name" : "64-green",
+            "tags" : [
+                "green","leaf","arrow"
+            ]
+        },
+        {
+            "name" : "64-staging-2",
+            "tags" : [
+                "staging","squares","box"
+            ]
+        },
+        {
+            "name" : "64-uptime",
+            "tags" : [
+                "uptime","chart","elipse","dashed","lines"
+            ]
+        },
+        {
+            "name" : "64-chart-shield",
+            "tags" : [
+                "chart","shield","dashed","lines"
+            ]
+        },
+        {
+            "name" : "64-money-back-wallet",
+            "tags" : [
+                "money","back","wallet","coin","arrows"
+            ]
+        },
+        {
+            "name" : "64-dollar-box",
+            "tags" : [
+                "dollar","box","money","arrows"
+            ]
+        },
+        {
+            "name" : "64-dollar",
+            "tags" : [
+                "dollar","money","cash","arrows"
+            ]
+        },
+        {
+            "name" : "64-two-dollars",
+            "tags" : [
+                "two","dollars","money","cash","arrows"
+            ]
+        },
+        {
+            "name" : "64-wordpress-reload",
+            "tags" : [
+                "wordpress","reload","elipse","arrows"
+            ]
+        },
+        {
+            "name" : "64-cloud-load-1",
+            "tags" : [
+                "cloud","load","arrows"
+            ]
+        },
+        {
+            "name" : "64-cloud-load-2",
+            "tags" : [
+                "cloud","load","arrows","twoclouds"
+            ]
+        },
+        {
+            "name" : "64-cloud-load-3",
+            "tags" : [
+                "cloud","load","arrows"
+            ]
+        },
+        {
+            "name" : "64-cloud-load-4",
+            "tags" : [
+                "cloud","load","arrow","twoclouds"
+            ]
+        },
+        {
+            "name" : "64-file-backup-1",
+            "tags" : [
+                "file","backup","folder","documents","arrows"
+            ]
+        },
+        {
+            "name" : "64-file-backup-2",
+            "tags" : [
+                "file","backup","folder","documents","arrows"
+            ]
+        },
+        {
+            "name" : "64-file-backup-3",
+            "tags" : [
+                "file","backup","folder","documents","arrows"
+            ]
+        },
+        {
+            "name" : "64-server-load",
+            "tags" : [
+                "server","load","box","arrows"
+            ]
+        },
+        {
+            "name" : "64-server-load-2",
+            "tags" : [
+                "server","load","boxes","arrows"
+            ]
+        },
+        {
+            "name" : "64-server-location-1",
+            "tags" : [
+                "server","location","pin"
+            ]
+        },
+        {
+            "name" : "64-server-location-2",
+            "tags" : [
+                "server","location","pins"
+            ]
+        },
+        {
+            "name" : "64-location-1",
+            "tags" : [
+                "location","pins","circles"
+            ]
+        },
+        {
+            "name" : "64-location-2",
+            "tags" : [
+                "location","pin","globe","cdn"
+            ]
+        },
+        {
+            "name" : "64-location-3",
+            "tags" : [
+                "location","pins","globe","cdn"
+            ]
+        },
+        {
+            "name" : "64-free-domain-name-1",
+            "tags" : [
+                "free","domain","name","monitor","check","magnifier"
+            ]
+        },
+        {
+            "name" : "64-free-domain-name-2",
+            "tags" : [
+                "free","domain","name","website","check","magnifier"
+            ]
+        },
+        {
+            "name" : "64-free-domain-name-3",
+            "tags" : [
+                "free","domain","name","globe","magnifier","website","board"
+            ]
+        },
+        {
+            "name" : "64-one-click-installation-1",
+            "tags" : [
+                "one","click","installation","monitor","screen","arrow","check","circles"
+            ]
+        },
+        {
+            "name" : "64-one-click-installation-2",
+            "tags" : [
+                "one","click","installation","monitor","screen","arrow","check","circles"
+            ]
+        },
+        {
+            "name" : "64-one-click-installation-3",
+            "tags" : [
+                "one","click","installation","monitor","screen","arrow","check"
+            ]
+        },
+        {
+            "name" : "64-one-click-installation-4",
+            "tags" : [
+                "one","click","installation","monitor","screen","arrow","lines"
+            ]
+        },
+        {
+            "name" : "64-one-click-installation-5",
+            "tags" : [
+                "one","click","installation","monitor","screen","arrow","circles"
+            ]
+        },
+        {
+            "name" : "64-one-click-installation-6",
+            "tags" : [
+                "one","click","installation","monitor","screen","arrow","check","dots"
+            ]
+        },
+        {
+            "name" : "64-one-click-installation-7",
+            "tags" : [
+                "one","click","installation","monitor","screen","arrow","check","dots"
+            ]
+        },
+        {
+            "name" : "64-tools-1",
+            "tags" : [
+                "tools","accessories","repair","double","wrench","cube","dashed"
+            ]
+        },
+        {
+            "name" : "64-tools-2",
+            "tags" : [
+                "tools","accessories","repair","double","wrench","cube","dashed"
+            ]
+        },
+        {
+            "name" : "64-tools-3",
+            "tags" : [
+                "tools","accessories","repair","double", "wrench","crosshair"
+            ]
+        },
+        {
+            "name" : "64-tools-4",
+            "tags" : [
+                "tools","accessories","repair","wrench","crosshair"
+            ]
+        },
+        {
+            "name" : "64-tools-5",
+            "tags" : [
+                "tools","accessories","repair","wrench","arrow"
+            ]
+        },
+        {
+            "name" : "64-tools-6",
+            "tags" : [
+                "tools","accessories","repair","double","wrench","arrows"
+            ]
+        },
+        {
+            "name" : "64-tools-7",
+            "tags" : [
+                "tools","accessories","repair","double","wrench","shield","circle","dashed"
+            ]
+        },
+        {
+            "name" : "64-tools-8",
+            "tags" : [
+                "tools","accessories","repair","double","wrench","shield","dashed"
+            ]
+        },
+        {
+            "name" : "64-tools-9",
+            "tags" : [
+                "tools","accessories","repair","double","wrench","shield"
+            ]
+        },
+        {
+            "name" : "64-tools-10",
+            "tags" : [
+                "tools","accessories","repair","wrench","circle","dashed"
+            ]
+        },
+        {
+            "name" : "64-tools-11",
+            "tags" : [
+                "tools","accessories","repair","double","wrench","circle","dashed"
+            ]
+        },
+        {
+            "name" : "instagram-twitter-connect",
+            "tags" : [
+                "instagram","twitter","connect","social","media","squares"
+            ]
+        },
+        {
+            "name" : "64-unlimited-bandwidth-1",
+            "tags" : [
+                "unlimited","bandwidth","infinity","sign","indicator","circles "
+            ]
+        },
+        {
+            "name" : "64-unlimited-bandwidth-2",
+            "tags" : [
+                "unlimited","bandwidth","infinity","sign","indicator"
+            ]
+        },
+        {
+            "name" : "64-root-access-1",
+            "tags" : [
+                "root","access","key","monitor","website","dots"
+            ]
+        },
+        {
+            "name" : "64-root-access-2",
+            "tags" : [
+                "root","access","key","website","dots","box"
+            ]
+        },
+        {
+            "name" : "64-SSH-access",
+            "tags" : [
+                "SSH","access","key","monitor","website","dots"
+            ]
+        },
+        {
+            "name" : "64-anti-spam-protection-1",
+            "tags" : [
+                "anti","spam","protection","email","letter","vertical","stop"
+            ]
+        },
+        {
+            "name" : "64-anti-spam-protection-2",
+            "tags" : [
+                "anti","spam","protection","email","letter","dashed","cube","stop"
+            ]
+        },
+        {
+            "name" : "64-anti-spam-protection-3",
+            "tags" : [
+                "anti","spam","protection","email","letter","horizontal","stop"
+            ]
+        },
+        {
+            "name" : "64-anti-spam-protection-4",
+            "tags" : [
+                "anti","spam","protection","email","letter","page","dashed","stop"
+            ]
+        },
+        {
+            "name" : "64-server-snapshots-1",
+            "tags" : [
+                "server","snapshots","camera"
+            ]
+        },
+        {
+            "name" : "64-server-snapshots-2",
+            "tags" : [
+                "server","snapshots","camera","boxes"
+            ]
+        },
+        {
+            "name" : "64-server-snapshots-3",
+            "tags" : [
+                "server","snapshots","camera","box","line","dots","open"
+            ]
+        },
+        {
+            "name" : "64-server-snapshots-4",
+            "tags" : [
+                "server","snapshots","camera","box","line","dots","close"
+            ]
+        },
+        {
+            "name" : "64-camera-1",
+            "tags" : [
+                "camera","photo","dashed","circle"
+            ]
+        },
+        {
+            "name" : "64-camera-2",
+            "tags" : [
+                "camera","photo","crosshair"
+            ]
+        },
+        {
+            "name" : "64-camera-3",
+            "tags" : [
+                "camera","photo","dashed","cube"
+            ]
+        },
+        {
+            "name" : "64-camera-4",
+            "tags" : [
+                "camera","photo","dashed","box"
+            ]
+        },
+        {
+            "name" : "64-camera-loading-1",
+            "tags" : [
+                "camera","loading","photo","arrow","dashed"
+            ]
+        },
+        {
+            "name" : "64-camera-loading-2",
+            "tags" : [
+                "camera","loading","photo","arrows"
+            ]
+        },
+        {
+            "name" : "64-photos-1",
+            "tags" : [
+                "photos","camera","picture","image","squares"
+            ]
+        },
+        {
+            "name" : "64-photos-2",
+            "tags" : [
+                "photos","camera","picture","image","rectangles"
+            ]
+        },
+        {
+            "name" : "64-email-plus",
+            "tags" : [
+                "email","plus","letter","box"
+            ]
+        },
+        {
+            "name" : "64-email-remove",
+            "tags" : [
+                "email","remove","delete","letter","box"
+            ]
+        },
+        {
+            "name" : "64-email-check",
+            "tags" : [
+                "email","check","sign","letter","shield","box"
+            ]
+        },
+        {
+            "name" : "64-ecommerce-tools-1",
+            "tags" : [
+                "ecommerce","tools","basket","check","order","purchase","buy","shpopping"
+            ]
+        },
+        {
+            "name" : "64-ecommerce-tools-2",
+            "tags" : [
+                "ecommerce","tools","basket","order","purchase","buy","shpopping"
+            ]
+        },
+        {
+            "name" : "64-ecommerce-tools-3",
+            "tags" : [
+                "ecommerce","tools","basket","bag","order","purchase","buy","shpopping"
+            ]
+        },
+        {
+            "name" : "64-ecommerce-tools-4",
+            "tags" : [
+                "ecommerce","tools","basket","bag","order","purchase","buy","shpopping"
+            ]
+        },
+        {
+            "name" : "64-ecommerce-tools-5",
+            "tags" : [
+                "ecommerce","tools","basket","circles","order","purchase","buy","shpopping"
+            ]
+        },
+        {
+            "name" : "64-ecommerce-tools-6",
+            "tags" : [
+                "ecommerce","tools","basket","circle","dashed","order","purchase","buy","shpopping"
+            ]
+        },
+        {
+            "name" : "64-tools-12",
+            "tags" : [
+                "tools","shields","security","repair"
+            ]
+        },
+        {
+            "name" : "64-tools-13",
+            "tags" : [
+                "tools","shield","security","repair","arrows"
+            ]
+        },
+        {
+            "name" : "64-tools-14",
+            "tags" : [
+                "tools","shield","security","repair","arrows"
+            ]
+        },
+        {
+            "name" : "64-success-cup-1",
+            "tags" : [
+                "success","cup","star","dashed","circle"
+            ]
+        },
+        {
+            "name" : "64-success-cup-2",
+            "tags" : [
+                "success","cup","star","arrow"
+            ]
+        },
+        {
+            "name" : "64-success-cup-box-1",
+            "tags" : [
+                "success","cup","star","dashed","box"
+            ]
+        },
+        {
+            "name" : "64-success-cup-box-2",
+            "tags" : [
+                "success","cup","star","box"
+            ]
+        },
+        {
+            "name" : "64-success-cup-box-3",
+            "tags" : [
+                "success","cup","star","dashed","box","arrows"
+            ]
+        },
+        {
+            "name" : "64-success-cup-shield-1",
+            "tags" : [
+                "success","cup","star","dashed","shield"
+            ]
+        },
+        {
+            "name" : "64-success-cup-shield-2",
+            "tags" : [
+                "success","cup","star","shield"
+            ]
+        },
+        {
+            "name" : "64-success-cup-server-1",
+            "tags" : [
+                "success","cup","star","server"
+            ]
+        },
+        {
+            "name" : "64-success-cup-server-2",
+            "tags" : [
+                "success","cup","stars","server"
+            ]
+        },
+        {
+            "name" : "64-transfer-website-1",
+            "tags" : [
+                "transfer","website","browser","windows","arrows","dashed"
+            ]
+        },
+        {
+            "name" : "64-transfer-website-2",
+            "tags" : [
+                "transfer","website","browser","windows","arrows","board"
+            ]
+        },
+        {
+            "name" : "64-transfer-website-3",
+            "tags" : [
+                "transfer","website","browser","windows","arrows"
+            ]
+        },
+        {
+            "name" : "64-transfer-website-4",
+            "tags" : [
+                "transfer","website","globe","arrows"
+            ]
+        },
+        {
+            "name" : "64-transfer-website-5",
+            "tags" : [
+                "transfer","website","globe","arrows"
+            ]
+        },
+        {
+            "name" : "64-success-shield",
+            "tags" : [
+                "success","shield","star","arrows"
+            ]
+        },
+        {
+            "name" : "64-badge-check-1",
+            "tags" : [
+                "badge","check","arrow"
+            ]
+        },
+        {
+            "name" : "64-badge-check-1",
+            "tags" : [
+                "badge","check","arrow"
+            ]
+        },
+        {
+            "name" : "64-badge-check-2",
+            "tags" : [
+                "badge","check","dashed","circle"
+            ]
+        },
+        {
+            "name" : "64-badge-1",
+            "tags" : [
+                "badge","star","dashed","circle"
+            ]
+        },
+        {
+            "name" : "64-badge-2",
+            "tags" : [
+                "badge","star","arrows"
+            ]
+        },
+        {
+            "name" : "64-badge-3",
+            "tags" : [
+                "badge","star","shield"
+            ]
+        },
+        {
+            "name" : "64-badge-4",
+            "tags" : [
+                "badge","star","medal","dashed","circle"
+            ]
+        },
+        {
+            "name" : "64-badge-5",
+            "tags" : [
+                "badge","star","medal","arrows"
+            ]
+        },
+        {
+            "name" : "64-badge-6",
+            "tags" : [
+                "badge","star","medal","arrows"
+            ]
+        },
+        {
+            "name" : "64-badge-7",
+            "tags" : [
+                "badge","star","dashed","circle"
+            ]
+        },
+        {
+            "name" : "64-badge-8",
+            "tags" : [
+                "badge","star","arrows"
+            ]
+        },
+        {
+            "name" : "64-badge-website-1",
+            "tags" : [
+                "badge","website","star"
+            ]
+        },
+        {
+            "name" : "64-badge-website-2",
+            "tags" : [
+                "badge","website","medal","star","dashboard"
+            ]
+        },
+        {
+            "name" : "64-badge-website-3",
+            "tags" : [
+                "badge","website","star","dashboard"
+            ]
+        },
+        {
+            "name" : "64-success-1",
+            "tags" : [
+                "success","stars","confetti","dashed","circle"
+            ]
+        },
+        {
+            "name" : "64-success-2",
+            "tags" : [
+                "success","stars","confetti","dashed","circles"
+            ]
+        },
+        {
+            "name" : "64-dashboard-success",
+            "tags" : [
+                "dashboard","success","stars","confetti","dashed"
+            ]
+        },
+        {
+            "name" : "64-ecommerce-success",
+            "tags" : [
+                "ecommerce","success","confetti","basket","order","purchase","buy","shpopping"
+            ]
+        },
+        {
+            "name" : "64-website-success-cup-1",
+            "tags" : [
+                "website","success","cup","star","windows","dashed"
+            ]
+        },
+        {
+            "name" : "64-website-success-cup-2",
+            "tags" : [
+                "website","success","cup","star","dashboard","dashed"
+            ]
+        },
+        {
+            "name" : "64-website-success-cup-3",
+            "tags" : [
+                "website","success","cup","star","dashed"
+            ]
+        },
+        {
+            "name" : "64-website-success-cup-3",
+            "tags" : [
+                "website","success","cup","star","dashed"
+            ]
+        },
+        {
+            "name" : "64-guaranteed-satisfaction-1",
+            "tags" : [
+                "guaranteed","satisfaction","badge","star","medal","double"
+            ]
+        },
+        {
+            "name" : "64-guaranteed-satisfaction-2",
+            "tags" : [
+                "guaranteed","satisfaction","badge","star","medal","triple"
+            ]
+        },
+        {
+            "name" : "64-guaranteed-satisfaction-3",
+            "tags" : [
+                "guaranteed","satisfaction","badge","star","double"
+            ]
+        },
+        {
+            "name" : "64-guaranteed-satisfaction-4",
+            "tags" : [
+                "guaranteed","satisfaction","badge","star","triple"
+            ]
+        },
+        {
+            "name" : "64-guaranteed-satisfaction-5",
+            "tags" : [
+                "guaranteed","satisfaction","badge","star","double"
+            ]
+        },
+        {
+            "name" : "64-guaranteed-satisfaction-6",
+            "tags" : [
+                "guaranteed","satisfaction","badge","star","triple" 
+            ]
+        },
+        {
+            "name" : "64-success-shield-server-1",
+            "tags" : [
+                "success","shield","server","star"
+            ]
+        },
+        {
+            "name" : "64-success-shield-server-2",
+            "tags" : [
+                "success","shield","server","stars"
+            ]
+        },
+        {
+            "name" : "64-success-badge-server-1",
+            "tags" : [
+                "success","badge","server","stars","medal"
+            ]
+        },
+        {
+            "name" : "64-success-badge-server-2",
+            "tags" : [
+                "success","badge","server","stars","ribbons"
+            ]
+        },
+        {
+            "name" : "64-success-badge-server-3",
+            "tags" : [
+                "success","badge","server","stars","ribbon"
+            ]
+        },
+        {
+            "name" : "64-badge-stars-1",
+            "tags" : [
+                "success","badge","stars","medal"
+            ]
+        },
+        {
+            "name" : "64-badge-stars-2",
+            "tags" : [
+                "success","badge","stars","ribbon"
+            ]
+        },
+        {
+            "name" : "64-badge-stars-3",
+            "tags" : [
+                "success","badge","stars","ribbons"
+            ]
+        },
+        {
+            "name" : "64-website-key",
+            "tags" : [
+                "website","key","windows"
+            ]
+        },
+        {
+            "name" : "64-browser-key",
+            "tags" : [
+                "browser","key","windows","dots"
+            ]
+        },
+        {
+            "name" : "64-dashboard-key",
+            "tags" : [
+                "dashboard","key","windows"
+            ]
+        },
+        {
+            "name" : "64-server-key",
+            "tags" : [
+                "server","key","box","dashed"
+            ]
+        },
+        {
+            "name" : "64-server-keys-1",
+            "tags" : [
+                "server","keys","box","dashed"
+            ]
+        },
+        {
+            "name" : "64-server-keys-2",
+            "tags" : [
+                "server","keys","box"
+            ]
+        },
+        {
+            "name" : "64-key",
+            "tags" : [
+                "key","dashed","line","dot"
+            ]
+        },
+        {
+            "name" : "64-key-arrows",
+            "tags" : [
+                "key","arrows","dashed"
+            ]
+        },
+        {
+            "name" : "64-keys-arrow",
+            "tags" : [
+                "keys","arrow","dashed"
+            ]
+        },
+        {
+            "name" : "64-key-shield",
+            "tags" : [
+                "key","shield","security"
+            ]
+        },
+        {
+            "name" : "64-keys-dashed-cube",
+            "tags" : [
+                "keys","dashed","cube"
+            ]
+        },
+        {
+            "name" : "64-globe-sprocket",
+            "tags" : [
+                "globe","sprocket","wheel"
+            ]
+        },
+        {
+            "name" : "64-globe-shield",
+            "tags" : [
+                "globe","shield","check"
+            ]
+        },
+        {
+            "name" : "64-globe-shield-lock",
+            "tags" : [
+                "globe","shield","lock"
+            ]
+        },
+        {
+            "name" : "64-success-stars",
+            "tags" : [
+                "success","stars","confetti"
+            ]
+        },
+        {
+            "name" : "64-success-cup-stars",
+            "tags" : [
+                "success","cup","stars"
+            ]
+        },
+        {
+            "name" : "64-cdn-1",
+            "tags" : [
+                "cdn","globe","pin","plate","content","delivery","network"
+            ]
+        },
+        {
+            "name" : "64-cdn-2",
+            "tags" : [
+                "cdn","globe","plate","content","delivery","network"
+            ]
+        },
+        {
+            "name" : "64-whmcs-integration-1",
+            "tags" : [
+                "whmcs","integration","dashboard","infinity"
+            ]
+        },
+        {
+            "name" : "64-whmcs-integration-2",
+            "tags" : [
+                "whmcs","integration","dashboard","infinity","box"
+            ]
+        },
+        {
+            "name" : "64-whmcs-integration-3",
+            "tags" : [
+                "whmcs","integration","dashboard","gear","box"
+            ]
+        },
+        {
+            "name" : "64-whmcs-system-included-1",
+            "tags" : [
+                "whmcs","system","included","puzzle","check"
+            ]
+        },
+        {
+            "name" : "64-whmcs-system-included-2",
+            "tags" : [
+                "whmcs","system","included","shield","check"
+            ]
+        },
+        {
+            "name" : "64-company-business",
+            "tags" : [
+                "company","business","coin","money","building"
+            ]
+        },
+        {
+            "name" : "64-file-business",
+            "tags" : [
+                "files","business","coin","money","documents"
+            ]
+        },
+        {
+            "name" : "64-chart-business",
+            "tags" : [
+                "chart","business","coin","money","plan"
+            ]
+        },
+        {
+            "name" : "64-article-business",
+            "tags" : [
+                "article","business","documents","receipts","coin","money"
+            ]
+        },
+        {
+            "name" : "64-briefcase-business",
+            "tags" : [
+                "briefcase","business","documents","invoices","coin","money" 
+            ]
+        },
+        {
+            "name" : "64-globe-calendar",
+            "tags" : [
+                "globe","calendar","days","months","years"
+            ]
+        },
+        {
+            "name" : "64-files-upload",
+            "tags" : [
+                "files","upload","arrow","circle","folder"
+            ]
+        },
+        {
+            "name" : "64-folder-upload",
+            "tags" : [
+                "folder","upload","arrow","circle"
+            ]
+        },
+        {
+            "name" : "64-files-check",
+            "tags" : [
+                "files","check","circle","folder"
+            ]
+        },
+        {
+            "name" : "64-folder-check",
+            "tags" : [
+                "folder","check","circle"
+            ]
+        },
+        {
+            "name" : "64-files-refresh",
+            "tags" : [
+                "files","refresh","circle","folder"
+            ]
+        },
+        {
+            "name" : "64-folder-refresh",
+            "tags" : [
+                "folder","refresh","circle"
+            ]
+        },
+        {
+            "name" : "64-files-search",
+            "tags" : [
+                "files","search","circle","magnifier"
+            ]
+        },
+        {
+            "name" : "64-folder-search",
+            "tags" : [
+                "folder","search","circle","magnifier"
+            ]
+        },
+        {
+            "name" : "64-files-close",
+            "tags" : [
+                "files","close","circle"
+            ]
+        },
+        {
+            "name" : "64-folder-close",
+            "tags" : [
+                "folder","close","circle" 
+            ]
+        },
+        {
+            "name" : "64-browser-bar-chart",
+            "tags" : [
+                "browser","bar","chart","dot","dashed"
+            ]
+        },
+        {
+            "name" : "64-browser-pie-chart",
+            "tags" : [
+                "browser","pie","chart","dot","dashed"
+            ]
+        },
+        {
+            "name" : "64-laptop-bar-chart",
+            "tags" : [
+                "laptop","bar","chart","dot","computer"
+            ]
+        },
+        {
+            "name" : "64-laptop-pie-chart",
+            "tags" : [
+                "laptop","pie","chart","dot","computer"
+            ]
+        },
+        {
+            "name" : "64-laptop-chart",
+            "tags" : [
+                "laptop","chart","dot","line","computer"
+            ]
+        },
+        {
+            "name" : "64-globe-wallet-coin",
+            "tags" : [
+                "globe","wallet","coin","transactions","business","payment"
+            ]
+        },
+        {
+            "name" : "64-globe-wallet",
+            "tags" : [
+                "globe","wallet","transactions","business","payment"
+            ]
+        },
+        {
+            "name" : "64-globe-coin",
+            "tags" : [
+                "globe","coin","transactions","business","payment" 
+            ]
+        },
+        {
+            "name" : "64-globe-search-check",
+            "tags" : [
+                "globe","search","check","magnifier"
+            ]
+        },
+        {
+            "name" : "64-globe-search",
+            "tags" : [
+                "globe","search","magnifier"
+            ]
+        },
+        {
+            "name" : "64-globe-lock-check",
+            "tags" : [
+                "globe","lock","check"
+            ]
+        },
+        {
+            "name" : "64-globe-close",
+            "tags" : [
+                "globe","close","circle"
+            ]
+        },
+        {
+            "name" : "64-globe-user",
+            "tags" : [
+                "globe","user","circle","profile"
+            ]
+        },
+        {
+            "name" : "64-briefcase-1",
+            "tags" : [
+                "briefcase","documents","business","dot","work"
+            ]
+        },
+        {
+            "name" : "64-briefcase-2",
+            "tags" : [
+                "briefcase","documents","business","dot","lines","work"
+            ]
+        },
+        {
+            "name" : "64-briefcase-3",
+            "tags" : [
+                "briefcase","documents","business","dots","work"
+            ]
+        },
+        {
+            "name" : "64-documents-briefcase",
+            "tags" : [
+                "documents","briefcase","business","invoices","work"
+            ]
+        },
+        {
+            "name" : "64-chart-briefcase",
+            "tags" : [
+                "chart","briefcase","business","plan","work"
+            ]
+        },
+        {
+            "name" : "64-calendar-1",
+            "tags" : [
+                "calendar","plan","days","months","years"
+            ]
+        },
+        {
+            "name" : "64-calendar-2",
+            "tags" : [
+                "calendar","plan","days","months","years"
+            ]
+        },
+        {
+            "name" : "64-calendar-arrows",
+            "tags" : [
+                "calendar","plan","days","months","years","arrows"
+            ]
+        },
+        {
+            "name" : "64-mail-1",
+            "tags" : [
+                "mail","message","information","notification","vertical","dashed"
+            ]
+        },
+        {
+            "name" : "64-mail-2",
+            "tags" : [
+                "mail","message","information","notification","horizontal","dashed"
+            ]
+        },
+        {
+            "name" : "64-mail-3",
+            "tags" : [
+                "mail","messages","informations","notifications","horizontal","box","dashed"
+            ]
+        },
+        {
+            "name" : "64-mail-3",
+            "tags" : [
+                "mail","messages","informations","notifications","horizontal","box"
+            ]
+        },
+        {
+            "name" : "156-faster-loading-speed",
+            "tags" : [
+                "faster","loading","speed","browser","wordpress"
+            ]
+        },
+        {
+            "name" : "156-more-flexible-access",
+            "tags" : [
+                "more","flexible","access","browser","sliders","arrow"
+            ]
+        },
+        {
+            "name" : "156-leading-security",
+            "tags" : [
+                "leading","security","shield","check","bullets"
+            ]
+        }    
+        
+        
+    ]
+}

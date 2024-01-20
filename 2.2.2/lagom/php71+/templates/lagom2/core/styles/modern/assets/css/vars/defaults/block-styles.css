@@ -1,0 +1,138 @@
+/*!
+ * Theme Name: Lagom WHMCS Client Theme
+ * Theme URL: https://lagom.rsstudio.net/
+ *
+ * Terms of Service: https://lagom.rsstudio.net/docs/legal/terms-of-service.html
+ * 
+ * Copyright (c) 2021 RS Studio
+ */
+
+:root {
+
+    /* Primary Block */
+
+    --primary-block-bg:                                var(--brand-primary-gradient-v);
+    --primary-block-border:                            none;
+    --primary-block-bg-h:                              var(--brand-primary-gradient-h);
+    --primary-block-divider-color:                     var(--ui-block-secondary-divider-border-color);
+    --primary-block-divider-active-color:              #fff;
+    --primary-block-title-color:                       var(--text-secondary-heading-color);  
+    --primary-block-subtitle-color:                    var(--text-secondary-lighter-color);                    
+    --primary-block-text-color:                        var(--text-secondary-lighter-color);
+    --primary-block-text-faded-color:                  var(--text-secondary-faded-color);
+    --primary-block-total-font-color:                  #fff; 
+
+    /* Primary Block - UI Links */
+
+    --primary-block-link-color:                        hsla(0, 0%, 100%, 80%);
+    --primary-block-link-hover-color:                  hsla(0, 0%, 100%, 100%);
+    --primary-block-link-active-color:                 hsla(0, 0%, 100%, 100%);    
+    --primary-block-link-bg:                           transparent;
+    --primary-block-link-hover-bg:                     transparent;
+    --primary-block-link-active-bg:                    hsla(0, 0%, 100%, 6%);
+    --primary-block-link-icon-color:                   hsla(0, 0%, 100%, 56%);
+    --primary-block-link-icon-hover-color:             hsla(0, 0%, 100%, 80%);
+    --primary-block-link-icon-active-color:            hsla(0, 0%, 100%, 80%);
+
+    /* Primary Block - Slider Dot Navigation */
+
+    --primary-block-dot-nav-bg:                        rgba(255, 255, 255, 0.32);
+    --primary-block-dot-nav-hover-bg:                  rgba(255, 255, 255, 0.56);
+    --primary-block-dot-nav-active-bg:                 rgba(255, 255, 255, 1);
+
+    /* Primary Block - Button Main */
+
+    --primary-block-btn-bg:                            var(--btn-primary-faded-bg); 
+    --primary-block-btn-border-color:                  var(--btn-primary-faded-border); 
+    --primary-block-btn-color:                         var(--btn-primary-faded-color); 
+    --primary-block-btn-hover-bg:                      var(--btn-primary-faded-hover-bg);
+    --primary-block-btn-hover-border-color:            var(--btn-primary-faded-hover-border); 
+    --primary-block-btn-hover-color:                   var(--btn-primary-faded-hover-color);
+    --primary-block-btn-active-bg:                     var(--btn-primary-faded-active-bg); 
+    --primary-block-btn-active-border-color:           var(--btn-primary-faded-active-border);
+
+    /* Primary Block - Button Outline */
+
+    --primary-block-btn-outline-border-color:          rgba(255,255,255,0.16);
+    --primary-block-btn-outline-color:                 #fff;
+    --primary-block-btn-outline-hover-bg:              rgba(255,255,255,0.16);
+    --primary-block-btn-outline-hover-border-color:    rgba(255,255,255,0.16);
+    --primary-block-btn-outline-hover-color:           #fff;
+    --primary-block-btn-outline-active-bg:             rgba(255,255,255,0.16);
+    --primary-block-btn-outline-active-border-color:   rgba(255,255,255,0.16);
+
+    /* Primary Block - Input */
+    
+    --primary-block-input-bg:                           #fff;
+    --primary-block-input-border:                       #fff;
+    --primary-block-input-color:                        var(--input-color);
+    --primary-block-input-placeholder-color:            var(--input-color-placeholder);    
+    --primary-block-input-icon-color:                   var(--brand-primary);
+    --primary-block-input-caret-color:                  var(--gray-icons);
+  
+    /* Secondary Block (currently copy of primary block) */
+
+    --secondary-block-bg:                              var(--brand-secondary-gradient-v);
+    --secondary-block-border:                          var(--primary-block-border);
+    --secondary-block-bg-h:                            var(--brand-secondary-gradient-h);
+    --secondary-block-divider-color:                   var(--primary-block-divider-color);
+    --secondary-block-divider-active-color:            var(--primary-block-divider-active-color);
+    --secondary-block-title-color:                     var(--primary-block-title-color);
+    --secondary-block-subtitle-color:                  var(--primary-block-subtitle-color);
+    --secondary-block-text-color:                      var(--primary-block-text-color);
+    --secondary-block-text-faded-color:                var(--primary-block-text-faded-color); 
+    --secondary-block-total-font-color:                var(--primary-block-total-font-color); 
+
+    /* Secondary Block -  UI Links */
+
+    --secondary-block-link-color:                      var(--primary-block-link-color);
+    --secondary-block-link-hover-color:                var(--primary-block-link-hover-color);
+    --secondary-block-link-active-color:               var(--primary-block-link-active-color);    
+    --secondary-block-link-bg:                         var(--primary-block-link-bg);
+    --secondary-block-link-hover-bg:                   var(--primary-block-link-hover-bg);
+    --secondary-block-link-active-bg:                  var(--primary-block-link-active-bg);
+    --secondary-block-link-icon-color:                 var(--primary-block-link-icon-color);
+    --secondary-block-link-icon-hover-color:           var(--primary-block-link-icon-hover-color);
+    --secondary-block-link-icon-active-color:          var(--primary-block-link-icon-active-color);
+
+    /* Secondary Block - Slider Dot Navigation */
+
+    --secondary-block-dot-nav-bg:                      var(--primary-block-dot-nav-bg);
+    --secondary-block-dot-nav-hover-bg:                var(--primary-block-dot-nav-hover-bg);
+    --secondary-block-dot-nav-active-bg:               var(--primary-block-dot-nav-active-bg);
+
+    /* Secondary Block - Button Main */
+
+    --secondary-block-btn-bg:                          var(--primary-block-btn-bg);
+    --secondary-block-btn-border-color:                var(--primary-block-btn-border-color);
+    --secondary-block-btn-color:                       var(--primary-block-btn-color);    
+    --secondary-block-btn-hover-bg:                    var(--primary-block-btn-hover-bg);
+    --secondary-block-btn-hover-border-color:          var(--primary-block-btn-hover-border-color);
+    --secondary-block-btn-hover-color:                 var(--primary-block-btn-hover-color);
+    --secondary-block-btn-active-bg:                   var(--primary-block-btn-active-bg);
+    --secondary-block-btn-active-border-color:         var(--primary-block-btn-active-border-color);
+
+    /* Secondary Block - Button Outline */
+
+    --secondary-block-btn-outline-border-color:        var(--primary-block-btn-outline-border-color);
+    --secondary-block-btn-outline-color:               var(--primary-block-btn-outline-color);
+    --secondary-block-btn-outline-hover-bg:            var(--primary-block-btn-outline-hover-bg);
+    --secondary-block-btn-outline-hover-border-color:  var(--primary-block-btn-outline-hover-border-color);
+    --secondary-block-btn-outline-hover-color:         var(--primary-block-btn-outline-hover-color);
+    --secondary-block-btn-outline-active-bg:           var(--primary-block-btn-outline-active-bg);
+    --secondary-block-btn-outline-active-border-color: var(--primary-block-btn-outline-active-border-color);
+
+    /* Secondary Block - Input */
+
+    --secondary-block-input-bg:                        var(--primary-block-input-bg);
+    --secondary-block-input-border:                    var(--primary-block-input-border);
+    --secondary-block-input-color:                     var(--primary-block-input-color);
+    --secondary-block-input-placeholder-color:         var(--primary-block-input-placeholder-color);
+    --secondary-block-input-icon-color:                var(--primary-block-input-icon-color);
+    --secondary-block-input-caret-color:               var(--primary-block-input-caret-color);
+
+    /* Gray Block */
+
+    --gray-block-bg:                                var(--gray-gradient-v);
+    --gray-block-bg-h:                              var(--gray-gradient-h);
+}

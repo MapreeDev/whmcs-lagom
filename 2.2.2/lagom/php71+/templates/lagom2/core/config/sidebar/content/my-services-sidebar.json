@@ -1,0 +1,45 @@
+{
+    "sidebar-settings": {
+        "name": "My Services - Secondary Sidebar",
+        "translation": "custom",
+        "title": {
+            "whmcs": "",
+            "custom": {
+                "english": "My Services - Sidebar Secondary"
+            }
+        },
+        "location": "Secondary",
+        "display": "Custom Selected Pages",
+        "pages": [
+            "clientareaproducts"
+        ],
+        "order": 1,
+        "active": true
+    },
+    "sidebar-items": [
+        {
+            "type": "WHMCS Page",
+            "name": {
+                "whmcs": "navservicesplaceorder",
+                "custom": {
+                    "english": "Place a New Order"
+                }
+            },
+            "page": "products",
+            "translation-method": "whmcs",
+            "icon": "ls ls-box"
+        },
+        {
+            "type": "WHMCS Page",
+            "name": {
+                "whmcs": "clientareaviewaddons",
+                "custom": {
+                    "english": "View Avaialble Addons"
+                }
+            },
+            "page": "addons",
+            "translation-method": "whmcs",
+            "icon": "ls ls-addon"
+        }
+    ]
+}

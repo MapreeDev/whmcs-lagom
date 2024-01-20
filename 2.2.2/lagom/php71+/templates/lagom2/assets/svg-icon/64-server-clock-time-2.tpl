@@ -1,0 +1,7 @@
+<svg class="svg-icon {if $onDark} svg-icon-on-dark {/if}" xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="none" viewBox="0 0 64 64">
+    <path stroke="var(--svg-icon-color-3)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M32 51.4286V63M32 51.4286L3 34.7143M32 51.4286L61 34.7143M32 63L61 46.2857V34.7143M32 63L3 46.2857V34.7143M3 34.7143L32 18L61 34.7143M42.3747 51.5531L37.0043 54.7674" />
+    <path fill="var(--svg-icon-color-2)" d="M7.00708 16.0786L7.01076 22.4676C6.98178 24.6549 8.38144 29.7766 14.2119 32.7648C24.0327 38.2689 39.8749 38.5528 49.4482 32.7648C51.9655 31.5162 57 27.6672 57 22.2596V16.0786H7.00708Z" />
+    <path fill="var(--svg-icon-color-1)" d="M49.4267 6.24695C59.5244 11.8404 59.5244 21.1297 49.4267 26.753C39.7231 32.4157 23.9903 32.4157 14.2866 26.753C4.55927 20.6244 4.58297 11.9096 14.2866 6.24695C23.9903 0.584348 39.7231 0.58435 49.4267 6.24695Z" />
+    <path stroke="var(--svg-icon-color-4)" stroke-linecap="round" stroke-width="2" d="M40.5769 21.3282L31.4912 16.1678L43.147 9.52344" />
+    <circle cx="3.54121" cy="3.54121" r="3.54121" fill="var(--svg-icon-color-4)" transform="matrix(.86642 -.49932 .86642 .49932 25.354 16.068)" />
+</svg>

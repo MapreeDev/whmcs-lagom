@@ -1,0 +1,128 @@
+{
+  "account-contacts-manage": {
+    "routePath": "account-contacts"
+  },
+  "account-contacts-new": {
+    "routePath": "account-contacts"
+  },
+  "account-paymentmethods": {
+    "routePath": "account-paymentmethods"
+  },
+  "account-user-management": {
+    "routePath": "account-users"
+  },
+  "affiliates": {
+    "page": "affiliates.php"
+  },
+  "affiliatessignup": {
+    "page": "affiliates.php"
+  },
+  "announcements" : {
+    "routePath": "announcement-index"
+  },
+  "clientareaaddfunds": {
+    "page": "clientarea.php?action=addfunds"
+  },
+  "clientareadetails": {
+    "page": "clientarea.php?action=details"
+  },
+  "clientareadomains": {
+    "page": "clientarea.php?action=domains"
+  },
+  "clientareaemails": {
+    "page" : "clientarea.php?action=emails"
+  },
+  "clientareahome": {
+    "page": "clientarea.php"
+  },
+  "clientareainvoices": {
+    "page": "clientarea.php?action=invoices"
+  },
+  "clientareaproducts": {
+    "page": "clientarea.php?action=services"
+  },
+  "clientareaquotes": {
+    "page": "clientarea.php?action=quotes"
+  },
+  "clientareasecurity": {
+    "page" : "clientarea.php?action=security"
+  },
+  "clientregister": {
+    "page": "register.php"
+  },
+  "contact": {
+    "page": "contact.php"
+  },
+  "domain-pricing": {
+    "routePath": "domain-pricing"
+  },
+  "downloads": {
+    "routePath": "download-index"
+  },
+  "homepage": {
+    "page": "index.php"
+  },
+  "knowledgebase": {
+    "routePath": "knowledgebase-index"
+  },
+  "login": {
+    "page": "login.php"
+  },
+  "logout": {
+    "page": "logout.php"
+  },
+  "managessl": {
+    "routePath": "clientarea-ssl-certificates-manage"
+  },
+  "masspay": {
+    "page": "clientarea.php?action=masspay&all=true"
+  },
+  "password-reset-container": {
+    "routePath": "password-reset-begin"
+  },
+  "serverstatus": {
+    "page": "serverstatus.php"
+  },
+  "subscription-manage": {
+    "routePath": "subscription-manage"
+  },
+  "supportticketslist": {
+    "page": "supporttickets.php"
+  },
+  "supportticketsubmit-stepone": {
+    "page": "submitticket.php"
+  },
+  "user-password": {
+    "routePath": "user-password"
+  },
+  "user-profile": {
+    "routePath": "user-profile"
+  },
+  "user-security": {
+    "routePath": "user-security"
+  },
+  "user-switch-account": {
+    "routePath": "user-accounts"
+  },
+  "addons": {
+    "page": "cart.php?gid=addons"
+  },
+  "domainregister": {
+    "page": "cart.php?a=add&domain=register"
+  },
+  "domaintransfer": {
+    "page": "cart.php?a=add&domain=transfer"
+  },
+  "domain-renewals": {
+    "routePath": "cart-domain-renewals"
+  },
+  "products": {
+    "page": "cart.php"
+  },
+  "viewcart": {
+    "page": "cart.php?a=view"
+  },  
+  "service-renewals": {
+    "routePath": "service-renewals"
+  }
+}

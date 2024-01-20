@@ -1,0 +1,12 @@
+<svg class="svg-icon {if $onDark} svg-icon-on-dark {/if}" xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="none" viewBox="0 0 64 64">
+    <path fill="var(--svg-icon-color-3)" fill-rule="evenodd" d="M30.882.145a1 1 0 0 1 1.02-.01l3.826 2.226a1 1 0 1 1-1.006 1.728L31.41 2.163 28.243 4.08a1 1 0 1 1-1.036-1.71L30.882.145Zm11.129 7.027a1 1 0 0 1 1.367-.361l7.65 4.45a1 1 0 1 1-1.006 1.728l-7.65-4.45a1 1 0 0 1-.361-1.367Zm-20.78-.015a1 1 0 0 1-.338 1.373l-7.35 4.45a1 1 0 1 1-1.036-1.71l7.35-4.45a1 1 0 0 1 1.373.337Zm36.08 8.915a1 1 0 0 1 1.367-.361l3.825 2.225A1 1 0 0 1 63 18.8v5.6a1 1 0 1 1-2 0v-5.025l-3.328-1.936a1 1 0 0 1-.361-1.367Zm-50.78-.015a1 1 0 0 1-.338 1.373L3 19.364v2.799a1 1 0 1 1-2 0V18.8a1 1 0 0 1 .482-.855l3.675-2.225a1 1 0 0 1 1.373.337ZM2 27.887a1 1 0 0 1 1 1v6.725a1 1 0 1 1-2 0v-6.725a1 1 0 0 1 1-1ZM62 34.6a1 1 0 0 1 1 1v9.564a1 1 0 0 1-2 0V35.6a1 1 0 0 1 1-1ZM2 41.337a1 1 0 0 1 1 1v3.675a1 1 0 1 1-2 0v-3.675a1 1 0 0 1 1-1Z" clip-rule="evenodd" />
+    <path stroke="var(--svg-icon-color-3)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2 46.102 31.4 63 62 45.281" />
+    <path fill="var(--svg-icon-color-2)" d="M21.8 21.5V30l10 5.7 10-5.7v-8.5h-20Z" />
+    <path fill="var(--svg-icon-color-2)" d="M5.8 31v9l10 5.7 10-5.7v-9h-20Zm32 0v9l10 5.7 10-5.7v-9h-20Z" />
+    <path fill="var(--svg-icon-color-2)" d="M21.8 40v9.4l10.5 6.1 10.5-6.1V40h-21Z" />
+    <path stroke="var(--svg-icon-color-2)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21.8 21.5V30l10 5.7 10-5.7v-8.5h-20Z" />
+    <path stroke="var(--svg-icon-color-2)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5.8 31v9l10 5.7 10-5.7v-9h-20Zm32 0v9l10 5.7 10-5.7v-9h-20Z" />
+    <path stroke="var(--svg-icon-color-2)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21.8 40v9.4l10.5 6.1 10.5-6.1V40h-21Z" />
+    <path fill="var(--svg-icon-color-1)" d="m31.9 27.1-10-5.7 10-5.8 10 5.8-10 5.7Zm-16.1 9.6-10-5.8 10-5.7 10 5.7-10 5.8Zm32.1 0-10-5.8 10-5.7 10 5.7-10 5.8ZM32 46.4l-10.5-6.1 10.5-6 10.5 6L32 46.4Z" />
+    <path stroke="var(--svg-icon-color-1)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m31.9 27.1-10-5.7 10-5.8 10 5.8-10 5.7Zm-16.1 9.6-10-5.8 10-5.7 10 5.7-10 5.8Zm32.1 0-10-5.8 10-5.7 10 5.7-10 5.8ZM32 46.4l-10.5-6.1 10.5-6 10.5 6L32 46.4Z" />
+</svg>

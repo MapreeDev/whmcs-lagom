@@ -1,0 +1,127 @@
+/*!
+ * Theme Name: Lagom WHMCS Client Theme
+ * Theme URL: https://lagom.rsstudio.net/
+ *
+ * Terms of Service: https://lagom.rsstudio.net/docs/legal/terms-of-service.html
+ * 
+ * Copyright (c) 2021 RS Studio
+ */
+
+:root {
+
+    /* General */
+    
+    --svg-icon-stroke-width:    2px;
+    --svg-illustration-shadow-color: #000;
+    --svg-illustration-shadow-opacity-start: 0.15;
+
+    --svg-icon-color-base:                          var(--brand-primary);
+    --svg-icon-color-lighter:                       var(--brand-primary-lighter);
+    --svg-icon-color-secondary:                     var(--gray-darker);
+    --svg-icon-color-icon:                          #ffffff;
+    
+    --svg-icon-on-dark-color-secondary:             #ffffff;
+    --svg-icon-on-primary-color-base:               #ffffff;
+    --svg-icon-on-primary-color-lighter:            #DEE0E3;
+    --svg-icon-on-primary-color-secondary:          #ffffff;
+    --svg-icon-on-primary-color-icon:               var(--brand-primary);
+    /* Shared Elements */
+
+    --svg-screen-top-bg: var(--svg-illustration-color-1);
+    --svg-screen-top-front: var(--svg-illustration-color-5);
+    --svg-screen-top-back: var(--svg-illustration-color-2);
+    --svg-screen-top-logo: var(--svg-illustration-color-7);
+    --svg-screen-top-logo-el: var(--svg-illustration-color-1);
+    --svg-screen-bottom-button: var(--svg-illustration-color-2);
+    --svg-screen-bottom-front: var(--svg-illustration-color-4);
+    --svg-screen-bottom-back: var(--svg-illustration-color-2);
+    --svg-screen-leg-front: var(--svg-illustration-color-4);
+    --svg-screen-leg-back: var(--svg-illustration-color-2);
+
+    --svg-smartphone-border: var(--svg-illustration-color-2);
+    --svg-smartphone-front: var(--svg-illustration-color-4);
+    --svg-smartphone-screen: var(--svg-illustration-color-1);
+    --svg-smartphone-icon: var(--svg-illustration-color-1);
+    --svg-smartphone-icon-bg: var(--svg-illustration-color-7);
+
+    --svg-tablet-back: var(--svg-illustration-color-2);
+    --svg-tablet-front: var(--svg-illustration-color-3);
+    --svg-tablet-screen: var(--svg-illustration-color-1);   
+
+    /* Browser */ 
+
+    --svg-browser-body: var(--svg-illustration-color-7);
+    --svg-browser-top: var(--svg-illustration-color-1);
+    --svg-browser-top-1: var(--svg-illustration-color-7);  
+    --svg-browser-text: var(--svg-illustration-color-5);
+    --svg-browser-banner: var(--svg-illustration-color-5); 
+
+    /* Laptop */ 
+
+    --svg-laptop-bottom-back: var(--svg-illustration-color-2);
+    --svg-laptop-bottom-top: var(--svg-illustration-color-4);
+    --svg-laptop-touchpad-inside: var(--svg-illustration-color-3);
+    --svg-laptop-touchpad-outside: var(--svg-illustration-color-2);
+    --svg-laptop-screen: var(--svg-illustration-color-1);
+    --svg-laptop-screen-logo: var(--svg-illustration-color-7);
+    --svg-laptop-screen-back: var(--svg-illustration-color-2);
+    --svg-laptop-screen-front: var(--svg-illustration-color-5);
+
+    --svg-keyboard-keys-bottom: var(--svg-illustration-color-2);
+    --svg-keyboard-keys-top: var(--svg-illustration-color-6);
+    --svg-keyboard-body-bottom: var(--svg-illustration-color-4);
+    --svg-keyboard-body-top: var(--svg-illustration-color-2);
+
+    /* Weebly */
+
+    --svg-weebly-cup-body: var(--svg-illustration-color-4);
+    --svg-weebly-cup-top: var(--svg-illustration-color-6);
+    --svg-weebly-cup-inside: var(--svg-illustration-color-1);
+
+    --svg-weebly-left-elements: var(--svg-illustration-color-7);
+    --svg-weebly-left-elements-bottom: var(--svg-illustration-color-5);
+    --svg-weebly-left-body: var(--svg-illustration-color-5);
+
+    --svg-weebly-colors-bottom: var(--svg-illustration-color-1);
+    --svg-weebly-colors-top: var(--svg-illustration-color-6);
+    --svg-weebly-colors-top-1: var(--svg-illustration-color-7);
+    --svg-weebly-colors-top-2: var(--svg-illustration-color-3);
+    --svg-weebly-colors-top-3: var(--svg-illustration-color-1);
+
+    /* SVG Graphics */
+
+    --svg-graphic-shadow:                   var(--box-shadow-lg);
+
+    --svg-graphic-bg-primary:               var(--brand-primary);
+    --svg-graphic-bg-secondary:             #4F5357;
+    --svg-graphic-bg-body:                  #fff;
+    --svg-graphic-bg-browser-top:           #EAEEF3;
+    --svg-graphic-bg-browser-actions:       #CBCFD5;
+    --svg-graphic-bg-browser-search:        #fff;
+    --svg-graphic-bg-banner:                #EAEEF3;
+    --svg-graphic-bg-faded:                 #EAEEF3;
+    --svg-graphic-bg-faded-2:               #E9EBEE;
+    --svg-graphic-bg-faded-3:               #CBCFD5;
+    --svg-graphic-bg-white:                 #fff;
+    --svg-graphic-bg-green:                 var(--brand-success);
+    --svg-graphic-bg-red:                   var(--brand-danger);
+    --svg-graphic-bg-red-darker:            var(--brand-danger-darker);
+    
+    --svg-graphic-stroke-primary:           var(--brand-primary);
+    --svg-graphic-stroke-white:             #fff;
+    --svg-graphic-stroke-faded:             #CBCFD5;
+    --svg-graphic-stroke-faded-2:           #CBCFD5;
+
+    /* SVG Icons */
+
+    --svg-icon-color-1:                             var(--brand-primary-lighter);
+    --svg-icon-color-2:                             var(--brand-primary);
+    --svg-icon-color-3:                             var(--gray-darker);
+    --svg-icon-color-4:                             #ffffff;
+    --svg-icon-color-5:                             var(--gray-lighter-3);
+    
+    --svg-icon-on-dark-color-1:                     var(--svg-icon-color-4);
+    --svg-icon-on-dark-color-2:                     var(--svg-icon-color-5);
+    --svg-icon-on-dark-color-3:                     var(--svg-icon-color-4);
+    --svg-icon-on-dark-color-4:                     var(--svg-icon-color-2);
+}

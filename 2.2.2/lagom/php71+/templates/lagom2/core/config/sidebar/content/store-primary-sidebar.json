@@ -1,0 +1,22 @@
+{
+    "sidebar-settings": {
+        "name": "Store - Primary Sidebar",
+        "translation": "whmcs",
+        "title": {
+            "whmcs": "ordercategories",
+            "custom": {
+                "english": "Categories"
+            }
+        },
+        "location": "Primary",
+        "display": "Sidebar Pages",
+        "order": 1,
+        "active": true
+    },
+    "sidebar-items": [
+        {
+            "type": "Predefined List",
+            "list": "Product Groups"
+        }
+    ]
+}

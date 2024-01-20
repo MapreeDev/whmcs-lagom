@@ -1,0 +1,152 @@
+/*!
+ * Theme Name: Lagom WHMCS Client Theme
+ * Theme URL: https://lagom.rsstudio.net/
+ *
+ * Terms of Service: https://lagom.rsstudio.net/docs/legal/terms-of-service.html
+ * 
+ * Copyright (c) 2021 RS Studio
+ */
+
+:root { /* Name: Site; Index: 12; */
+
+    /* Body Typography */
+
+    --site-text-font-size:                          var(--font-size-lg);    
+    --site-text-font-weight:                        var(--font-weight-light);
+    --site-text-line-height:                        var(--line-height-lg);  
+    --site-text-sm-font-size:                       var(--font-size-md);
+    --site-text-sm-line-height:                     var(--line-height-md);
+    --site-text-xs-font-size:                       var(--font-size-base);
+    --site-text-xs-line-height:                     var(--line-height-base);
+    
+    /* Section: Banner */
+                                       
+    --site-banner-title-font-size:                  var(--font-size-h1); /* name: Title - Font Size; var_group: Font Size;*/
+    --site-banner-title-font-weight:                var(--font-weight-h1); /* name: Title - Font Weight; var_group: Font Weight;*/   
+    --site-banner-title-line-height:                var(--line-height-h1); /* name: Title - Line Height; var_group: Line Height;*/
+    --site-banner-desc-font-size:                   var(--font-size-xxlg); /* name: Desc - Font Size; var_group: Font Size;*/
+    --site-banner-desc-font-weight:                 var(--font-weight-light); /* name: Desc - Font Weight; var_group: Font Weight;*/   
+    --site-banner-desc-line-height:                 var(--line-height-xxlg); /* name: Desc - Line Height; var_group: Line Height;*/   
+
+    --site-banner-height:                           562px; /* Name: Minimum Height;  type: size; append: px;*/
+    --site-banner-padding-v:                        100px;
+    --site-banner-content-width:                    496px; /* Name: Content Width;  type: size; append: px;*/
+    --site-banner-element-spacing:                  var(--spacing-4x);
+    
+    --site-banner-graphic-width:                    562px; /* Name: Illustration Width;  type: size; append: px;*/
+    --site-banner-graphic-position-right:           -40px;
+    --site-banner-graphic-position-top:             -40px;
+    --site-banner-graphic-position-bottom:          -20px;
+    
+    --svg-banner-primary-shape-left:                rgba(0,0,0, .24);
+    --svg-banner-primary-shape-right:               rgba(0,0,0, .16);
+    
+    --site-banner-home-tile-height:                 172px;
+
+    /* Banner - Tile Navigation */
+
+    --site-banner-tile-bg:                          var(--ui-block-bg);                       
+    --site-banner-tile-color:                       #fff;	                                  
+    --site-banner-tile-font-weight:                 var(--font-weight-bold);                  
+    --site-banner-tile-overlay-height:              var(--spacing-10x);
+
+    /* Section: Section */
+
+    --site-section-bg:                              transparent;                                   
+    --site-section-border-color:                    var(--ui-block-divider-color);                      
+    --site-section-border:                          1px solid var(--site-section-border-color); 
+    --site-section-title-color:                     var(--text-heading-color); /* name: Title - Color; var_group: Font Color; */
+    --site-section-title-font-size:                 var(--font-size-h2); /* name: Title - Font Size; var_group: Font Size; */
+    --site-section-title-font-weight:               var(--font-weight-bold); /* name: Title - Font Weight; var_group: Font Weight; */
+    --site-section-title-line-height:               var(--line-height-h2); /* name: Title - Line Height; var_group: Line Height; */
+    --site-section-title-max-width:                 var(--max-width-md);
+    --site-section-title-margin-bottom:             var(--spacing-9x); 
+    --site-section-title-subtitle-spacing:          var(--spacing-4x);
+    --site-section-title-sm-font-size:              var(--font-size-h3); 
+    --site-section-title-sm-font-weight:            var(--font-weight-bold);
+    --site-section-title-sm-line-height:            var(--line-height-h3); 
+    --site-section-title-sm-margin-bottom:          var(--spacing-6x); 
+    --site-section-subtitle-color:                  var(--text-body-color); /* name: Subtitle - Color; var_group: Font Color; */
+    --site-section-subtitle-font-size:              var(--font-size-xlg); /* name: Subtitle - Font Size; var_group: Font Size; */
+    --site-section-subtitle-font-weight:            var(--font-weight-light); /* name: Subtitle - Font Weight; var_group: Font Weight; */
+    --site-section-subtitle-line-height:            var(--line-height-xlg); /* name: Subtitle - Line Height; var_group: Line Height; */
+    
+    --site-section-spacing:                         var(--spacing-5x);
+    
+    --site-section-padding-v:                       var(--spacing-13x);
+    --site-section-padding-sm:                      var(--spacing-8x);
+    --site-section-sides-spacing:                   var(--spacing-8x);
+    --site-section-illustration-width:              592px;
+    --site-section-illustration-height:             513px;
+    --site-section-illustration-width-sm:           376px;
+    --site-section-illustration-height-sm:          324px;
+
+    /* Section Secondary*/
+
+    --site-section-secondary-bg:                    transparent;         
+    --site-section-secondary-title-color:           var(--site-section-title-color);                                       
+    --site-section-secondary-subtitle-color:        var(--site-section-subtitle-color);                   
+    --site-section-secondary-desc-color:            var(--site-section-title-color);
+    --site-section-secondary-border:                1px solid var(--site-section-border-color); 
+
+    /* Section: Feature - Default */
+
+    --feature-title-font-size:                      var(--font-size-h5); /* name: Title - Font Size; var_group: Font Size; */
+    --feature-title-font-weight:                    var(--font-weight-base); /* name: Title - Font Weight; var_group: Font Weight; */
+    --feature-title-line-height:                    var(--line-height-h5); /* name: Title - Line Height; var_group: Line Height; */
+    --feature-desc-font-size:                       var(--font-size-lg); /* name: Desc - Font Size; var_group: Font Size; */
+    --feature-desc-line-height:                     var(--line-height-lg); /* name: Desc - Line Height; var_group: Line Height; */
+    --feature-desc-font-weight:                     var(--font-weight-light); /* name: Desc - Font Weight; var_group: Font Weight; */
+
+    --feature-margin-bottom:                        var(--ui-block-spacing-xlg);
+    --feature-row-margin-bottom:                    var(--spacing-8x);
+    --feature-icon-margin-bottom:                   var(--ui-block-spacing-base);
+  
+    --feature-boxed-bg:                             var(--ui-block-bg);
+    --feature-boxed-border:                         1px solid var(--ui-block-divider-color);
+    --feature-boxed-border-radius:                  var(--ui-block-border-radius);
+    --feature-boxed-padding:                        var(--ui-block-padding-lg);
+    --feature-boxed-shadow:                         var(--ui-block-shadow);
+
+    /* Section: Feature - Large */
+
+    --feature-lg-title-font-size:                   var(--font-size-xxlg); /* name: Title - Font Size; var_group: Font Size; */         
+    --feature-lg-title-font-weight:                 var(--font-weight-light); /* name: Title - Font Weight; var_group: Font Weight; */         
+    --feature-lg-title-line-height:                 var(--line-height-xlg); /* name: Title - Line Height; var_group: Line Height; */       
+    --feature-lg-desc-font-size:                    var(--font-size-lg); /* name: Desc - Font Size; var_group: Font Size; */        
+    --feature-lg-desc-font-weight:                  var(--font-weight-light); /* name: Desc - Font Weight; var_group: Font Weight; */            
+    --feature-lg-desc-line-height:                  var(--line-height-lg); /* name: Desc - Line Height; var_group: Line Height; */         
+    --feature-lg-icon-margin-bottom:                var(--ui-block-spacing-lg);
+    --feature-lg-boxed-padding:                     var(--ui-block-padding-xlg);
+
+    /* Section: Feature - Small */
+
+    --feature-sm-title-font-size:                   var(--font-size-h6); /* name: Title - Font Size; var_group: Font Size; */
+    --feature-sm-title-font-weight:                 var(--font-weight-base); /* name: Title - Font Weight; var_group: Font Weight; */
+    --feature-sm-title-line-height:                 var(--line-height-h6); /* name: Title - Line Height; var_group: Line Height; */
+    --feature-sm-desc-font-size:                    var(--font-size-md); /* name: Desc - Font Size; var_group: Font Size; */        
+    --feature-sm-desc-font-weight:                  var(--font-weight-light); /* name: Desc - Font Weight; var_group: Font Weight; */            
+    --feature-sm-desc-line-height:                  var(--line-height-md); /* name: Desc - Line Height; var_group: Line Height; */      
+    --feature-sm-svg-icon-size:                     40px;
+    --feature-sm-boxed-padding:                     var(--ui-block-padding-base);
+
+    --site-browser-actions-dot-bg:                  rgba(0,0,0, .1);
+    --site-shadow-default:                          var(--box-shadow-xlg);
+}
+@media (max-width: 991px) {
+    :root {
+        --site-banner-content-width-desktop:        496px;
+        --site-banner-content-width:                calc(0.8 * var(--site-banner-content-width-desktop));
+    }
+}
+@media (max-width: 767px) {
+    :root {
+        --site-banner-padding-v:                    var(--spacing-8x);
+        --site-section-sides-spacing:               var(--spacing-5x);
+
+        --feature-row-margin-bottom:                var(--spacing-4x);
+        --site-section-padding-v:                   var(--spacing-8x);
+        --site-section-title-margin-bottom:         var(--spacing-5x);
+        --site-section-title-sm-margin-bottom:      var(--spacing-3x); 
+    }
+}

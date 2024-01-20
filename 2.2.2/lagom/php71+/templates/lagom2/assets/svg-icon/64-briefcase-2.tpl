@@ -1,0 +1,11 @@
+<svg class="svg-icon {if $onDark} svg-icon-on-dark {/if}" xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="none" viewBox="0 0 64 64">
+    <path stroke="var(--svg-icon-color-3)" stroke-dasharray="8 8" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M36 11V1L3 20.205V48L10 43.9706" />
+    <path stroke="var(--svg-icon-color-3)" stroke-linejoin="round" stroke-width="2" d="M45 6V34.0042L11 53.5V25.5L45 6Z" />
+    <path fill="var(--svg-icon-color-2)" stroke="var(--svg-icon-color-2)" stroke-linejoin="round" stroke-width="2" d="M24.9961 37.9483L44.115 40.9309L61.0098 18.0635V42.1617C61.0098 42.2334 60.9713 42.2997 60.909 42.3353L25.2954 62.7005C25.162 62.7768 24.9961 62.6805 24.9961 62.5269V37.9483Z" />
+    <path fill="var(--svg-icon-color-4)" d="M55.0122 46.8594V26.4014L57.014 24.4194V45.7148L55.0122 46.8594Z" />
+    <path fill="var(--svg-icon-color-4)" d="M31.0103 60.5928V40.1348L33.012 38.1528V59.4482L31.0103 60.5928Z" />
+    <path fill="var(--svg-icon-color-1)" stroke="var(--svg-icon-color-1)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M55.1826 13.519L20.0059 34.0802V59.7733L25.0106 62.7112V39.3687L40.0098 40.5156V45.3828L44.1549 47.4118L48.0194 40.7553V35.331L61.0059 19.1983V16.9243L55.1826 13.519Z" />
+    <ellipse cx="1.89094" cy="1.92274" fill="var(--svg-icon-color-4)" rx="1.89094" ry="1.92274" transform="matrix(.8611 -.50844 -.00003 1 42.604 41.235)" />
+    <path fill="var(--svg-icon-color-2)" d="M31.0028 21.2813C31.0028 20.6722 31.4456 19.8729 31.9614 19.5684L45.1986 11.9838C45.43 11.8471 45.6417 11.8215 45.8049 11.8897L47.7844 13.0147L46.7173 14.5944L46.7173 22.0672L44.0203 20.5133L44.0203 16.1716L34.3221 21.8128L33.7935 29.7147L31.0028 28.0977L31.0028 21.2813Z" />
+    <path fill="var(--svg-icon-color-1)" fill-rule="evenodd" d="M33.0139 22.3086C33.0139 21.6995 33.5075 20.8233 34.0233 20.5188L47.0815 13.0533C47.5973 12.7487 48.0154 12.9956 48.0154 13.6047L48.0154 20.1936C48.0154 20.8027 47.7506 21.7366 47.2348 22.0411C46.719 22.3457 45.9912 21.5777 45.9912 20.9686L45.9912 15.9935L34.9996 22.3086L34.9996 27.7844C34.9996 28.3935 34.825 29.3358 34.3092 29.6403C33.7934 29.9449 33.0139 29.3905 33.0139 28.7814L33.0139 22.3086Z" clip-rule="evenodd" />
+</svg>

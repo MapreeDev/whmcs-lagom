@@ -1,0 +1,10 @@
+<svg class="svg-icon {if $onDark} svg-icon-on-dark {/if}" xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="none" viewBox="0 0 64 64">
+    <path fill="var(--svg-icon-color-3)" fill-rule="evenodd" d="M36.499.283a1 1 0 0 0-1.002.003l-3.625 2.109a1 1 0 1 0 1.006 1.728L35 2.89v2.413a1 1 0 1 0 2 0V1.15a1 1 0 0 0-.501-.867Zm-10.51 6.691a1 1 0 0 0-1.367-.361l-7.25 4.218a1 1 0 1 0 1.006 1.729l7.25-4.218a1 1 0 0 0 .361-1.368ZM36 12.607a1 1 0 0 0-1 1v4.152a1 1 0 1 0 2 0v-4.152a1 1 0 0 0-1-1ZM11.49 15.41a1 1 0 0 0-1.368-.362l-3.625 2.11a1 1 0 0 0-.497.864v4.12a1 1 0 1 0 2 0v-3.545l3.128-1.82a1 1 0 0 0 .361-1.367ZM7 29.38a1 1 0 0 0-1 1v8.238a1 1 0 1 0 2 0V30.38a1 1 0 0 0-1-1Zm15.368 12.795a1 1 0 0 0-1.365-.371l-3.625 2.076a1 1 0 0 0 .994 1.736l3.625-2.076a1 1 0 0 0 .37-1.365ZM7 45.858a1 1 0 0 0-1 1v4.12a1 1 0 0 0 1.497.867l3.625-2.076a1 1 0 0 0-.994-1.736L8 49.253v-2.395a1 1 0 0 0-1-1Z" clip-rule="evenodd" />
+    <path fill="var(--svg-icon-color-2)" stroke="var(--svg-icon-color-2)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m16 56.177 3 1.653 9-5.321V29.5l20-12V8l-3-1.65-29 16.873v32.954Z" />
+    <path fill="var(--svg-icon-color-1)" stroke="var(--svg-icon-color-1)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m19 57.827 9-5.154V29.687L48 18V8L19 24.873v32.954Z" />
+    <path stroke="var(--svg-icon-color-3)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M57 18.46 42.5 44.649 28.176 35.51m8.7 5.536-8.7 15.73M57 40.08l-8.876-5.624M28 62.927l29-16.609V13.1L28 29.973v32.954Z" />
+    <path fill="var(--svg-icon-color-2)" d="m40 33.857 2.5 1.429 2.5-4.357v-.643l-5 2.857v.714Z" />
+    <path fill="var(--svg-icon-color-2)" d="m42 33.214 1-.714v-5.714l-1 .714v5.714Z" />
+    <path stroke="var(--svg-icon-color-2)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m40 33.857 2.5 1.429 2.5-4.357v-.643l-5 2.857v.714Z" />
+    <path stroke="var(--svg-icon-color-2)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m42 33.214 1-.714v-5.714l-1 .714v5.714Z" />
+</svg>

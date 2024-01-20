@@ -1,0 +1,323 @@
+/*!
+ * Theme Name: Lagom WHMCS Client Theme
+ * Theme URL: https://lagom.rsstudio.net/
+ *
+ * Terms of Service: https://lagom.rsstudio.net/docs/legal/terms-of-service.html
+ * 
+ * Copyright (c) 2021 RS Studio
+ */
+
+:root { /* Name: General; Index: 2 */
+
+    /* Section: Background */
+    
+    --futuristic-bg-none:                           none; /* name: None; group: Background Image; type: hidden; */
+    --futuristic-bg-1:                              url(../img/futuristic-bg.png); /* name: Background 1; group: Background Image; type: hidden; */
+    --futuristic-bg-2:                              url(../img/futuristic-bg-2.png); /* name: Background 2; group: Background Image; type: hidden; */
+    --futuristic-bg-3:                              url(../img/futuristic-bg-3.png); /* name: Background 3; group: Background Image; type: hidden; */
+    --futuristic-bg:                                var(--futuristic-bg-1); /* name: Body Background Image; var_group: Background Image; */
+
+    /* Spacing */
+
+    --spacing-0x:                                   0px;                                              
+    --spacing-1x:                                   8px;                                              
+    --spacing-2x:                                   calc(2 * var(--spacing-1x));                      
+    --spacing-3x:                                   calc(3 * var(--spacing-1x));                      
+    --spacing-4x:                                   calc(4 * var(--spacing-1x));                      
+    --spacing-5x:                                   calc(5 * var(--spacing-1x));                      
+    --spacing-6x:                                   calc(6 * var(--spacing-1x));                      
+    --spacing-7x:                                   calc(7 * var(--spacing-1x));                      
+    --spacing-8x:                                   calc(8 * var(--spacing-1x));                      
+    --spacing-9x:                                   calc(9 * var(--spacing-1x));                      
+    --spacing-10x:                                  calc(10 * var(--spacing-1x));                     
+    --spacing-11x:                                  calc(11 * var(--spacing-1x));                     
+    --spacing-12x:                                  calc(12 * var(--spacing-1x));                     
+    --spacing-13x:                                  calc(13 * var(--spacing-1x));                     
+    --spacing-14x:                                  calc(14 * var(--spacing-1x));                     
+    --spacing-15x:                                  calc(15 * var(--spacing-1x));                     
+
+     /* Section: UI Border Radius;*/
+
+     --border-radius-none:                          0px; /* name: None; group: Border Radius; type: size; type:hidden; */
+     --border-radius-xs:                            3px; /* name: Extra Small; group: Border Radius; type: size; append: px; */
+     --border-radius-sm:                            4px; /* name: Small; group: Border Radius; type: size; append: px; */
+     --border-radius-base:                          6px; /* name: Base; group: Border Radius; type: size; append: px; */
+     --border-radius-lg:                            8px; /* name: Large; group: Border Radius; type: size; append: px; */
+     --border-radius-xlg:                           12px; /* name: Extra Large; group: Border Radius; type: size; append: px; */
+     --border-width-base:                           1px;
+
+    /* Section: UI Shadow;*/
+
+    --box-shadow-none:                              unset; /* name: None; group: Box Shadow; type:hidden; */
+    --box-shadow-xs:                                0 1px 1px rgba(0,0,0,.05); /* name: Extra Small; group: Box Shadow; */
+    --box-shadow-sm:                                0px 0px 1px rgba(0, 0, 0, 0.1), 0px 1px 6px rgba(0, 0, 0, 0.08), inset 0px 1px 2px rgba(178, 204, 255, 0.1);           /* name: Small; group: Box Shadow; */
+    --box-shadow-base:                              0px 0px 1px rgba(0, 0, 0, 0.1), 0px 2px 24px rgba(0, 0, 0, 0.12), inset 0px 1px 2px rgba(178, 204, 255, 0.1);          /* name: Base; group: Box Shadow; */
+    --box-shadow-lg:                                0px 0px 1px rgba(0, 0, 0, 0.1), 0px 16px 32px rgba(0, 0, 0, 0.16), inset 0px 1px 2px rgba(178, 204, 255, 0.1);         /* name: Large; group: Box Shadow; */
+    --box-shadow-xlg:                               0px 0px 1px rgba(0, 0, 0, 0.1), 0px 24px 40px rgba(0, 0, 0, 0.30), inset 0px 1px 2px rgba(178, 204, 255, 0.1);         /* name: Extra Large; group: Box Shadow; */
+
+    /* Section: UI Elements Height */
+
+    --ui-height-xs:                                 30px; /* name: Extra Small; group: UI Height; type: size; append: px; */
+    --ui-height-sm:                                 36px; /* name: Small; group: UI Height; type: size; append: px; */
+    --ui-height-base:                               44px; /* name: Base; group: UI Height; type: size; append: px; */
+    --ui-height-lg:                                 56px; /* name: Large; group: UI Heighte; type: size; append: px; */
+    --ui-height-xlg:                                64px; /* name: Extra Large; group: UI Height; type: size; append: px; */
+    
+    /* UI Padding */
+
+    --ui-padding-base-v:                            var(--spacing-1x);
+    --ui-padding-base-h:                            var(--spacing-2x);
+    --ui-padding-xs-v:                              2px;
+    --ui-padding-xs-h:                              var(--spacing-1x);
+    --ui-padding-sm-v:                              4px;
+    --ui-padding-sm-h:                              var(--spacing-2x);
+    --ui-padding-lg-v:                              var(--spacing-1x);
+    --ui-padding-lg-h:                              var(--spacing-3x);
+    --ui-padding-xlg-v:                             var(--spacing-1x);
+    --ui-padding-xlg-h:                             var(--spacing-4x);
+
+    /* UI Block */
+
+    --ui-block-bg-form:                             var(--ui-block-bg);
+    --ui-block-border-color:                        transparent;                                    
+    --ui-block-border-radius:                       var(--border-radius-base);
+    --ui-block-border-radius-lg:                    var(--border-radius-lg);
+    --ui-block-shadow:                              var(--box-shadow-base);
+    --ui-block-shadow-lg:                           var(--box-shadow-lg);
+    --ui-block-shadow-xlg:                          var(--box-shadow-xlg);
+    --ui-block-border:                              none;
+    --ui-block-header-height:                       56px;
+    --ui-block-header-bg:                           transparent;
+    --ui-block-secondary-divider-border-color:      rgba(255,255,255,0.1);
+    --ui-block-divider-color:                       #B2CCFF1F;
+    --ui-block-divider-border:                      1px solid var(--ui-block-divider-color);
+
+    /* Links - Blocks (Tables, List Groups) */
+
+    --ui-block-link-hover-bg:                       var(--gray-faded);
+    --ui-block-link-active-bg:                      var(--gray-faded);
+    --ui-block-link-disabled-color:                 var(--text-faded-color);
+    --ui-block-overlay-shadow:                      var(--box-shadow-lg);
+
+    /* Links - horizontal navigations (Sidebars, Dropdowns, Vertical Navigation) */
+
+    --ui-nav-link-bg:                               transparent;
+    --ui-nav-link-border-radius:                    var(--border-radius-sm);
+    --ui-nav-link-hover-bg:                         transparent;
+    --ui-nav-link-active-bg:                        var(--gray-faded);
+    --ui-nav-link-icon-size:                        18px;
+    --ui-nav-link-icon-size-sm:                     12px;
+    --ui-nav-link-icon-spacing:                     10px;
+    --ui-nav-link-icon-spacing-lg:                  16px;
+    --ui-nav-h-link-padding-h:                      var(--spacing-2x); 
+    --ui-nav-v-link-padding-v:                      6px; 
+    --ui-nav-v-link-padding-h:                      0px; 
+    --ui-nav-v-link-hover-padding-h:                12px;   
+    --ui-nav-v-link-active-padding-h:               12px; 
+    
+    /* UI Block - Spacing */
+
+    --ui-block-padding-base:                        var(--spacing-3x);
+    --ui-block-padding-base-v:                      var(--spacing-2x);
+    --ui-block-padding-sm:                          var(--spacing-2x);
+    --ui-block-padding-sm-v:                        var(--spacing-1x);  
+    --ui-block-padding-lg:                          var(--spacing-4x);
+    --ui-block-padding-lg-v:                        var(--spacing-3x);  
+    --ui-block-padding-xlg:                         var(--spacing-6x);
+    --ui-block-padding-xlg-v:                       var(--spacing-4x);
+    
+    --ui-block-spacing-xs:                          var(--spacing-1x);
+    --ui-block-spacing-sm:                          var(--spacing-2x);
+    --ui-block-spacing-base:                        var(--spacing-3x);
+    --ui-block-spacing-lg:                          var(--spacing-4x);
+    --ui-block-spacing-xlg:                         var(--spacing-5x);
+
+    /* Section: UI State;*/
+
+    --state-success-bg:                             var(--brand-success-lighter-4); /* name: Success - Background; type: select-colors*/
+    --state-success-border:                         var(--brand-success-lighter-3); /* name: Success - Border Color; type: select-colors*/
+    --state-success-text:                           var(--brand-success-darker); /* name: Success - Font Color; type: select-colors*/
+    --state-info-bg:                                var(--brand-info-lighter-3); /* name: Info - Background; type: select-colors*/
+    --state-info-border:                            var(--brand-info-lighter-2); /* name: Info - Border Color; type: select-colors*/
+    --state-info-text:                              var(--brand-info); /* name: Info - Font Color; type: select-colors*/
+    --state-warning-bg:                             var(--brand-warning-lighter-4); /* name: Warning - Background; type: select-colors*/
+    --state-warning-border:                         var(--brand-warning-lighter-2); /* name: Warning - Border Color; type: select-colors*/
+    --state-warning-text:                           var(--brand-warning-darker); /* name: Warning - Font Color; type: select-colors*/
+    --state-danger-bg:                              var(--brand-danger-lighter-4); /* name: Danger - Background; type: select-colors*/
+    --state-danger-border:                          var(--brand-danger-lighter-3); /* name: Danger - Border Color; type: select-colors*/
+    --state-danger-text:                            var(--brand-danger-darker); /* name: Danger - Font Color; type: select-colors*/
+
+    /* Section: Labels */
+
+    --label-color:                 				    #fff;
+    --label-link-hover-color:      				    #fff;
+    --label-default-bg:            				    var(--gray-faded); /* name: Default - Background; type: select-colors;*/
+    --label-default-color:         				    var(--gray-lighter); /* name: Default - Color; type: select-colors;*/
+    --label-primary-bg:            				    var(--brand-primary); /* name: Primary - Background; type: select-colors;*/
+    --label-primary-color:         				    #fff; /* name: Primary - Color; type: select-colors;*/
+    --label-secondary-bg:            				var(--brand-secondary); /* name: Secondary - Background; type: select-colors;*/
+    --label-secondary-color:         			    #fff; /* name: Secondary - Color; type: select-colors;*/
+    --label-success-bg:            				    var(--brand-success-lighter-2); /* name: Success - Background; type: select-colors;*/
+    --label-success-color:         				    var(--brand-success-darker); /* name: Success - Color; type: select-colors;*/
+    --label-info-bg:               				    var(--brand-info-lighter-2); /* name: Info - Background; type: select-colors;*/
+    --label-info-color:            				    var(--brand-info);   /* name: Info - Color; type: select-colors;*/
+    --label-warning-bg:            				    var(--brand-warning-lighter-2); /* name: Warning - Background; type: select-colors;*/
+    --label-warning-color:         				    var(--brand-warning-darker); /* name: Warning - Color; type: select-colors;*/
+    --label-danger-bg:            				    var(--brand-danger-lighter-2); /* name: Danger - Background; type: select-colors;*/
+    --label-danger-color:         				    var(--brand-danger); /* name: Danger - Color; type: select-colors;*/
+    --label-purple-bg:            				    #b3a3de; /* name: Purple - Background; type: select-colors;*/
+    --label-purple-color:         				    #fff; /* name: Purple - Color; type: select-colors;*/
+    --label-savings-bg:            				    #FFE7EC; /* name: Savings - Background; type: select-colors;*/
+    --label-savings-color:         				    #F12F75; /* name: Savings - Color; type: select-colors;*/
+
+    --label-text-transform:                         uppercase;
+    --label-margin-bottom:                          5px;
+    --tickets-label-color:                          #fff;
+    
+    --label-xxs-font-size:                          10px;
+    --label-xs-font-size:                           var(--font-size-xs);
+    --label-sm-font-size:                           var(--font-size-xs);
+    --label-font-size:                              var(--font-size-sm);
+    --label-lg-font-size:                           var(--font-size-base);
+
+    --label-xxs-line-height:                        var(--line-height-xs);
+    --label-xs-line-height:                         var(--line-height-xs);
+    --label-sm-line-height:                         var(--line-height-xs);
+    --label-line-height:                            var(--line-height-sm);
+    --label-lg-line-height:                         var(--line-height-base);
+
+    --label-xxs-padding:                            1px 6px;
+    --label-xs-padding:                             3px 6px;
+    --label-sm-padding:                             4px 6px;
+    --label-padding:                                6px 8px;
+    --label-lg-padding:                             6px 12px;
+    
+    --label-xxs-border-radius:                      var(--border-radius-xs);
+    --label-xs-border-radius:                       var(--border-radius-xs);
+    --label-sm-border-radius:                       var(--border-radius-sm);
+    --label-border-radius:                          var(--border-radius-sm);
+    --label-lg-border-radius:                       var(--border-radius-base);
+    
+    --label-icon-size:                              10px;
+
+    /* WHMCS Status Colors */
+    
+    --status-pending-transfer:                      var(--brand-warning);
+    --status-pending:                               var(--brand-danger-lighter);
+    --status-active:                                var(--brand-success);
+    --status-suspended:                             var(--brand-warning);
+    --status-customer-reply:                        var(--brand-warning-darker);
+    --status-fraud:                                 var(--gray-darker);
+    --status-answered:                              #bba2ce;
+    --status-expired:                               #58a5be;
+    --status-grace:                                 var(--brand-warning-darker);
+    --status-terminated:                            var(--gray-lighter);
+    --status-onhold:                                var(--brand-info);
+    --status-inprogress:                            var(--brand-danger-lighter);
+    --status-closed:                                var(--gray-lighter-2);
+    --status-paid:                                  var(--brand-success);
+    --status-unpaid:                                var(--brand-danger);
+    --status-cancelled:                             var(--gray-lighter-2);
+    --status-collections:                           #767b80;
+    --status-refunded:                              var(--brand-warning);
+    --status-payment-pending:                       var(--brand-info);
+    --status-accepted:                              var(--brand-success);
+    --status-lost:                                  var(--gray-darker);
+    --status-default:                               var(--gray-base);
+
+    --status-type-operator:                         var(--label-info-bg);
+    --status-type-operator-text-color:              var(--label-info-color);
+    --status-type-owner:                            var(--label-success-bg);
+    --status-type-owner-text-color:                 var(--label-success-color);
+    --status-type-authorizeduser:                   var(--label-default-bg);
+    --status-type-authorizeduser-text-color:        var(--label-default-color);
+    --status-type-registereduser:                   var(--label-warning-bg);
+    --status-type-registereduser-text-color:        var(--label-warning-color);
+    --status-type-guest:                            var(--label-default-bg);
+    --status-type-guest-text-color:                 var(--label-default-color);
+
+    /* Transition */
+
+    --transition-base:                              .24s ease;
+    --transition-fade:                              opacity .15s linear;
+    --transition-collapse:                          height .35s ease;
+   
+    /* zindex */
+
+    --zindex-navbar:                                1000;
+    --zindex-dropdown:                              1000;
+    --zindex-popover:                               1001;
+    --zindex-tooltip:                               1001;
+    --zindex-sticky:                                1020;
+    --zindex-navbar-fixed:                          1030;
+    --zindex-fixed:                                 1030;
+    --zindex-modal-background:                      1040;
+    --zindex-modal-backdrop:                        1040;
+    --zindex-modal:                                 1050;
+    --zindex-popover:                               1060;
+    --zindex-tooltip:                               1070;
+
+    /* Caret */
+
+    --caret-width-base:                             4px;
+    --caret-width-large:                            5px;
+    --caret-width:                                  .3em;
+    --caret-vertical-align:                         var(--caret-width) * .85;
+    --caret-spacing:                                var(--caret-width) * .85;
+
+    /* Other */
+
+    --ui-icon-color:                                var(--gray-icons);
+    --ui-icon-size-base:                            18px;
+    --ui-icon-size-small:                           12px;
+
+    --scrollbar-width:                              6px;
+    --scrollbar-track-bg:                           var(--gray-lighter);
+    --scrollbar-thumb-bg:                           var(--gray-lighter-3);
+    --scrollbar-thumb-hover-bg:                     var(--gray-lighter-2);
+
+    --scrollbar-secondary-track-bg:                 rgba(255,255,255, 0.1);
+    --scrollbar-secondary-thumb-bg:                 rgba(255,255,255, 0.32);
+    --scrollbar-secondary-thumb-hover-bg:           rgba(255,255,255, 0.48);    
+
+    /* Section: UI Max Width */
+
+    --max-width-xs:                                 380px; /* Name: Extra Small; group: Max Width; type: size; append: px; */
+    --max-width-sm:                                 548px; /* Name: Small; group: Max Width; type: size; append: px; */
+    --max-width-md:                                 768px; /* Name: Medium; group: Max Width; type: size; append: px; */
+    --max-width-lg:                                 928px; /* Name: Large; group: Max Width; type: size; append: px; */
+
+    --container-xl-max-width:                       1288px;
+    --container-lg-max-width:                       960px;
+    --container-md-max-width:                       720px;
+    --container-sm-max-width:                       540px;
+
+    --ui-gutter-base:                               var(--spacing-3x);
+    --ui-gutter-sm:                                 var(--spacing-2x);
+    --ui-gutter-lg:                                 var(--spacing-4x);
+    --ui-gutter-xlg:                                var(--spacing-5x);
+}
+
+@media (max-width: 767px) {
+    :root {
+        --ui-gutter-base:                           var(--spacing-2x);
+        --ui-gutter-sm:                             var(--spacing-1x);
+        --ui-gutter-lg:                             var(--spacing-3x);
+        --ui-gutter-xlg:                            var(--spacing-4x);
+
+        --ui-block-spacing-sm:                      calc(var(--spacing-1x)2/);
+        --ui-block-spacing-sm:                      var(--spacing-1x);
+        --ui-block-spacing-base:                    var(--spacing-2x);
+        --ui-block-spacing-lg:                      var(--spacing-3x);
+        --ui-block-spacing-xlg:                     var(--spacing-4x);
+
+        --ui-block-padding-base:                    var(--spacing-2x);
+        --ui-block-padding-base-v:                  var(--spacing-2x);
+        --ui-block-padding-sm:                      var(--spacing-2x);
+        --ui-block-padding-sm-v:                    var(--spacing-1x);  
+        --ui-block-padding-lg:                      var(--spacing-3x);
+        --ui-block-padding-lg-v:                    var(--spacing-2x);  
+        --ui-block-padding-xlg:                     var(--spacing-4x);
+        --ui-block-padding-xlg-v:                   var(--spacing-3x);    
+    }
+}

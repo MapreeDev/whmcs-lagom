@@ -1,0 +1,151 @@
+/*!
+ * Theme Name: Lagom WHMCS Client Theme
+ * Theme URL: https://lagom.rsstudio.net/
+ *
+ * Terms of Service: https://lagom.rsstudio.net/docs/legal/terms-of-service.html
+ * 
+ * Copyright (c) 2021 RS Studio
+ */
+
+:root { /* Name: Layout; Index: 4 */
+
+     /* Main - Top */
+
+     --main-top-bg:                                 #fff;
+     --main-top-border-bottom:                      1px solid var(--ui-block-divider-color);
+     --main-top-box-shadow:                         none;
+     --main-top-padding:                            4px 0;
+ 
+     /* Main - Body */
+ 
+     --main-body-padding-v:                         var(--spacing-6x);
+
+     /* Main Body - Sidebar */
+     
+    --main-body-sidebar-width:                      32%;
+    --main-body-sidebar-padding-h:                  var(--spacing-6x);
+    --main-body-sidebar-padding-v:                  var(--spacing-6x);
+    --main-body-sidebar-content-bg:                 #fff;
+
+     /* Section: Header */
+ 
+     --main-header-padding-v:                       var(--spacing-6x);                        
+     --main-header-title-color:                     var(--text-heading-color);                  
+     --main-header-title-font-size:                 var(--font-size-h2); /* name: Title - Font Size; var_group: Font Size; */
+     --main-header-title-font-weight:               var(--font-weight-h2); /* name: Title - Font Weight; var_group: Font Weight; */
+     --main-header-title-line-height:               var(--line-height-h2); /* name: Title - Line Height; var_group: Line Height; */
+     --main-header-breadcrumb-font-size:            var(--font-size-sm); /* name: Breadcrumb - Font Size; var_group: Font Size; */
+     --main-header-breadcrumb-color:                var(--text-lighter-color);
+     --main-header-breadcrumb-color-active:         var(--gray-base);
+     
+     /* Section: Header for Banner Layout  */
+ 
+     --main-header-banner-bg:                       var(--gray-gradient-h); /* name: Background; type: select-colors; */
+     --main-header-banner-title-color:              var(--text-heading-color); /* name: Title - Color; var_group: Font Color; type: select-colors; */
+     --main-header-banner-breadcrumb-color:         var(--text-lighter-color);  /* name: Breadcrumb - Color; var_group: Font Color; type: select-colors; */
+     --main-header-banner-breadcrumb-color-active:  var(--text-body-color); /* name: Breadcrumb - Active Color; var_group: Font Color; type: select-colors; */
+     
+     /* Section: Sidebar */
+ 
+     --main-sidebar-sticky-top:                     var(--spacing-3x);
+     --main-sidebar-width:                          280px; /* name: Base - Width; type: size; append: px;*/
+     --main-sidebar-spacing-h:                      var(--spacing-5x);                                       
+     --main-sidebar-right-spacing-h:                var(--spacing-5x);                                       
+     --main-sidebar-lg-width:                       340px; /* name: Large - Width; type: size; append: px;*/
+
+     /* Main - Footer */
+ 
+     --main-footer-bg:                              #fff;                             
+     --main-footer-border-top:                      var(--ui-block-divider-border); 
+     --main-footer-box-shadow:                      none; 
+
+     --main-footer-link-font-size:                  var(--font-size-lg);
+     --main-footer-link-line-height:                var(--line-height-lg);
+     --main-footer-link-font-weight:                var(--font-weight-light);
+     --main-footer-link-padding-h:                  0;
+     --main-footer-link-padding-v:                  var(--ui-nav-v-link-padding-v);
+
+     --main-footer-link-color:                      var(--ui-nav-secondary-link-color);
+     --main-footer-link-hover-color:                var(--ui-nav-secondary-link-hover-color);
+     --main-footer-link-hover-padding-h:            var(--ui-nav-v-link-hover-padding-h);
+     --main-footer-link-icon-color:                 var(--ui-nav-secondary-link-icon-color);
+     --main-footer-link-icon-hover-color:           var(--ui-nav-secondary-link-icon-hover-color);
+     --main-footer-link-icon-size:                  18px;
+     
+     --main-footer-h-link-padding-v:                var(--spacing-1x);
+     --main-footer-h-link-padding-h:                var(--spacing-2x);
+ 
+    /* Extended - Footer */
+
+    --main-footer-extended-padding:                 var(--spacing-9x);
+    --main-footer-extended-border-top:              var(--main-footer-border-top);
+    --main-footer-extended-spacing:                 var(--spacing-3x);
+    --main-footer-extended-company-margin-right:    var(--spacing-8x);
+
+    --main-footer-extended-title-color:             var(--text-heading-color);
+    --main-footer-extended-title-font-size:         var(--font-size-xlg);
+    --main-footer-extended-title-line-height:       var(--line-height-lg);
+    --main-footer-extended-title-font-weight:       var(--font-weight-base);
+    --main-footer-extended-title-margin-bottom:     var(--spacing-2x);
+    --main-footer-extended-desc-color:              var(--text-body-color);
+    --main-footer-extended-desc-font-size:          var(--font-size-base);
+    --main-footer-extended-desc-line-height:        var(--line-height-base);
+    --main-footer-extended-desc-font-weight:        var(--font-weight-light);
+    --main-footer-extended-desc-margin:             var(--spacing-5x) 0 var(--spacing-2x) 0;
+    --main-footer-extended-link-hover-padding-h:    var(--ui-nav-v-link-hover-padding-h); 
+
+    --main-footer-extended-side-min-width:          240px;
+
+    /* Container */
+
+    --layout-container-gutter:                      40px;  
+    --layout-left-container-gutter:                 40px;                                
+
+    /* Section: Client Area Section */
+
+    --ca-section-spacing:                           var(--spacing-6x);
+    --ca-section-header-margin-bottom:              var(--spacing-3x);
+    --ca-section-title-color:                       var(--text-heading-color);
+    --ca-section-title-font-size:                   var(--font-size-h4); /* name: Title - Font Size; var_group: Font Size; */
+    --ca-section-title-font-weight:                 var(--font-weight-h4); /* name: Title - Font Weight; var_group: Font Weight; */
+    --ca-section-title-line-height:                 var(--line-height-h4); /* name: Title - Line height; var_group: Line Height; */
+
+    --ca-section-desc-color:                        var(--text-body-color);
+    --ca-section-desc-font-size:                    var(--font-size-base);
+    --ca-section-desc-font-weight:                  var(--font-weight-base);
+    --ca-section-desc-line-height:                  var(--line-height-base);
+
+    --ca-section-sm-spacing:                        var(--spacing-4x);
+    --ca-section-sm-title-font-size:                var(--font-size-h5);
+    --ca-section-sm-title-font-weight:              var(--font-weight-h5);
+    --ca-section-sm-title-line-height:              var(--line-height-h5);
+
+}
+@media (max-width: 1319px) {
+    :root {
+        --main-sidebar-spacing-h:                   var(--spacing-4x); 
+        --main-body-sidebar-width:                  40%;
+        --main-footer-extended-side-min-width:      160px;
+    }
+}
+@media (max-width: 991px) {
+    :root {
+        --main-footer-extended-desc-margin:         var(--spacing-1x) 0 0 0;
+        --main-footer-extended-spacing:             var(--spacing-2x);
+    }
+}
+@media (max-width: 767px) {
+    :root {
+        --main-body-padding-v:                      var(--spacing-5x);
+        --main-header-padding-v:                    var(--spacing-5x);
+        --main-body-sidebar-padding-h:              var(--spacing-4x);
+        --main-body-sidebar-padding-v:              var(--spacing-4x);
+        --ca-section-spacing:                       var(--spacing-4x);
+        --main-footer-extended-padding:             var(--spacing-6x);
+    }
+}
+@media (max-width: 479px) {    
+    :root {
+        --layout-container-gutter:                  24px;
+    }
+}

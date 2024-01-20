@@ -1,0 +1,126 @@
+/*!
+ * Theme Name: Lagom WHMCS Client Theme
+ * Theme URL: https://lagom.rsstudio.net/
+ *
+ * Terms of Service: https://lagom.rsstudio.net/docs/legal/terms-of-service.html
+ * 
+ * Copyright (c) 2021 RS Studio
+ */
+
+:root { /* Name: Forms; Index: 6 */
+    
+   --input-font-family:                            var(--font-family-base);
+   --input-font-weight:                            var(--font-weight-base);    
+   --input-font-size:                              var(--btn-base-font-size);
+   --input-line-height:                            var(--btn-base-line-height);   
+   --input-xs-font-size:                           var(--btn-xs-font-size);
+   --input-xs-line-height:                         var(--btn-xs-line-height);       
+   --input-xs-border-radius:                       var(--btn-xs-border-radius); 
+   --input-sm-font-size:                           var(--btn-sm-font-size);
+   --input-sm-line-height:                         var(--btn-sm-line-height);       
+   --input-sm-border-radius:                       var(--btn-sm-border-radius); 
+   --input-lg-border-radius:                       var(--btn-lg-border-radius); 
+   --input-lg-font-weight:                         var(--font-weight-light);    
+   --input-lg-font-size:                           var(--btn-lg-font-size);
+   --input-lg-line-height:                         var(--btn-lg-line-height);     
+   --input-xlg-border-radius:                      var(--btn-xlg-border-radius); 
+   --input-xlg-font-weight:                        var(--font-weight-light); 
+   --input-xlg-font-size:                          var(--btn-xlg-font-size);
+   --input-xlg-line-height:                        var(--btn-xlg-line-height);
+   --input-border-width:                           1px;
+   --input-border:                                 var(--input-border-width) solid var(--input-border-color);
+   --input-border-radius:                          var(--btn-base-border-radius);             
+   --input-focus-box-shadow:                       var(--input-btn-focus-box-shadow);
+   --input-box-shadow:                             inset 0 1px 1px rgba(#000, .075);
+   --input-focus-width:                            var(--input-btn-focus-box-shadow);
+   --input-btn-focus-width:                        4px;
+   --input-btn-focus-color:                      #000;
+   --input-btn-focus-box-shadow:                   0 0 0 var(--input-btn-focus-width) var(--input-btn-focus-color);
+    
+   /* Section: Label */
+    
+   --input-label-color:                            var(--gray-base); /* name: Font Color; var_group: Font Color; type: select-colors; */
+   --input-label-font-size:                        var(--font-size-base); /* name: Font Size; var_group: Font Size; */
+   --input-label-font-weight:                      var(--font-weight-base); /* name: Font Weight; var_group: Font Weight; */
+   --input-label-margin-bottom:                    var(--spacing-1x);
+   
+   /* Section: Field */
+
+   --input-bg:                                     #fff; /* name: Background; type: select-colors;*/
+   --input-border-color:                           var(--gray-lighter-3); /* name: Border Color; type: select-colors;*/
+   --input-color:                                  var(--text-heading-color); /* name: Font Color; var_group: Font Color; type: select-colors;*/
+   --input-color-placeholder:                      var(--text-lighter-color); /* name: Placeholder Color; var_group: Font Color; type: select-colors;*/
+   --input-hover-bg:                               #fff; /* name: Hover - Background; type: select-colors;*/
+   --input-hover-border-color:                     var(--gray-lighter-2); /* name: Hover - Border Color; type: select-colors;*/
+   --input-hover-color:                            var(--text-heading-color); /* name: Hover - Font Color; var_group: Font Color; type: select-colors;*/
+   --input-hover-placeholder-color:                var(--text-lighter-color); /* name: Hover - Placeholder Color; var_group: Font Color; type: select-colors;*/
+   --input-focus-bg:                               #fff; /* name: Focus - Background; type: select-colors;*/
+   --input-focus-border-color:                     var(--brand-primary); /* name: Focus - Border Color; type: select-colors;*/
+   --input-focus-color:                            var(--text-heading-color); /* name: Focus - Font Color; var_group: Font Color; type: select-colors;*/
+   --input-focus-placeholder-color:                var(--text-lighter-color); /* name: Focus - Placeholder Color; var_group: Font Color; type: select-colors;*/
+   --input-disabled-bg:                            var(--gray-faded); /* name: Disabled - Background; type: select-colors;*/
+   --input-disabled-border-color:                  var(--gray-lighter-3); /* name: Disabled - Border Color; type: select-colors;*/
+   --input-disabled-color:                         var(--text-heading-color); /* name: Disabled - Font Color; var_group: Font Color; type: select-colors;*/
+   --input-disabled-color-placeholder:             var(--text-lighter-color); /* name: Disabled - Placeholder Color; var_group: Font Color; type: select-colors;*/
+    
+
+   /* Section: Radio and Checkbox */
+    
+   --icheck-bg:                                    #fff; /* name: Background; type: select-colors*/
+   --icheck-border-width:                          2px; /* name: Border Width; type: size; append: px;*/
+   --icheck-size:                                  18px; /* name: Size; type: size; append: px;*/
+   --icheck-border-color:                          var(--gray-lighter-3); /* name: Border Color; type: select-colors*/
+   --icheck-hover-bg:                              var(--gray-faded); /* name: Hover - Background; type: select-colors*/
+   --icheck-hover-border-color:                    var(--gray-lighter-2); /* name: Hover - Border Color; type: select-colors*/
+   --icheck-active-bg:                             var(--brand-primary); /* name: Checked - Background; type: select-colors*/
+   --icheck-active-border-color:                   var(--brand-primary); /* name: Checked - Border Color; type: select-colors*/
+   --icheck-active-icon-color:                     #fff; /* name: Icon Color; type: select-colors*/
+   --icheck-disabled-bg:                           var(--gray-lighter-2); /* name: Disabled - Background; type: select-colors*/
+   --icheck-disabled-border-color:                 var(--gray-lighter-2); /* name: Disabled - Border Color; type: select-colors*/                            
+   --icheck-border-radius:                         var(--border-radius-sm);
+   --icheck-border:                                var(--icheck-border-width) solid var(--icheck-border-color);
+   --checkbox-spacing:                             var(--spacing-2x);
+    
+   /* Input Group */
+    
+   --input-group-addon-bg:                         var(--gray-lighter-4);
+   --input-group-addon-border-color:               var(--input-border);  
+   --input-group-spacing-base:                     var(--spacing-2x);     
+   --input-group-spacing-lg:                       var(--spacing-3x);  
+   --input-group-spacing-sm:                       var(--spacing-1x);
+
+   /* Other */
+
+	--form-group-margin-bottom:                     12px;
+   --form-check-input-gutter:                      20px;
+   --form-check-input-margin-y:                    5px;
+   --form-check-inline-margin-x:                   12px;
+   --form-check-inline-input-margin-x:             5px;
+   --legend-color:                                 var(--gray-darker);
+	--legend-border-color:                          #e5e5e5;
+   --cursor-disabled:                              not-allowed;
+
+   /* Form validation */
+
+   --form-text-margin-top:                         var(--spacing-1x);
+   --form-feedback-margin-top:                     var(--form-text-margin-top);
+   --form-feedback-font-size:                      var(--font-size-sm);
+   --form-feedback-valid-color:                    var(--brand-success);
+   --form-feedback-invalid-color:                  var(--brand-danger);
+   --form-feedback-icon-valid-color:               var(--form-feedback-valid-color);
+   --form-feedback-icon-valid:                     url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='8' height='8' viewBox='0 0 8 8'><path fill='#36C055' d='M2.3 6.73L.6 4.53c-.4-1.04.46-1.4 1.1-.8l1.1 1.4 3.4-3.8c.6-.63 1.6-.27 1.2.7l-4 4.6c-.43.5-.8.4-1.1.1z'/></svg>");
+   --form-feedback-icon-invalid-color:             var(--form-feedback-invalid-color);
+   --form-feedback-icon-invalid:                   url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='12' height='12' fill='none' stroke='#d92632' viewBox='0 0 12 12'><circle cx='6' cy='6' r='4.5'/><path stroke-linejoin='round' d='M5.8 3.6h.4L6 6.5z'/><circle cx='6' cy='8.2' r='.6' fill='#{$form-feedback-icon-invalid-color}' stroke='none'/></svg>");
+
+   /* Form Tooltips */
+
+   --form-feedback-tooltip-padding-y:              var(--tooltip-padding-y);
+   --form-feedback-tooltip-padding-x:              var(--tooltip-padding-x);
+   --form-feedback-tooltip-font-size:              var(--tooltip-font-size);
+   --form-feedback-tooltip-line-height:            var(--line-height-base);
+   --form-feedback-tooltip-opacity:                var(--tooltip-opacity);
+   --form-feedback-tooltip-border-radius:          var(--tooltip-border-radius);
+   --form-grid-gutter-width:                       10px;
+   --select-option-color:                          var(--text-body-color);
+   --select-option-bg:                             #fff;
+}

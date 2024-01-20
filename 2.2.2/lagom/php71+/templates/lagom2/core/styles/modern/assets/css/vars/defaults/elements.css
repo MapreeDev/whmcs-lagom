@@ -1,0 +1,381 @@
+/*!
+ * Theme Name: Lagom WHMCS Client Theme
+ * Theme URL: https://lagom.rsstudio.net/
+ *
+ * Terms of Service: https://lagom.rsstudio.net/docs/legal/terms-of-service.html
+ * 
+ * Copyright (c) 2021 RS Studio
+ */
+
+:root { /* Name: Elements; Index: 7 */
+
+    /* List Group */
+
+    --list-group-bg:                                var(--ui-block-bg);
+    --list-group-color:                             null;
+    --list-group-border:                            var(--ui-block-border);
+    --list-group-box-shadow:                        var(--ui-block-shadow);
+    --list-group-border-radius:                     var(--ui-block-border-radius);
+    --list-group-active-color:                      var(--ui-nav-link-active-color);
+    --list-group-active-bg:                         var(--ui-block-link-active-bg);
+    --list-group-active-border:                     var(--list-group-active-bg);
+    --list-group-active-text-color:                 var(--list-group-active-bg);
+    --list-group-disabled-color:                    #6c757d;
+
+    /* List Group Item Action */
+
+    --list-group-action-color:                      var(--gray-base);
+    --list-group-action-hover-color:                var(--list-group-action-color);
+    --list-group-action-active-color:               var(--gray-darker);
+    --list-group-action-active-bg:                  var(--gray-lighter-3); 
+
+    /* List Group Item */ 
+
+    --list-group-item-padding:                      var(--ui-block-padding-base-v) var(--ui-block-padding-base);
+    --list-group-item-lg-padding:                   var(--ui-block-padding-lg);
+    --list-group-item-border-color:                 var(--ui-block-divider-color);
+    --list-group-item-heading-color:                var(--text-heading-color);
+    --list-group-item-text-color:                   var(--text-body-color);
+    --list-group-item-icon-color:                   var(--text-primary-color);
+    --list-group-item-disabled-color:               var(--gray-lighter);
+    --list-group-item-disabled-bg:                  var(--list-group-bg);
+    --list-group-item-disabled-text-color:          var(--list-group-disabled-color);
+
+    /* List Group Item - Link */
+
+    --list-group-item-link-color:                   var(--ui-block-link-color);
+    --list-group-item-link-heading-color:           var(--brand-primary);
+    --list-group-item-link-text-color:              var(--list-group-item-text-color);
+    --list-group-item-link-hover-bg:                var(--ui-block-link-hover-bg);
+    --list-group-item-link-hover-color:             var(--ui-nav-link-hover-color);
+    --list-group-item-link-active-color:            var(--ui-nav-link-active-color);
+    --list-group-item-link-active-bg:               var(--ui-block-link-active-bg);
+    --list-group-item-link-active-border:           var(--brand-primary-lighter-4);
+    --list-group-item-link-disabled-color:          var(--text-lighter-color);
+    --list-group-item-link-disabled-bg:             var(--gray-lighter-4);
+    --list-group-item-link-disabled-border:         var(--gray-v
+    -3);
+    --list-group-item-link-icon-color:              var(--ui-icon-color);
+
+     /* Section: Promotion Slider */
+
+    --promo-slider-min-height:                      314px;
+    --promo-slider-title-font-size:                 var(--font-size-h4); /* name: Title - Size; var_group: Font Size; */
+    --promo-slider-title-line-height:               var(--line-height-h4); /* name: Title - Line Height; var_group: Line Height; */
+    --promo-slider-title-font-weight:               var(--font-weight-bold); /* name: Title - Weight; var_group: Font Weight; */
+    --promo-slider-body-padding:                    var(--spacing-7x) 0px var(--spacing-5x) var(--spacing-3x);
+    --promo-slider-content-padding:                 var(--spacing-4x) 0 var(--spacing-5x) var(--spacing-3x);
+    --promo-slider-header-padding:                  var(--spacing-1x) var(--spacing-1x) 0 var(--spacing-3x);
+    --promo-slider-body-padding-rtl:                var(--spacing-7x) var(--spacing-3x) var(--spacing-5x) 0px;
+    --promo-slider-content-padding-rtl:             var(--spacing-4x) var(--spacing-3x) var(--spacing-5x) 0;
+    --promo-slider-header-padding-rtl:              var(--spacing-1x) var(--spacing-3x) 0 var(--spacing-1x) ;
+    --promo-slider-illustration-width:              400px; /* name: Illustration - Width; type: size; append: px; */
+
+    --promo-slider-sm-title-font-size:              var(--font-size-h4); 
+    --promo-slider-sm-title-line-height:            var(--line-height-h4);
+    
+     /* Section: Promotion Slider Small */
+
+    --promo-slider-xs-title-font-size:              var(--font-size-h5); /* name: Title - Size; var_group: Font Size; */
+    --promo-slider-xs-title-line-height:            var(--line-height-h5); /* name: Title - Line Height; var_group: Line Height; */
+    --promo-slider-xs-illustration-height:          326px; /* name: Illustration - Height; type: size; append: px; */
+    --promo-slider-xs-illustration-width:           376px; /* name: Illustration - Width; type: size; append: px; */
+
+    /* Panel Summary */
+
+    --panel-summary-shadow:                         var(--box-shadow-base);
+    --panel-summary-border-radius:                  var(--ui-block-border-radius);
+    --panel-summary-padding:                        var(--ui-block-padding-base);
+    --panel-summary-title-font-size:                var(--font-size-h4);
+    --panel-summary-title-font-weight:              var(--font-weight-h4);
+    --panel-summary-title-line-height:              var(--line-height-h4);
+    --panel-summary-text-font-size:                 var(--font-size-sm);
+    --panel-summary-text-font-weight:               var(--font-weight-light);
+    --panel-summary-text-line-height:               var(--line-height-sm);
+    --panel-summary-list-padding-v:                 3px; 
+    --panel-summary-list-item-padding-v:            var(--spacing-2x);
+    --panel-summary-list-title-font-size:           var(--font-size-xs); 
+    --panel-summary-list-color-faded:               var(--text-body-color);
+    --panel-summary-total-text-font-color:          var(--text-body-color);
+    --panel-summary-content-max-height:             500px;
+    --panel-summary-main-item-font-size:            var(--font-size-base);
+    --panel-summary-main-item-line-height:          var(--line-height-sm);
+    --panel-summary-main-item-font-weight:          var(--font-weight-medium);
+
+    /* Panel Sidebar */
+
+    --panel-sidebar-bg:                             transparent;
+    --panel-sidebar-footer-bg:                      transparent;
+     --panel-sidebar-border:                         none;
+    --panel-sidebar-box-shadow:                     none;
+    --panel-sidebar-heading-bg:                     transparent;
+    --panel-sidebar-heading-height:                 unset;
+    --panel-sidebar-heading-padding:                0 0 var(--ui-block-padding-sm);
+    --panel-sidebar-title-size:                     var(--font-size-h6);
+    --panel-sidebar-title-weight:                   var(--font-weight-h6);
+    --panel-sidebar-body-padding:                   0;
+    --panel-sidebar-footer-padding:                 var(--ui-block-padding-sm) 0 0;
+    --panel-sidebar-margin-bottom:                  var(--spacing-4x);
+    --panel-sidebar-link-bg:                        transparent;
+    --panel-sidebar-link-color:                     var(--brand-primary);
+    --panel-sidebar-link-icon-color:                var(--brand-primary);
+    --panel-sidebar-link-margin:                    1px;
+    --panel-sidebar-link-padding:                   var(--ui-nav-v-link-padding-v) 0;
+    --panel-sidebar-link-border-radius:             var(--ui-nav-link-border-radius); 
+    --panel-sidebar-link-hover-bg:                  var(--ui-nav-link-hover-bg);
+    --panel-sidebar-link-hover-color:               var(--ui-nav-link-hover-color);
+    --panel-sidebar-link-hover-padding-h:           var(--ui-nav-v-link-hover-padding-h);
+    --panel-sidebar-link-hover-icon-color:          var(--ui-nav-link-icon-hover-color);
+    --panel-sidebar-link-active-bg:                 var(--ui-nav-link-active-bg);
+    --panel-sidebar-link-active-color:              var(--ui-nav-link-active-color);
+    --panel-sidebar-link-active-padding-h:          var(--ui-nav-v-link-active-padding-h);
+    --panel-sidebar-link-active-icon-color:         var(--ui-nav-link-icon-active-color);
+
+    /* Panel Sidebar - List Group */
+
+    --panel-sidebar-list-group-bg:                  var(--ui-block-bg);
+    --panel-sidebar-list-group-border:              var(--ui-block-border);
+    --panel-sidebar-list-group-box-shadow:          var(--ui-block-shadow);
+    --panel-sidebar-list-group-border-radius:       var(--ui-block-border-radius);
+
+    /* Panel Home - Domain Register */
+
+    --panel-home-domain-bg:                         var(--ui-block-bg);
+    --panel-home-domain-title-color:                var(--text-heading-color);
+    --panel-home-domain-text-color:                 var(--text-body-color);
+    
+    /* Panel - Product Details */
+
+    --product-details-bg:                           var(--primary-block-bg);
+    --product-details-title-color:                  var(--text-secondary-heading-color); 
+    --product-details-title-font-size:              var(--font-size-h4);
+    --product-details-title-font-weight:            var(--font-weight-h4);
+    --product-details-title-line-height:            var(--line-height-h4);
+    --product-details-text-color:                   var(--text-secondary-body-color);
+
+    /* Panel Accordion */
+
+    --panel-accordion-heading-bg:                   transparent;
+    --panel-accordion-hover-border-color:           var(--brand-primary);
+    --panel-accordion-active-border-color:          var(--brand-primary);
+    --panel-accordion-active-heading-color:         var(--ui-nav-link-active-color);
+
+    /* Search Block */
+
+    --search-field-icon-color:                      var(--gray-icons);
+    --search-field-combined-icon-color:             var(--brand-primary);
+    --search-group-max-width:                       var(--max-width-md);
+
+    /* Tiles */
+
+    --tile-min-height:                              182px;
+    --tile-padding:                                 var(--ui-padding-base-v) var(--ui-block-padding-base);
+    --tile-bg:                                      var(--ui-block-bg);
+    --tile-bg-color:                                var(--ui-block-bg);
+    --tile-border-radius:                           var(--ui-block-border-radius);
+    --tile-box-shadow:                              var(--ui-block-shadow);
+    --tile-border:                                  var(--ui-block-border);
+    --tile-border-color-hover:                      var(--brand-primary);
+    --tile-icon-font-size:                          var(--font-size-h3);
+    --tile-icon-color:                              var(--gray-icons);
+    --tile-stat-color:                              var(--text-primary-color);
+    --tile-stat-font-size:                          62px;
+    --tile-stat-sm-font-size:                       48px;
+    --tile-stat-font-weight:                        var(--font-weight-light);
+    --tile-title-color:                             var(--text-heading-color);
+    --tile-title-font-size:                         var(--font-size-h6);
+    --tile-title-font-weight:                       var(--font-weight-base);
+    --tile-title-line-height:                       var(--line-height-h6);
+    --tile-sm-stat-font-size:                       var(--font-size-h2);
+    --tile-sm-title-font-size:                      var(--font-size-base);
+    --tile-hover-bg:                                var(--ui-block-bg);
+    --tile-hover-shadow:                            var(--box-shadow-base);
+    --tile-hover-transform:                         translate3d(0,-8px,0);
+    --tile-mob-stat-font-size:                      var(--font-size-h2);
+    --tile-mob-title-font-size:                     var(--font-size-base);
+    --tile-sm-mob-stat-font-size:                   var(--font-size-xxlg);
+    --tile-sm-mob-title-font-size:                  var(--font-size-sm);
+
+    /* Section: Login and Register Box */
+
+    --login-logo-height:                            56px; /* Name: Logo - Height; type: size; append: px;* */
+    --login-width:                                  var(--max-width-xs); /* Name: Login Container - Width; var_group: Max Width; */
+    --login-lg-width:                               var(--max-width-md); /* Name: Register Container - Width; var_group: Max Width; */
+    --login-bg:                                     var(--ui-block-bg);
+    --login-footer-bg:                              transparent;
+    --login-border:                                 var(--ui-block-border);
+    --login-border-radius:                          var(--ui-block-border-radius);
+    --login-box-shadow:                             var(--ui-block-shadow);
+    --login-padding:                                var(--spacing-4x);                
+    --login-mob-padding:                            var(--spacing-3x);
+    --login-header-margin-bottom:                   var(--spacing-6x);
+    --login-title-color:                            var(--text-heading-color);
+    --login-title-font-size:                        var(--font-size-h3); /* name: Title - Font Size; var_group: Font Size; */
+    --login-title-font-weight:                      var(--font-weight-h3); /* name: Title - Font Weight; var_group: Font Weight; */
+    --login-title-line-height:                      var(--line-height-h3); /* name: Title - Line Height; var_group: Line Height; */
+    --login-desc-color:                             var(--text-lighter-color);
+    --login-desc-font-size:                         var(--font-size-base);
+    --login-desc-font-weight:                       var(--font-weight-base);
+    --login-link-color:                             var(--link-color);
+
+    /* Login Sidebar */ 
+
+    --login-sidebar-box-shadow:                     var(--ui-block-shadow-lg);
+    --login-sidebar-desc-lighter-color:             var(--primary-block-text-faded-color);
+    --login-sidebar-desc-font-size:                 var(--font-size-lg);
+    --login-sidebar-desc-font-weight:               var(--font-weight-light);
+    --login-sidebar-desc-line-height:               var(--line-height-lg);
+    --login-sidebar-bullet-bg:                      var(--primary-block-dot-nav-bg);
+    --login-sidebar-bullet-hover-bg:                var(--primary-block-dot-nav-hover-bg);
+    --login-sidebar-bullet-active-bg:               var(--primary-block-dot-nav-active-bg);
+
+     /* Section: Package */
+
+    --package-bg:                                   var(--ui-block-bg);
+    --package-border:                               var(--ui-block-border);
+    --package-border-radius:                        var(--ui-block-border-radius);
+    --package-block-shadow:                         var(--ui-block-shadow-lg);
+    --package-title-font-size:                      var(--font-size-h4); /* name: Title - Font Size; var_group: Font Size; */
+    --package-title-font-weight:                    var(--font-weight-h4); /* name: Title - Font Weight; var_group: Font Weight; */
+    --package-title-line-height:                    var(--line-height-h4); /* name: Title - Line Height; var_group: Line Height; */
+    --package-title-spacing-bottom:                 var(--spacing-2x);
+    --package-desc-color:                           var(--font-size-lg); /* name: Desc - Font Size; var_group: Font Size; */
+    --package-desc-font-size:                       var(--font-size-lg); /* name: Desc - Font Size; var_group: Font Size; */
+    --package-desc-line-height:                     var(--line-height-lg); /* name: Desc - Line Height; var_group: Line Height; */
+    --package-desc-font-weight:                     var(--font-weight-light); /* name: Desc - Font Weight; var_group: Font Weight; */
+
+    --package-hover-block-shadow:                   var(--ui-block-shadow-xlg);
+    --package-active-border-color:                  var(--panel-active-border-color);
+    --package-active-shadow-inset:                  inset 0 0 0 1px var(--package-active-border-color);
+    --package-btn-min-width:                        168px;
+    --package-padding:                              var(--spacing-4x);
+    --package-element-spacing:                      var(--spacing-3x);
+
+     /* Section: Package Small*/
+
+    --package-sm-title-font-size:                   var(--font-size-h6); /* name: Title Large - Font Size; var_group: Font Size; */
+    --package-sm-title-line-height:                 var(--line-height-h6); /* name: Title Large - Line Height; var_group: Line Height; */
+    --package-sm-title-font-weight:                 var(--font-weight-h6); /* name: Title Large - Font Weight; var_group: Font Weight; */
+    --package-desc-sm-font-size:                    var(--font-size-base); /* name: Desc - Font Size; var_group: Font Size; */
+    --package-desc-sm-line-height:                  var(--line-height-md); /* name: Desc - Line Height; var_group: Line Height; */
+    --package-desc-sm-font-weight:                  var(--font-weight-base); /* name: Desc - Font Weight; var_group: Font Weight; */
+
+    --package-sm-padding:                           var(--spacing-3x);
+    --package-sm-element-spacing:                   var(--spacing-2x);
+
+    /* Section: Price */             
+
+    --price-color:                                  var(--text-heading-color); /* name: Color; var_group: Font Color; type: select-colors;*/
+    --price-font-size:                              var(--font-size-h3); /* name: Font Size; var_group: Font Size; */
+    --price-font-weight:                            var(--font-weight-bold); /* name: Font Weight; var_group: Font Weight; */
+    --price-line-height:                            var(--line-height-h3); /* name: Line Height; var_group: Line Height; */
+    --price-currency-font-size:                     var(--font-size-xlg); /* name: Currency - Font Size; var_group: Font Size; */
+    --price-currency-font-weight:                   var(--font-weight-light); /* name: Currency - Font Weight; var_group: Font Weight; */
+    --price-currency-line-height:                   var(--line-height-xlg); /* name: Currency - Line Height; var_group: Line Height; */
+    --price-cycle-color:                            var(--text-body-color); /* name: Cycle - Color; var_group: Font Color; type: select-colors;*/
+    --price-cycle-font-size:                        var(--font-size-xs); /* name: Cycle - Font Size; var_group: Font Size; */  
+    --price-cycle-line-height:                      var(--line-height-xs); /* name: Cycle - Line Height; var_group: Line Height; */
+    --price-cycle-font-weight:                      var(--font-weight-base); /* name: Cycle - Font weight; var_group: Font Weight; */  
+    --price-savings-color:                          #F12F75;
+    --price-savings-background:                     #FFE7EC;
+    --price-savings-font-size:                      var(--font-size-xs);
+    --price-savings-font-weight:                    var(--font-weight-base);
+    --price-savings-line-height:                    var(--line-height-xs);
+    --price-title-color:                            var(--text-body-color); 
+    --price-title-font-size:                        var(--font-size-sm);
+    --price-title-line-height:                      var(--line-height-sm);
+    --price-title-font-weight:                      var(--font-weight-base);
+
+    /* Section: Price Large */
+
+    --price-lg-font-size:                           var(--font-size-h2); /* name: Font Size; var_group: Font Size; */
+    --price-lg-font-weight:                         var(--font-weight-bold); /* name: Font Weight; var_group: Font Weight; */ 
+    --price-lg-line-height:                         var(--line-height-h2); /* name: Line Height; var_group: Line Height; */
+    --price-lg-currency-font-size:                  var(--font-size-xxlg); /* name: Currency - Font Size; var_group: Font Size; */
+    --price-lg-currency-font-weight:                var(--font-weight-light); /* name: Currency - Font Weight; var_group: Font Weight; */
+    --price-lg-currency-line-height:                var(--line-height-xxlg); /* name: Currency - Line Height; var_group: Line Height; */
+
+    /* Section: Price Small */
+
+    --price-sm-font-size:                           var(--font-size-h4); /* name: Font Size; var_group: Font Size; */
+    --price-sm-font-weight:                         var(--font-weight-bold); /* name: Font Weight; var_group: Font Weight; */ 
+    --price-sm-line-height:                         var(--line-height-h4); /* name: Line Height; var_group: Line Height; */
+    --price-sm-currency-font-size:                  var(--font-size-md); /* name: Currency - Font Size; var_group: Font Size; */
+    --price-sm-currency-font-weight:                var(--font-weight-light); /* name: Currency - Font Weight; var_group: Font Weight; */
+    --price-sm-currency-line-height:                var(--line-height-md); /* name: Currency - Line Height; var_group: Line Height; */
+
+    /* Section: Price Extra Small */
+
+    --price-xs-font-size:                           var(--font-size-h5); /* name: Font Size; var_group: Font Size; */
+    --price-xs-font-weight:                         var(--font-weight-light); /* name: Font Weight; var_group: Font Weight; */
+    --price-xs-line-height:                         var(--line-height-h5); /* name: Line Height; var_group: Line Height; */
+    --price-xs-currency-font-size:                  var(--font-size-xlg); /* name: Currency - Font Size; var_group: Font Size; */
+    --price-xs-currency-font-weight:                var(--font-weight-light); /* name: Currency - Font Weight; var_group: Font Weight; */
+    --price-xs-currency-line-height:                var(--line-height-xlg); /* name: Currency - Line Height; var_group: Line Height; */
+
+    /* Range Slider */
+
+    --range-slider-height:                          18px;
+    --range-slider-bg:                              var(--gray-lighter-4);
+    --range-slider-fill-bg:                         var(--brand-primary);
+    --range-slider-border-radius:                   var(--border-radius-sm);
+    --range-slider-spacing-h:                       var(--spacing-3x);    
+    --range-slider-handle-bg:                       #fff;
+    --range-slider-handle-box-shadow:               var(--box-shadow-base);
+    --range-slider-handle-height:                   32px;
+    --range-slider-handle-width:                    42px;
+    --range-slider-handle-border-radius:            var(--border-radius-sm);
+    --range-slider-handle-border:                   none;
+    --range-slider-handle-hover-bg:                 var(--gray-lighter-4);
+    --range-slider-handle-hover-border:             none;
+    --range-slider-handle-hover-shadow:             var(--box-shadow-lg);    
+    --range-slider-value-bg:                        var(--brand-secondary);
+    --range-slider-value-color:                     var(--text-secondary-body-color);
+    --range-slider-value-font-size:                 var(--font-size-lg);
+    --range-slider-value-sm-color:                  var(--text-lighter-color);
+    --range-slider-value-sm-font-size:              var(--font-size-xs);
+    --range-slider-value-sm-line-height:            var(--line-height-xs);
+    --range-slider-value-min-width:                 28px;
+    --range-slider-value-active-color:              var(--brand-primary);
+    --range-slider-value-active-border:             var(--brand-primary);
+    --range-slider-price-font-size:                 var(--font-size-xxlg);
+    --range-slider-price-line-height:               var(--line-height-md);
+    --range-slider-price-spacing:                   var(--spacing-2x) 0;
+    --range-slider-price-font-weight:               var(--font-weight-base);
+    --range-slider-price-color:                     var(--brand-primary);
+    --range-slider-price-suffix-opacity:            0.64;
+    --range-slider-actions-height:                  32px;
+    --range-slider-actions-border-color:            var(--ui-block-border-color);
+    --range-slider-actions-border-radius:           var(--border-radius-sm);
+    --range-slider-actions-active-border-color:     var(--brand-primary-lighter);
+
+    /* Cookiebox */
+
+    --cokie-bg:                                     var(--ui-block-overlay-bg);
+    --cookie-width:                                 310px;
+    --cookie-position:                              30px;
+
+    /* Ticket Reply */
+
+    --ticket-reply-staff-bg:                        var(--ui-block-overlay-bg);
+    --ticket-reply-staff-border:                    var(--ui-block-divider-color);
+    --ticket-reply-staff-header-bg:                 transparent;
+    --ticket-reply-staff-header-border:             transparent;
+    --ticket-reply-staff-header-border:             var(--ui-block-divider-color);
+    
+    --bg-color-transparent:                         transparent;  
+
+    /* Loader */ 
+
+    --loader-bg:                                    var(--brand-primary);
+    --loader-light-bg:                              #fff;
+    --loader-bars-height:                           40px;
+    --loader-bars-width:                            4px;
+    --loader-bars-sm-height:                        20px;
+    --loader-bars-sm-width:                         2px; 
+}	
+@media (max-width: 767px) {
+    :root {
+        --login-logo-height:                        44px;
+    }
+}

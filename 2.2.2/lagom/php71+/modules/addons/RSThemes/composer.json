@@ -1,0 +1,6 @@
+{
+    "require": {
+        "symfony/finder": "^3.2",
+        "delight-im/str": "^2.4"
+    }
+}

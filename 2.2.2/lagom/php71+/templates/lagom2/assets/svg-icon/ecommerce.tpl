@@ -1,0 +1,5 @@
+<svg class="svg-icon {if $onDark} svg-icon-on-dark {/if}" xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="none" viewBox="0 0 64 64">
+    <path fill="var(--svg-icon-color-2)" stroke="var(--svg-icon-color-2)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M46 37.3v10.416l-9 4.955V42.457l9-5.157Z" />
+    <path stroke="var(--svg-icon-color-3)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M32 63 5 47.634V17m27 46V32.532M32 63l27-15.532V17M31.75 32 5 16.5 31.75 1 59 16.5 31.75 32Z" />
+    <path fill="var(--svg-icon-color-3)" fill-rule="evenodd" d="M44.866 7.5a1 1 0 0 1-.366 1.366l-1.625.938a1 1 0 1 1-1-1.733l1.625-.937a1 1 0 0 1 1.366.366Zm-4.875 2.813a1 1 0 0 1-.366 1.366l-3.25 1.875a1 1 0 1 1-1-1.733l3.25-1.875a1 1 0 0 1 1.366.367Zm-6.5 3.75a1 1 0 0 1-.366 1.366l-3.25 1.875a1 1 0 1 1-1-1.733l3.25-1.875a1 1 0 0 1 1.366.367Zm-6.5 3.75a1 1 0 0 1-.366 1.366l-3.25 1.875a1 1 0 1 1-1-1.733l3.25-1.875a1 1 0 0 1 1.366.367Zm-6.5 3.75a1 1 0 0 1-.366 1.366l-1.625.937a1 1 0 1 1-1-1.732l1.625-.938a1 1 0 0 1 1.366.367Z" clip-rule="evenodd" />
+</svg>
